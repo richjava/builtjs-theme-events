@@ -1,0 +1,20 @@
+{
+  "global": {
+    "name": "Events Tailwind",
+    "description": "Events Tailwind brings the best performers to our city",
+    "email": "info@example.com",
+    "tel": "012345678",
+    "logo": {
+      "data": {
+        "attributes": {
+          "name": "logo-dark",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/logo-dark.png",
+          "width": 150,
+          "height": 150
+        }
+      }
+    }
+  }
+}

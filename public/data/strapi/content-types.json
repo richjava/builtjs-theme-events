@@ -1,0 +1,219 @@
+{
+  "contentTypes": [
+    {
+      "singularDisplayName": "Event Item",
+      "pluralDisplayName": "Event Items",
+      "slug": "event-item",
+      "modelSettings": {
+        "kind": "collectionType",
+        "collectionName": "event_items",
+        "info": {
+          "displayName": "Event Items",
+          "singularName": "event-item",
+          "pluralName": "event-items",
+          "description": "Collection type for events"
+        },
+        "options": {
+          "increments": true,
+          "timestamps": true,
+          "draftAndPublish": true
+        },
+        "attributes": {
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "slug": {
+            "type": "uid",
+            "targetField": "title",
+            "required": true
+          },
+          "body": {
+            "type": "richtext"
+          },
+          "description": {
+            "type": "text"
+          },
+          "featuredImage": {
+            "allowedTypes": ["images"],
+            "type": "media",
+            "multiple": false,
+            "required": false
+          },
+          "date": {
+            "type": "date",
+            "required": true
+          },
+          "startTime": {
+            "type": "string"
+          },
+          "venue": {
+            "type": "string"
+          },
+          "townCity": {
+            "type": "string"
+          },
+          "duration": {
+            "type": "string"
+          },
+          "genre": {
+            "type": "string"
+          },
+          "infoWebsite": {
+            "type": "string"
+          },
+          "bookingInfo": {
+            "type": "text"
+          },
+          "ticketUrl": {
+            "type": "string"
+          },
+          "quote": { "type": "text" },
+          "source": { "type": "string" }
+        }
+      }
+    },
+    {
+      "singularDisplayName": "Sponsor Item",
+      "pluralDisplayName": "Sponsor Items",
+      "slug": "sponsor-item",
+      "modelSettings": {
+        "kind": "collectionType",
+        "collectionName": "sponsor_items",
+        "info": {
+          "displayName": "Sponsor Items",
+          "singularName": "sponsor-item",
+          "pluralName": "sponsor-items",
+          "description": "Collection type for sponsors"
+        },
+        "options": {
+          "increments": true,
+          "timestamps": true,
+          "draftAndPublish": true
+        },
+        "attributes": {
+          "name": {
+            "type": "string",
+            "required": true
+          },
+          "slug": {
+            "type": "uid",
+            "targetField": "title",
+            "required": true
+          },
+          "url": {
+            "type": "text"
+          },
+          "image": {
+            "allowedTypes": ["images"],
+            "type": "media",
+            "multiple": false,
+            "required": false
+          }
+        }
+      }
+    },
+    {
+      "singularDisplayName": "Primary Menu Item",
+      "pluralDisplayName": "Primary Menu Items",
+      "slug": "primary-menu-item",
+      "modelSettings": {
+        "kind": "collectionType",
+        "collectionName": "primary_menu_items",
+        "info": {
+          "singularName": "primary-menu-item",
+          "pluralName": "primary-menu-items",
+          "displayName": "Primary Menu Items",
+          "description": "Menu item for the primary menu"
+        },
+        "options": {
+          "increments": true,
+          "timestamps": true,
+          "draftAndPublish": true
+        },
+        "attributes": {
+          "label": {
+            "type": "string",
+            "required": true
+          },
+          "slug": {
+            "type": "uid",
+            "targetField": "label",
+            "required": true
+          },
+          "url": {
+            "type": "string",
+            "unique": true,
+            "required": true
+          }
+        }
+      }
+    },
+    {
+      "singularDisplayName": "Secondary Menu Item",
+      "pluralDisplayName": "Secondary Menu Items",
+      "slug": "secondary-menu-item",
+      "modelSettings": {
+        "kind": "collectionType",
+        "collectionName": "secondary_menu_items",
+        "info": {
+          "singularName": "secondary-menu-item",
+          "pluralName": "secondary-menu-items",
+          "displayName": "Secondary Menu Items",
+          "description": "Menu item for the secondary menu"
+        },
+        "options": {
+          "increments": true,
+          "timestamps": true,
+          "draftAndPublish": true
+        },
+        "attributes": {
+          "label": {
+            "type": "string",
+            "required": true
+          },
+          "slug": {
+            "type": "uid",
+            "targetField": "label",
+            "required": true
+          },
+          "url": {
+            "type": "string",
+            "unique": true,
+            "required": true
+          }
+        }
+      }
+    },
+    {
+      "singularDisplayName": "FAQ Item",
+      "pluralDisplayName": "FAQ Items",
+      "slug": "faq-item",
+      "modelSettings": {
+        "kind": "collectionType",
+        "collectionName": "faq_items",
+        "info": {
+          "singularName": "faq-item",
+          "pluralName": "faq-items",
+          "displayName": "FAQ Items",
+          "description": "Frequently asked question items"
+        },
+        "options": {
+          "increments": true,
+          "timestamps": true,
+          "draftAndPublish": true
+        },
+        "attributes": {
+          "question": {
+            "type": "string",
+            "required": true
+          },
+          "answer": {
+            "type": "richtext",
+            "required": true
+          }
+        }
+      }
+    }
+  ]
+}

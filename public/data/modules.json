@@ -1,0 +1,132 @@
+{
+  "modules": [
+    {
+      "slug": "events",
+      "displayName": "Events",
+      "description": "Provides information about events",
+      "required": true,
+      "moduleParts": [
+        {
+          "slug": "home-base"
+        },
+        {
+          "slug": "events-base"
+        },
+        {
+          "slug": "home-events"
+        },
+        {
+          "slug": "about-events"
+        }
+      ],
+      "deps": {
+        "frontend": {
+          "dependencies": {
+            "date-fns": "^2.29.2",
+            "googleapis": "^107.0.0",
+            "react-markdown": "^8.0.3"
+          }
+        }
+      }
+    },
+    {
+      "slug": "contact",
+      "displayName": "Contact",
+      "description": "Encourages and facilitates making contact",
+      "moduleParts": [
+        {
+          "slug": "contact-base"
+        },
+        {
+          "slug": "services-contact"
+        }
+      ],
+      "deps": {
+        "frontend": {
+          "dependencies": {
+            "@sendgrid/mail": "^7.7.0"
+          }
+        }
+      }
+    },
+    {
+      "slug": "get-informed",
+      "displayName": "Get Informed",
+      "description": "Encourages sign up to a newsletter",
+      "moduleParts": [
+        {
+          "slug": "home-get-informed"
+        },
+        {
+          "slug": "events-get-informed"
+        },
+        {
+          "slug": "subscribe-get-informed"
+        },
+        {
+          "slug": "donate-get-informed"
+        },
+        {
+          "slug": "about-get-informed"
+        },
+        {
+          "slug": "volunteer-get-informed"
+        },
+        {
+          "slug": "contact-get-informed"
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "displayName": "About",
+      "description": "Provides information related to the organisation",
+      "moduleParts": [
+        {
+          "slug": "about-base"
+        },
+        {
+          "slug": "home-about"
+        },
+        {
+          "slug": "subscribe-about"
+        }
+      ]
+    },
+    {
+      "slug": "support",
+      "displayName": "Support",
+      "description": "Encourages to donate, subscribe and sponsor",
+      "moduleParts": [
+        {
+          "slug": "donate-base"
+        },
+        {
+          "slug": "subscribe-base"
+        },
+        {
+          "slug": "subscribe-donate"
+        },
+        {
+          "slug": "donate-subscribe"
+        },
+        {
+          "slug": "home-support"
+        }
+      ]
+    },
+    {
+      "slug": "volunteer",
+      "displayName": "Volunteer",
+      "description": "Encourages becoming a volunteer",
+      "moduleParts": [
+        {
+          "slug": "volunteer-base"
+        },
+        {
+          "slug": "home-volunteer"
+        }
+      ]
+    }
+  ]
+}

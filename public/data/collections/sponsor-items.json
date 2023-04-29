@@ -1,0 +1,97 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "slug": "sponsor-1",
+        "name": "Sponsor 1",
+        "image": {
+          "data": {
+            "attributes": {
+              "name": "image-square",
+              "path": "/images/theme/sponsor-items",
+              "ext": "png",
+              "url": "/images/theme/sponsor-items/image-square.png",
+              "width": 500,
+              "height": 500
+            }
+          }
+        },
+        "url": "https://example.com"
+      }
+    },{
+      "attributes": {
+        "slug": "sponsor-2",
+        "name": "Sponsor 2",
+        "image": {
+          "data": {
+            "attributes": {
+              "name": "image-square",
+              "path": "/images/theme/sponsor-items",
+              "ext": "png",
+              "url": "/images/theme/sponsor-items/image-square.png",
+              "width": 500,
+              "height": 500
+            }
+          }
+        },
+        "url": "https://example.com"
+      }
+    },
+    {
+      "attributes": {
+        "slug": "sponsor-3",
+        "name": "Sponsor 3",
+        "image": {
+          "data": {
+            "attributes": {
+              "name": "image-square",
+              "path": "/images/theme/sponsor-items",
+              "ext": "png",
+              "url": "/images/theme/sponsor-items/image-square.png",
+              "width": 500,
+              "height": 500
+            }
+          }
+        },
+        "url": "https://example.com"
+      }
+    },
+    {
+      "attributes": {
+        "slug": "sponsor-4",
+        "name": "Sponsor 4",
+        "image": {
+          "data": {
+            "attributes": {
+              "name": "image-square",
+              "path": "/images/theme/sponsor-items",
+              "ext": "png",
+              "url": "/images/theme/sponsor-items/image-square.png",
+              "width": 500,
+              "height": 500
+            }
+          }
+        },
+        "url": "https://www.festivalofcolour.co.nz"
+      }
+    },{
+      "attributes": {
+        "slug": "sponsor-5",
+        "name": "Sponsor 5",
+        "image": {
+          "data": {
+            "attributes": {
+              "name": "image-square",
+              "path": "/images/theme/sponsor-items",
+              "ext": "png",
+              "url": "/images/theme/sponsor-items/image-square.png",
+              "width": 500,
+              "height": 500
+            }
+          }
+        },
+        "url": "https://example.com"
+      }
+    }
+  ]
+}

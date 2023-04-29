@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "slug": "events",
+        "label": "Events",
+        "url": "/events"
+      }
+    },
+    {
+      "attributes": {
+        "slug": "subscribe",
+        "label": "Subscribe",
+        "url": "/subscribe"
+      }
+    },
+    {
+      "attributes": {
+        "slug": "donate",
+        "label": "Donate",
+        "url": "/donate"
+      }
+    }
+  ]
+}

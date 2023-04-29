@@ -1,0 +1,294 @@
+{
+  "pages": [
+    {
+      "slug": "home",
+      "singularName": "home",
+      "pluralName": "homes",
+      "displayName": "Home",
+      "demoSections": [
+        {
+          "slug": "home-seo"
+        },
+        {
+          "slug": "events-hero"
+        },
+        {
+          "slug": "events-list"
+        },
+        {
+          "slug": "newsletter-lrg"
+        },
+        {
+          "slug": "about-teaser"
+        },
+        {
+          "slug": "support-teaser"
+        },
+        {
+          "slug": "volunteer-teaser"
+        },
+        {
+          "slug": "sponsors"
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "singularName": "about",
+      "pluralName": "abouts",
+      "displayName": "About",
+      "demoSections": [
+        {
+          "slug": "about-seo"
+        },
+        {
+          "slug": "about-landing"
+        },
+        {
+          "slug": "about-blockquote"
+        },
+        {
+          "slug": "about-events-teaser"
+        },
+        {
+          "slug": "newsletter"
+        }
+      ]
+    },
+    {
+      "slug": "volunteer",
+      "singularName": "volunteer",
+      "pluralName": "volunteers",
+      "displayName": "Volunteer",
+      "demoSections": [
+        {
+          "slug": "about-seo"
+        },
+        {
+          "slug": "volunteer-landing"
+        },
+        {
+          "slug": "newsletter"
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "singularName": "contact",
+      "pluralName": "contacts",
+      "displayName": "Contact",
+      "demoSections": [
+        {
+          "slug": "contact-seo"
+        },
+        {
+          "slug": "contact-landing"
+        },
+        {
+          "slug": "subscribe-teaser"
+        },
+        {
+          "slug": "newsletter"
+        }
+      ]
+    },
+    {
+      "slug": "events",
+      "singularName": "event",
+      "pluralName": "events",
+      "displayName": "Events",
+      "demoSections": [
+        {
+          "slug": "events-seo"
+        },
+        {
+          "slug": "events-landing"
+        },
+        {
+          "slug": "newsletter"
+        }
+      ]
+    },
+    {
+      "slug": "subscribe",
+      "singularName": "subscribe",
+      "pluralName": "subscribes",
+      "displayName": "Subscribe",
+      "demoSections": [
+        {
+          "slug": "subscribe-seo"
+        },
+        {
+          "slug": "subscribe-landing"
+        },
+        {
+          "slug": "subscribe-faq"
+        },
+        {
+          "slug": "donate-teaser"
+        },
+        {
+          "slug": "newsletter"
+        }
+      ]
+    },
+    {
+      "slug": "donate",
+      "singularName": "donate",
+      "pluralName": "donates",
+      "displayName": "Donate",
+      "demoSections": [
+        {
+          "slug": "donate-seo"
+        },
+        {
+          "slug": "donate-landing"
+        },
+        {
+          "slug": "subscribe-teaser"
+        },
+        {
+          "slug": "newsletter"
+        }
+      ]
+    },
+    {
+      "slug": "event-article",
+      "singularName": "event-article",
+      "pluralName": "event-articles",
+      "displayName": "Event Article",
+      "contentType": {
+        "slug": "event-item"
+      },
+      "demoSections": [
+        {
+          "slug": "event-article"
+        }
+      ]
+    },
+    {
+      "slug": "blocks",
+      "singularName": "blocks",
+      "displayName": "Blocks",
+      "type": "templates",
+      "demoSections": [
+        {
+          "slug": "about-landing",
+          "template": {
+            "slug": "block-1"
+          }
+        },
+        {
+          "slug": "about-events-teaser",
+          "template": {
+            "slug": "block-2"
+          }
+        },
+        {
+          "slug": "sponsors",
+          "template": {
+            "slug": "block-4"
+          }
+        },
+        {
+          "slug": "volunteer-teaser",
+          "template": {
+            "slug": "block-5"
+          }
+        },
+        {
+          "slug": "about-teaser",
+          "template": {
+            "slug": "block-6"
+          }
+        },
+        {
+          "slug": "support-teaser",
+          "template": {
+            "slug": "block-7"
+          }
+        },
+        {
+          "slug": "subscribe-faq",
+          "template": {
+            "slug": "faq-block"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "forms",
+      "singularName": "form",
+      "displayName": "Forms",
+      "type": "templates",
+      "demoSections": [
+        {
+          "slug": "newsletter-lrg",
+          "template": {
+            "slug": "newsletter-form-1"
+          }
+        },
+        {
+          "slug": "contact-landing",
+          "template": {
+            "slug": "contact-form"
+          }
+        },
+        {
+          "slug": "subscribe-landing",
+          "template": {
+            "slug": "subscribe-form"
+          }
+        },
+        {
+          "slug": "donate-landing",
+          "template": {
+            "slug": "donate-form"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "cards",
+      "singularName": "cards",
+      "displayName": "Cards",
+      "type": "templates",
+      "demoSections": [
+        {
+          "slug": "events-landing",
+          "template": {
+            "slug": "cards-1"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "covers",
+      "singularName": "covers",
+      "displayName": "Covers",
+      "type": "templates",
+      "demoSections": [
+        {
+          "slug": "events-hero",
+          "template": {
+            "slug": "hero-cover"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "banners",
+      "singularName": "banners",
+      "displayName": "Banners",
+      "type": "templates",
+      "demoSections": [
+        {
+          "slug": "newsletter",
+          "template": {
+            "slug": "newsletter-banner-1"
+          }
+        }
+      ]
+    }
+  ]
+}
