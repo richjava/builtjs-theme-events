@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import Layout from "../components/layout/layout";
+import Layout from "../src/components/layout/layout";
 import TemplateMenuBtn from "./components/template-menu-btn";
 import { setupCrumbs } from ".";
 import { getComponents } from "./utils";

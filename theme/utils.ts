@@ -10,7 +10,7 @@ export async function getComponentMap(sections:any) {
       }
       const template = sections[i].template.doc;
       map["section" + i] = import(
-        `../components/templates/${template.category}/${template.slug}/${template.slug}.${language === 'typescript' ? 'tsx' : 'jsx'}`
+        `../src/components/templates/${template.category}/${template.slug}/${template.slug}.${language === 'typescript' ? 'tsx' : 'jsx'}`
       );
     }
     resolve(map);
