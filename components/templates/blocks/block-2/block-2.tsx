@@ -1,7 +1,7 @@
 import Image from "next/image";
 import getConfig from "next/config";
 import ReactMarkdown from "react-markdown";
-import { CTAButton } from "@/elements";
+import { CTAButton } from "@/components/elements";
 
 export default function Block2({ content }:any) {
   if (!content) return <></>;

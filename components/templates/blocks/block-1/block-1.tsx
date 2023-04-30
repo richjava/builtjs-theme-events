@@ -1,8 +1,8 @@
 import Image from "next/image";
 import getConfig from "next/config";
 import ReactMarkdown from "react-markdown";
-import {CTAButton} from "@/elements";
-import {LeftAlignedHeadline} from "@/elements";
+import {CTAButton} from "@/components/elements";
+import {LeftAlignedHeadline} from "@/components/elements";
 
 export default function Block1({ content }:any) {
   if (!content) return <></>;

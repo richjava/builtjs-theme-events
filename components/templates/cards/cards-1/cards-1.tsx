@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import getConfig from "next/config";
 import { format } from "date-fns";
-import { LeftAlignedHeadline, CenterAlignedHeadline } from "@/elements";
+import { LeftAlignedHeadline, CenterAlignedHeadline } from "@/components/elements";
 
 export default function Cards1({ content }: any) {
   if (!content) return <></>;

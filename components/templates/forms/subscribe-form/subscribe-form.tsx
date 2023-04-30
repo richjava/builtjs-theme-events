@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 import getConfig from "next/config";
 import ReactMarkdown from "react-markdown";
-import { CenterAlignedHeadline } from "@/elements";
+import { CenterAlignedHeadline } from "@/components/elements";
 
 export default function SubscribeForm({ content }: any) {
   let { attributes } = content;

@@ -2,8 +2,8 @@ import { format } from "date-fns";
 import ReactMarkdown from "react-markdown";
 import Image from "next/image";
 import getConfig from "next/config";
-import { CTAButtonSimple } from "@/elements";
-import { CTAButton } from "@/elements";
+import { CTAButtonSimple } from "@/components/elements";
+import { CTAButton } from "@/components/elements";
 import Link from "next/link";
 
 export default function Article1({ content }:any) {

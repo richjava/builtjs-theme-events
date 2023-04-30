@@ -5,7 +5,7 @@
     "displayName": "Events Tailwind",
     "description": "Theme for events websites with Tailwind styling",
     "imageUrl": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-events-tailwind/public/images/theme/theme.png",
-    "repoName": "builtjs/builtjs-theme-events-tailwind",
+    "repoName": "richjava/builtjs-theme-events-tailwind",
     "gitProvider": "github",
     "repoUrl": "https://github.com/builtjs/builtjs-theme-events-tailwind",
     "demoUrl": "",
@@ -35,15 +35,13 @@
     "deps": {
       "frontend": {
         "devDependencies": {
-          "frontend": {
-            "autoprefixer": "10.4.5",
-            "eslint": "8.23.0",
-            "eslint-config-next": "12.3.0",
-            "postcss": "^8.4.16",
-            "tailwindcss": "^3.1.8",
-            "tailwindcss-filters": "^3.0.0",
-            "tailwindcss-spinner": "^1.2.0"
-          }
+          "autoprefixer": "10.4.5",
+          "eslint": "8.23.0",
+          "eslint-config-next": "12.3.0",
+          "postcss": "^8.4.16",
+          "tailwindcss": "^3.1.8",
+          "tailwindcss-filters": "^3.0.0",
+          "tailwindcss-spinner": "^1.2.0"
         }
       }
     }

@@ -1,4 +1,4 @@
-import { CTAButtonSimple } from "@/elements";
+import { CTAButtonSimple } from "@/components/elements";
 
 export default function Block7({ content }:any) {
   if (!content) return <></>;

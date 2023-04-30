@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import getConfig from "next/config";
-import { LeftAlignedHeadline } from "@/elements";
+import { LeftAlignedHeadline } from "@/components/elements";
 
 export default function DonateForm({ content }: any) {
   let { attributes } = content;
