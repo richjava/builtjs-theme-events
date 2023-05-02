@@ -19,7 +19,6 @@ export default function DonateForm({ content }: any) {
       lastName: event.target.lastName.value,
       email: event.target.email.value,
       donationAmount: event.target.donationAmount.value,
-      lastName: event.target.lastName.value,
       phone: event.target.phone.value,
     };
     if (event.target.ohno.value !== "") {

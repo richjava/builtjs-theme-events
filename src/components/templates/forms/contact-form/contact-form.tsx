@@ -11,7 +11,7 @@ export default function ContactForm({ content }:any) {
   const [showError, setShowError] = useState(false);
   if (!content) return <></>;
 
-  async function processSubmission(event) {
+  async function processSubmission(event: any) {
     event.preventDefault();
     const data = {
       name: event.target.name.value,
