@@ -193,8 +193,8 @@
         }
       },
       "images": {
-        "thumb": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-events-tailwind/public/images/templates/blocks/block-1/block-1-about.png",
-        "lrg": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-events-tailwind/public/images/templates/blocks/block-1/block-1-about.png"
+        "thumb": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-events-tailwind/public/images/theme/templates/blocks/block-1/block-1-about.png",
+        "lrg": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-events-tailwind/public/images/theme/templates/blocks/block-1/block-1-about.png"
       }
     },
     {
@@ -604,8 +604,8 @@
         "ctaUrl": "/contact"
       },
       "images": {
-        "thumb": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-events-tailwind/public/images/templates/blocks/block-1/block-1-about.png",
-        "lrg": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-events-tailwind/public/images/templates/blocks/block-1/block-1-about.png"
+        "thumb": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-events-tailwind/public/images/theme/templates/blocks/block-1/block-1-about.png",
+        "lrg": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-events-tailwind/public/images/theme/templates/blocks/block-1/block-1-about.png"
       }
     },
     {
