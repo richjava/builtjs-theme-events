@@ -34,15 +34,23 @@
     ],
     "deps": {
       "frontend": {
-        "devDependencies": {
-          "autoprefixer": "10.4.5",
-          "eslint": "8.23.0",
-          "eslint-config-next": "12.3.0",
-          "postcss": "^8.4.16",
-          "tailwindcss": "^3.1.8",
-          "tailwindcss-filters": "^3.0.0",
-          "tailwindcss-spinner": "^1.2.0"
+        "project": ["nextjs", "tailwind"],
+        "node": {
+          "devDependencies": {
+            "devDependencies": {
+              "autoprefixer": "10.4.5",
+              "eslint": "8.23.0",
+              "eslint-config-next": "12.3.0",
+              "postcss": "^8.4.16",
+              "tailwindcss": "^3.1.8",
+              "tailwindcss-filters": "^3.0.0",
+              "tailwindcss-spinner": "^1.2.0"
+            }
+          }
         }
+      },
+      "backend": {
+        "project": ["strapi"]
       }
     }
   }
