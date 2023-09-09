@@ -1,292 +1,231 @@
 {
   "pages": [
     {
-      "slug": "home",
-      "singularName": "home",
-      "pluralName": "homes",
-      "displayName": "Home",
+      "name": "home",
+      "title": "Home",
       "demoSections": [
         {
-          "slug": "home-seo"
+          "name": "homeSeo"
         },
         {
-          "slug": "events-hero"
+          "name": "eventsHero"
         },
         {
-          "slug": "events-list"
+          "name": "eventsList"
         },
         {
-          "slug": "newsletter-lrg"
+          "name": "newsletterLrg"
         },
         {
-          "slug": "about-teaser"
+          "name": "aboutTeaser"
         },
         {
-          "slug": "support-teaser"
+          "name": "supportTeaser"
         },
         {
-          "slug": "volunteer-teaser"
+          "name": "volunteerTeaser"
         },
         {
-          "slug": "sponsors"
+          "name": "sponsors"
         }
       ]
     },
     {
-      "slug": "about",
-      "singularName": "about",
-      "pluralName": "abouts",
-      "displayName": "About",
+      "name": "about",
+      "title": "About",
       "demoSections": [
         {
-          "slug": "about-seo"
+          "name": "aboutSeo"
         },
         {
-          "slug": "about-landing"
+          "name": "aboutLanding"
         },
         {
-          "slug": "about-blockquote"
+          "name": "aboutBlockquote"
         },
         {
-          "slug": "about-events-teaser"
+          "name": "aboutEventsTeaser"
         },
         {
-          "slug": "newsletter"
+          "name": "newsletter"
         }
       ]
     },
     {
-      "slug": "volunteer",
-      "singularName": "volunteer",
-      "pluralName": "volunteers",
-      "displayName": "Volunteer",
+      "name": "volunteer",
+      "title": "Volunteer",
       "demoSections": [
         {
-          "slug": "about-seo"
+          "name": "aboutSeo"
         },
         {
-          "slug": "volunteer-landing"
+          "name": "volunteerLanding"
         },
         {
-          "slug": "newsletter"
+          "name": "newsletter"
         }
       ]
     },
     {
-      "slug": "contact",
-      "singularName": "contact",
-      "pluralName": "contacts",
-      "displayName": "Contact",
+      "name": "contact",
+      "title": "Contact",
       "demoSections": [
         {
-          "slug": "contact-seo"
+          "name": "contactSeo"
         },
         {
-          "slug": "contact-landing"
+          "name": "contactLanding"
         },
         {
-          "slug": "subscribe-teaser"
+          "name": "subscribeTeaser"
         },
         {
-          "slug": "newsletter"
+          "name": "newsletter"
         }
       ]
     },
     {
-      "slug": "events",
-      "singularName": "event",
-      "pluralName": "events",
-      "displayName": "Events",
+      "name": "events",
+      "title": "Events",
       "demoSections": [
         {
-          "slug": "events-seo"
+          "name": "eventsSeo"
         },
         {
-          "slug": "events-landing"
+          "name": "eventsLanding"
         },
         {
-          "slug": "newsletter"
+          "name": "newsletter"
         }
       ]
     },
     {
-      "slug": "subscribe",
+      "name": "subscribe",
       "singularName": "subscribe",
       "pluralName": "subscribes",
-      "displayName": "Subscribe",
+      "title": "Subscribe",
       "demoSections": [
         {
-          "slug": "subscribe-seo"
+          "name": "subscribeSeo"
         },
         {
-          "slug": "subscribe-landing"
+          "name": "subscribeLanding"
         },
         {
-          "slug": "subscribe-faq"
+          "name": "subscribeFaq"
         },
         {
-          "slug": "donate-teaser"
+          "name": "donateTeaser"
         },
         {
-          "slug": "newsletter"
+          "name": "newsletter"
         }
       ]
     },
     {
-      "slug": "donate",
-      "singularName": "donate",
-      "pluralName": "donates",
-      "displayName": "Donate",
+      "name": "donate",
+      "title": "Donate",
       "demoSections": [
         {
-          "slug": "donate-seo"
+          "name": "donateSeo"
         },
         {
-          "slug": "donate-landing"
+          "name": "donateLanding"
         },
         {
-          "slug": "subscribe-teaser"
+          "name": "subscribeTeaser"
         },
         {
-          "slug": "newsletter"
+          "name": "newsletter"
         }
       ]
     },
     {
-      "slug": "event-article",
-      "singularName": "event-article",
-      "pluralName": "event-articles",
-      "displayName": "Event Article",
+      "name": "eventArticle",
+      "title": "Event Article",
       "contentType": {
-        "slug": "event-item"
+        "name": "eventItem"
       },
       "demoSections": [
         {
-          "slug": "event-article"
+          "name": "eventArticle"
         }
       ]
     },
     {
-      "slug": "blocks",
-      "singularName": "blocks",
-      "displayName": "Blocks",
-      "type": "templates",
+      "name": "blocks",
+      "title": "Blocks",
+      "type": "template",
       "demoSections": [
         {
-          "slug": "about-landing",
-          "template": {
-            "slug": "block-1"
-          }
+          "name": "aboutLanding"
         },
         {
-          "slug": "about-events-teaser",
-          "template": {
-            "slug": "block-2"
-          }
+          "name": "aboutEventsTeaser"
         },
         {
-          "slug": "sponsors",
-          "template": {
-            "slug": "block-4"
-          }
+          "name": "sponsors"
         },
         {
-          "slug": "volunteer-teaser",
-          "template": {
-            "slug": "block-5"
-          }
+          "name": "volunteerTeaser"
         },
         {
-          "slug": "about-teaser",
-          "template": {
-            "slug": "block-6"
-          }
+          "name": "aboutTeaser"
         },
         {
-          "slug": "support-teaser",
-          "template": {
-            "slug": "block-7"
-          }
+          "name": "supportTeaser"
         },
         {
-          "slug": "subscribe-faq",
-          "template": {
-            "slug": "faq-block"
-          }
+          "name": "subscribe-Faq"
         }
       ]
     },
     {
-      "slug": "forms",
-      "singularName": "form",
-      "displayName": "Forms",
-      "type": "templates",
+      "name": "forms",
+      "title": "Forms",
+      "type": "template",
       "demoSections": [
         {
-          "slug": "newsletter-lrg",
-          "template": {
-            "slug": "newsletter-form-1"
-          }
+          "name": "newsletterLrg"
         },
         {
-          "slug": "contact-landing",
-          "template": {
-            "slug": "contact-form"
-          }
+          "name": "contactLanding"
         },
         {
-          "slug": "subscribe-landing",
-          "template": {
-            "slug": "subscribe-form"
-          }
+          "name": "subscribeLanding"
         },
         {
-          "slug": "donate-landing",
-          "template": {
-            "slug": "donate-form"
-          }
+          "name": "donateLanding"
         }
       ]
     },
     {
-      "slug": "cards",
-      "singularName": "cards",
-      "displayName": "Cards",
-      "type": "templates",
+      "name": "cards",
+      "title": "Cards",
+      "type": "template",
       "demoSections": [
         {
-          "slug": "events-landing",
-          "template": {
-            "slug": "cards-1"
-          }
+          "name": "eventsLanding"
         }
       ]
     },
     {
-      "slug": "covers",
-      "singularName": "covers",
-      "displayName": "Covers",
-      "type": "templates",
+      "name": "covers",
+      "title": "Covers",
+      "type": "template",
       "demoSections": [
         {
-          "slug": "events-hero",
-          "template": {
-            "slug": "hero-cover"
-          }
+          "name": "eventsHero"
         }
       ]
     },
     {
-      "slug": "banners",
-      "singularName": "banners",
-      "displayName": "Banners",
-      "type": "templates",
+      "name": "banners",
+      "title": "Banners",
+      "type": "template",
       "demoSections": [
         {
-          "slug": "newsletter",
-          "template": {
-            "slug": "newsletter-banner-1"
-          }
+          "name": "newsletter"
         }
       ]
     }

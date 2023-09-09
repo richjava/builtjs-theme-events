@@ -1,68 +1,58 @@
 {
   "data": [
     {
-      "attributes": {
-        "slug": "jazz-jams",
-        "title": "Jazz Jams",
-        "description": "Experience the best jazz our city has to offer with local jazz duos and bands, some up-and-coming and some renowned.",
-        "body": "Jazz Jams are for all our die-hard jazz fans wanting to experience the best jazz our city has to offer! We have local jazz duos and bands, some up-and-coming and some renowned, playing once a month. Check out our event page on Facebook to see our drinks and deals available that day.",
-        "featuredImage": {
-          "data": {
-            "attributes": {
-              "name": "jazz-concert",
-              "path": "/images/theme/event-items",
-              "ext": "jpg",
-              "url": "/images/theme/event-items/jazz-concert.jpg",
-              "width": 1056,
-              "height": 594
-            }
-          }
-        },
-        "date": "2023-09-02T12:00:00.000Z",
-        "startTime": "7:30pm",
-        "venue": "Christchurch Events Centre",
-        "townCity": "Christchurch",
-        "duration": "100 minutes",
-        "genre": "Jazz",
-        "restrictions": "",
-        "infoWebsite": "https://example.com",
-        "bookingInfo": "Booking information to be advised closer to the date.",
-        "ticketUrl": "https://example.com",
-        "quote": "The best jazz our city has to offer",
-        "source": "Joe Bloggs"
-      }
+      "slug": "jazz-jams",
+      "_type": "eventItem",
+      "title": "Jazz Jams",
+      "description": "Experience the best jazz our city has to offer with local jazz duos and bands, some up-and-coming and some renowned.",
+      "body": "Jazz Jams are for all our die-hard jazz fans wanting to experience the best jazz our city has to offer! We have local jazz duos and bands, some up-and-coming and some renowned, playing once a month. Check out our event page on Facebook to see our drinks and deals available that day.",
+      "featuredImage": {
+        "name": "jazz-concert",
+        "path": "/images/theme/event-items",
+        "ext": "jpg",
+        "url": "/images/theme/event-items/jazz-concert.jpg",
+        "width": 1056,
+        "height": 594
+      },
+      "date": "2023-09-02T12:00:00.000Z",
+      "startTime": "7:30pm",
+      "venue": "Christchurch Events Centre",
+      "townCity": "Christchurch",
+      "duration": "100 minutes",
+      "genre": "Jazz",
+      "restrictions": "",
+      "infoWebsite": "https://example.com",
+      "bookingInfo": "Booking information to be advised closer to the date.",
+      "ticketUrl": "https://example.com",
+      "quote": "The best jazz our city has to offer",
+      "source": "Joe Bloggs"
     },
     {
-      "attributes": {
-        "slug": "rockerfella",
-        "title": "Rockerfella",
-        "description": "Rockerfella are back touring the country, kicking it all off in the Garden City.",
-        "body": "After 16 years since their last recording, Rockerfella have returned to the recording studio with a bang! Releasing their first single which entered the chart at #60 the first time ever an unheard of song has ever been voted into the chart let alone enter so high! Followed up with the much anticipated Volume 1 release in the four part series in March Rockerfella are hitting the road in support of the release of Volume 1 in the 4 part volumes series this September and October.",
-        "featuredImage": {
-          "data": {
-            "attributes": {
-              "name": "rock-event",
-              "path": "/images/theme/event-items",
-              "ext": "jpg",
-              "url": "/images/theme/event-items/rock-event.jpg",
-              "width": 1056,
-              "height": 594
-            }
-          }
-        },
-        "date": "2023-09-02T12:00:00.000Z",
-        "startTime": "7:30pm",
-        "venue": "Christchurch Town Hall",
-        "townCity": "Christchurch",
-        "duration": "120 minutes",
-        "genre": "Rock",
-        "restrictions": "",
-        "infoWebsite": "https://example.com",
-        "bookingInfo": "Booking information to be advised closer to the date.",
-        "ticketUrl": "https://example.com",
-        "quote": "Rockerfella have returned to the recording studio with a bang",
-        "source": "Bob Brown"
-      }
+      "slug": "rockerfella",
+      "_type": "eventItem",
+      "title": "Rockerfella",
+      "description": "Rockerfella are back touring the country, kicking it all off in the Garden City.",
+      "body": "After 16 years since their last recording, Rockerfella have returned to the recording studio with a bang! Releasing their first single which entered the chart at #60 the first time ever an unheard of song has ever been voted into the chart let alone enter so high! Followed up with the much anticipated Volume 1 release in the four part series in March Rockerfella are hitting the road in support of the release of Volume 1 in the 4 part volumes series this September and October.",
+      "featuredImage": {
+        "name": "rock-event",
+        "path": "/images/theme/event-items",
+        "ext": "jpg",
+        "url": "/images/theme/event-items/rock-event.jpg",
+        "width": 1056,
+        "height": 594
+      },
+      "date": "2023-09-02T12:00:00.000Z",
+      "startTime": "7:30pm",
+      "venue": "Christchurch Town Hall",
+      "townCity": "Christchurch",
+      "duration": "120 minutes",
+      "genre": "Rock",
+      "restrictions": "",
+      "infoWebsite": "https://example.com",
+      "bookingInfo": "Booking information to be advised closer to the date.",
+      "ticketUrl": "https://example.com",
+      "quote": "Rockerfella have returned to the recording studio with a bang",
+      "source": "Bob Brown"
     }
   ]
 }

@@ -2,55 +2,60 @@
   "theme": {
     "version": "1.0.0",
     "apiVersion": "1.2",
-    "displayName": "Events Tailwind",
+    "displayName": "Events",
     "description": "Theme for events websites with Tailwind styling",
-    "imageUrl": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-events-tailwind/public/images/theme/theme.png",
-    "repoName": "richjava/builtjs-theme-events-tailwind",
+    "imageUrl": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-events/public/images/theme/theme.png",
+    "repoName": "richjava/builtjs-theme-events",
     "gitProvider": "github",
-    "repoUrl": "https://github.com/builtjs/builtjs-theme-events-tailwind",
+    "repoUrl": "https://github.com/richjava/builtjs-theme-events",
     "demoUrl": "",
     "modules": [
       {
-        "slug": "events"
+        "name": "events"
       },
       {
-        "slug": "contact"
+        "name": "contact"
       },
       {
-        "slug": "get-informed"
+        "name": "getInformed"
       },
       {
-        "slug": "about"
+        "name": "about"
       },
       {
-        "slug": "support"
+        "name": "support"
       },
       {
-        "slug": "volunteer"
+        "name": "volunteer"
       },
       {
-        "slug": "sponsors"
+        "name": "sponsors"
       }
     ],
-    "deps": {
+    "config": {
       "frontend": {
-        "project": ["nextjs", "tailwind"],
-        "node": {
-          "devDependencies": {
-            "devDependencies": {
-              "autoprefixer": "10.4.5",
-              "eslint": "8.23.0",
-              "eslint-config-next": "12.3.0",
-              "postcss": "^8.4.16",
-              "tailwindcss": "^3.1.8",
-              "tailwindcss-filters": "^3.0.0",
-              "tailwindcss-spinner": "^1.2.0"
+        "project": {
+          "main": {
+            "name": "nextjs",
+            "config": {
+              "router": "pages"
             }
+          },
+          "css": {
+            "name": "tailwind"
           }
+        },
+        "node": {
+          "devDependencies": [
+            "autoprefixer",
+              "eslint",
+              "eslint-config-next",
+              "postcss",
+              "tailwindcss",
+              "tailwindcss-filters",
+              "tailwindcss-spinner"
+          ]
         }
-      },
-      "backend": {
-        "project": ["strapi"]
       }
     }
   }

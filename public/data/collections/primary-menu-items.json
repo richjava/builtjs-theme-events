@@ -1,25 +1,22 @@
 {
   "data": [
     {
-      "attributes": {
-        "slug": "events",
-        "label": "Events",
-        "url": "/events"
-      }
+      "_type": "primaryMenuItem",
+      "slug": "events",
+      "label": "Events",
+      "url": "/events"
     },
     {
-      "attributes": {
-        "slug": "subscribe",
-        "label": "Subscribe",
-        "url": "/subscribe"
-      }
+      "_type": "primaryMenuItem",
+      "slug": "subscribe",
+      "label": "Subscribe",
+      "url": "/subscribe"
     },
     {
-      "attributes": {
-        "slug": "donate",
-        "label": "Donate",
-        "url": "/donate"
-      }
+      "_type": "primaryMenuItem",
+      "slug": "donate",
+      "label": "Donate",
+      "url": "/donate"
     }
   ]
 }

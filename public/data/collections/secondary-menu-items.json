@@ -1,25 +1,22 @@
 {
   "data": [
     {
-      "attributes": {
-        "slug": "about",
-        "label": "About",
-        "url": "/about"
-      }
+      "_type": "secondaryMenuItem",
+      "slug": "about",
+      "label": "About",
+      "url": "/about"
     },
     {
-      "attributes": {
-        "slug": "volunteer",
-        "label": "Volunteer",
-        "url": "/volunteer"
-      }
+      "_type": "secondaryMenuItem",
+      "slug": "volunteer",
+      "label": "Volunteer",
+      "url": "/volunteer"
     },
     {
-      "attributes": {
-        "slug": "contact",
-        "label": "Contact",
-        "url": "/contact"
-      }
+      "_type": "secondaryMenuItem",
+      "slug": "contact",
+      "label": "Contact",
+      "url": "/contact"
     }
   ]
 }

@@ -1,86 +1,74 @@
 {
   "sections": [
     {
-      "slug": "header",
+      "name": "header",
       "category": "layout",
       "type": "layout",
       "displayName": "Header",
       "description": "The header contains the company logo, main site navigation and often a call-to-action button.",
-      "templates": ["header-1"],
+      "templates": ["header1"],
       "defaultTemplate": {
-        "slug": "header-1"
+        "name": "header1"
       },
       "position": "start",
       "attributes": {
         "logoLight": {
-          "data": {
-            "attributes": {
-              "name": "logo-light",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/logo-light.png",
-              "width": 48,
-              "height": 48,
-              "alternativeText": "Logo"
-            }
-          }
+          "name": "logo-light",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/logo-light.png",
+          "width": 48,
+          "height": 48,
+          "alternativeText": "Logo"
         },
         "logoType": {
-          "data": {
-            "attributes": {
-              "name": "logo-type",
-              "path": "/images/theme",
-              "ext": "svg",
-              "url": "/images/theme/logo-type.svg",
-              "width": 48,
-              "height": 48,
-              "alternativeText": "Logo"
-            }
-          }
+          "name": "logo-type",
+          "path": "/images/theme",
+          "ext": "svg",
+          "url": "/images/theme/logo-type.svg",
+          "width": 48,
+          "height": 48,
+          "alternativeText": "Logo"
         }
       },
       "collections": {
-        "primary-menu-items": {},
-        "secondary-menu-items": {}
+        "primaryMenuItem": {},
+        "secondaryMenuItem": {}
       }
     },
     {
-      "slug": "footer",
+      "name": "footer",
       "category": "layout",
       "type": "layout",
       "displayName": "Footer",
       "description": "The footer contains secondary site navigation.",
-      "templates": ["footer-1"],
+      "templates": ["footer1"],
       "defaultTemplate": {
-        "slug": "footer-1"
+        "name": "footer1"
       },
       "position": "end",
       "attributes": {
         "logoLight": {
-          "data": {
-            "attributes": {
-              "name": "logo-light",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/logo-light.png",
-              "width": 48,
-              "height": 48,
-              "alternativeText": "Logo"
-            }
-          }
+          "name": "logo-light",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/logo-light.png",
+          "width": 48,
+          "height": 48,
+          "alternativeText": "Logo"
         }
       },
       "collections": {
-        "primary-menu-items": {},
-        "secondary-menu-items": {}
+        "primaryMenuItem": {},
+        "secondaryMenuItem": {}
       }
     },
     {
-      "slug": "home-seo",
+      "name": "homeSeo",
       "displayName": "Home SEO",
       "templates": ["seo"],
       "defaultTemplate": {
-        "slug": "seo"
+        "name": "seo"
       },
       "category": "head",
       "type": "head",
@@ -88,47 +76,43 @@
         "title": "Home | Events Tailwind Built.JS Theme",
         "description": "Home page for a site built with the Events Tailwind Built.JS Theme.",
         "shareImage": {
-          "data": {
-            "attributes": {
-              "name": "logo-dark",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/logo-dark.png",
-              "width": 150,
-              "height": 150,
-              "alternativeText": "Logo"
-            }
-          }
+          "name": "logo-dark",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/logo-dark.png",
+          "width": 150,
+          "height": 150,
+          "alternativeText": "Logo"
         },
         "twitterCardType": "summary",
         "twitterUsername": ""
       }
     },
     {
-      "slug": "event-article",
+      "name": "eventArticle",
       "displayName": "Event Article",
       "description": "The event post detail page.",
-      "templates": ["article-1"],
+      "templates": ["article1"],
       "defaultTemplate": {
-        "slug": "article-1"
+        "name": "article1"
       },
-      "item": {
-        "slug": "event-item"
+      "entry": {
+        "name": "eventItem"
       }
     },
     {
-      "slug": "events-hero",
+      "name": "eventsHero",
       "displayName": "Events Hero",
       "description": "The featured event, displayed with a hero image.",
-      "templates": ["hero-cover"],
+      "templates": ["heroCover"],
       "defaultTemplate": {
-        "slug": "hero-cover"
+        "name": "heroCover"
       },
       "attributes": {},
       "collections": {
-        "event-items": {
+        "eventItem": {
           "article": {
-            "slug": "event-article"
+            "name": "eventArticle"
           },
           "sort": {
             "0": "date:asc"
@@ -137,11 +121,11 @@
       }
     },
     {
-      "slug": "about-seo",
+      "name": "aboutSeo",
       "displayName": "About SEO",
       "templates": ["seo"],
       "defaultTemplate": {
-        "slug": "seo"
+        "name": "seo"
       },
       "category": "head",
       "type": "head",
@@ -149,29 +133,25 @@
         "title": "About | Events Tailwind Built.JS Theme",
         "description": "About page for a site built with the Events Tailwind Built.JS Theme.",
         "shareImage": {
-          "data": {
-            "attributes": {
-              "name": "logo-dark",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/logo-dark.png",
-              "width": 150,
-              "height": 150,
-              "alternativeText": "Logo"
-            }
-          }
+          "name": "logo-dark",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/logo-dark.png",
+          "width": 150,
+          "height": 150,
+          "alternativeText": "Logo"
         },
         "twitterCardType": "summary",
         "twitterUsername": ""
       }
     },
     {
-      "slug": "about-landing",
+      "name": "aboutLanding",
       "displayName": "About Landing",
       "description": "The about page landing area, conveying convey trust and relatability.",
-      "templates": ["block-1"],
+      "templates": ["block1"],
       "defaultTemplate": {
-        "slug": "block-1"
+        "name": "block1"
       },
       "attributes": {
         "preheading": "About",
@@ -179,30 +159,22 @@
         "leadingSentence": "Events Tailwind proudly plays an important role in the culture of our region.",
         "body": "Donec efficitur ullamcorper diam a feugiat. Aliquam id erat egestas, ultricies nunc a, porttitor dui. Vivamus ornare imperdiet ipsum, id tempus nisi condimentum id. Donec ac commodo lorem, eu pharetra ex. Nullam iaculis finibus mi et lobortis. Ut et arcu eu mi sagittis ultrices eu sit amet felis. Mauris condimentum vel ipsum vitae fringilla. Donec porta eros cursus nisi ullamcorper ultricies. Nam purus lorem, dapibus nec volutpat nec, gravida sit amet neque. Integer auctor sit amet leo non fermentum.\n\nInteger fringilla iaculis justo, et tincidunt elit auctor quis. Mauris eget tellus pharetra, scelerisque est vitae, convallis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id eros a ante auctor vehicula in sit amet elit. Sed volutpat at tortor quis cursus. Curabitur auctor quis odio vitae porttitor. Nullam sit amet sapien neque.\nQuisque a interdum sem. Integer lobortis interdum rhoncus. Integer sed elit in mauris gravida bibendum. Nullam dictum dapibus massa, nec efficitur elit mattis eget. Aenean sit amet eros aliquet, congue odio vitae, finibus lacus. Nullam suscipit risus tellus, eget vestibulum magna venenatis eu. In ornare lacinia nulla, cursus suscipit justo dignissim id. Suspendisse potenti. In dictum erat eu consequat maximus. Nullam sit amet feugiat nisl. Quisque imperdiet consectetur pellentesque. Aliquam in aliquet mi.",
         "image": {
-          "data": {
-            "attributes": {
-              "name": "folk-jazz",
-              "path": "/images/theme",
-              "ext": "jpg",
-              "url": "/images/theme/folk-jazz.jpg",
-              "width": 763,
-              "height": 882,
-              "alternativeText": "About Landing"
-            }
-          }
+          "name": "folk-jazz",
+          "path": "/images/theme",
+          "ext": "jpg",
+          "url": "/images/theme/folk-jazz.jpg",
+          "width": 763,
+          "height": 882,
+          "alternativeText": "About Landing"
         }
-      },
-      "images": {
-        "thumb": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-events-tailwind/public/images/theme/templates/blocks/block-1/block-1-about.png",
-        "lrg": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-events-tailwind/public/images/theme/templates/blocks/block-1/block-1-about.png"
       }
     },
     {
-      "slug": "contact-seo",
+      "name": "contactSeo",
       "displayName": "Contact SEO",
       "templates": ["seo"],
       "defaultTemplate": {
-        "slug": "seo"
+        "name": "seo"
       },
       "category": "head",
       "type": "head",
@@ -210,29 +182,25 @@
         "title": "Contact | Events Tailwind Built.JS Theme",
         "description": "Contact page for a site built with the Events Tailwind Built.JS Theme.",
         "shareImage": {
-          "data": {
-            "attributes": {
-              "name": "logo-dark",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/logo-dark.png",
-              "width": 150,
-              "height": 150,
-              "alternativeText": "Logo"
-            }
-          }
+          "name": "logo-dark",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/logo-dark.png",
+          "width": 150,
+          "height": 150,
+          "alternativeText": "Logo"
         },
         "twitterCardType": "summary",
         "twitterUsername": ""
       }
     },
     {
-      "slug": "contact-landing",
+      "name": "contactLanding",
       "displayName": "Contact Landing",
       "description": "The contact page landing area, providing relevant contact details.",
-      "templates": ["contact-form"],
+      "templates": ["contactForm"],
       "defaultTemplate": {
-        "slug": "contact-form"
+        "name": "contactForm"
       },
       "attributes": {
         "preheading": "Contact",
@@ -241,12 +209,12 @@
       }
     },
     {
-      "slug": "newsletter",
+      "name": "newsletter",
       "displayName": "Newsletter",
       "description": "A section including a form for signing up to a newsletter.",
-      "templates": ["newsletter-banner-1"],
+      "templates": ["newsletterBanner1"],
       "defaultTemplate": {
-        "slug": "newsletter-banner-1"
+        "name": "newsletterBanner1"
       },
       "attributes": {
         "heading": "Sign up for our newsletter",
@@ -254,78 +222,70 @@
       }
     },
     {
-      "slug": "newsletter-lrg",
+      "name": "newsletterLrg",
       "displayName": "Newsletter Large",
       "description": "A section including a form for signing up to a newsletter and description for why to sign up.",
-      "templates": ["newsletter-form-1"],
+      "templates": ["newsletterForm1"],
       "defaultTemplate": {
-        "slug": "newsletter-form-1"
+        "name": "newsletterForm1"
       },
       "attributes": {
         "preheading": "Newsletter",
         "heading": "Sign up for our newsletter",
         "blurb": "Stay in touch with all the latest Events Tailwind events happening in our area and other related news. You can cancel your newsletter at any time.",
         "image": {
-          "data": {
-            "attributes": {
-              "name": "newsletter-illustration",
-              "path": "/images/theme",
-              "ext": "svg",
-              "url": "/images/theme/newsletter-illustration.svg",
-              "width": 800,
-              "height": 451,
-              "alternativeText": "Newsletter"
-            }
-          }
+          "name": "newsletter-illustration",
+          "path": "/images/theme",
+          "ext": "svg",
+          "url": "/images/theme/newsletter-illustration.svg",
+          "width": 800,
+          "height": 451,
+          "alternativeText": "Newsletter"
         }
       }
     },
     {
-      "slug": "about-blockquote",
+      "name": "aboutBlockquote",
       "displayName": "About Blockquote",
       "description": "A section including a blockquote.",
-      "templates": ["blockquote-1"],
+      "templates": ["blockquote1"],
       "defaultTemplate": {
-        "slug": "blockquote-1"
+        "name": "blockquote1"
       },
       "attributes": {
         "quote": "The Events Tailwind was formed to present concerts and other entertainment for our local community. Our aim is to support our arts culture by promoting the enjoyment and encouragement of the performing arts."
       }
     },
     {
-      "slug": "about-events-teaser",
+      "name": "aboutEventsTeaser",
       "displayName": "About Events Teaser",
       "description": "A call-to-action to encourage users to view events.",
-      "templates": ["block-2"],
+      "templates": ["block2"],
       "defaultTemplate": {
-        "slug": "block-2"
+        "name": "block2"
       },
       "attributes": {
         "body": "Donec efficitur ullamcorper diam a feugiat. Aliquam id erat egestas, ultricies nunc a, porttitor dui. Vivamus ornare imperdiet ipsum, id tempus nisi condimentum id. Donec ac commodo lorem, eu pharetra ex. Nullam iaculis finibus mi et lobortis. Ut et arcu eu mi sagittis ultrices eu sit amet felis. Mauris condimentum vel ipsum vitae fringilla. Donec porta eros cursus nisi ullamcorper ultricies. Nam purus lorem, dapibus nec volutpat nec, gravida sit amet neque. Integer auctor sit amet leo non fermentum.\n\nInteger fringilla iaculis justo, et tincidunt elit auctor quis. Mauris eget tellus pharetra, scelerisque est vitae, convallis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id eros a ante auctor vehicula in sit amet elit. Sed volutpat at tortor quis cursus. Curabitur auctor quis odio vitae porttitor. Nullam sit amet sapien neque.",
         "image": {
-          "data": {
-            "attributes": {
-              "name": "street-jazz",
-              "path": "/images/theme",
-              "ext": "jpg",
-              "url": "/images/theme/street-jazz.jpg",
-              "width": 800,
-              "height": 451,
-              "alternativeText": "Events"
-            }
-          }
+          "name": "street-jazz",
+          "path": "/images/theme",
+          "ext": "jpg",
+          "url": "/images/theme/street-jazz.jpg",
+          "width": 800,
+          "height": 451,
+          "alternativeText": "Events"
         },
         "ctaText": "Browse our events",
         "ctaUrl": "/events"
       }
     },
     {
-      "slug": "events-landing",
+      "name": "eventsLanding",
       "displayName": "Events Landing",
       "description": "The Events page landing area.",
-      "templates": ["cards-1"],
+      "templates": ["cards1"],
       "defaultTemplate": {
-        "slug": "cards-1"
+        "name": "cards1"
       },
       "attributes": {
         "preheading": "Events",
@@ -333,7 +293,7 @@
         "headlineAlignment": "center"
       },
       "collections": {
-        "event-items": {
+        "eventItem": {
           "sort": {
             "0": "date:asc"
           }
@@ -341,12 +301,12 @@
       }
     },
     {
-      "slug": "events-list",
+      "name": "eventsList",
       "displayName": "Events List",
       "description": "The Events List section.",
-      "templates": ["cards-1"],
+      "templates": ["cards1"],
       "defaultTemplate": {
-        "slug": "cards-1"
+        "name": "cards1"
       },
       "attributes": {
         "preheading": "Events",
@@ -354,11 +314,11 @@
         "headlineAlignment": "left"
       },
       "collections": {
-        "event-items": {
+        "eventItem": {
           "article": {
-            "slug": "event-article"
-          },  
-          "limit": 2,     
+            "name": "eventArticle"
+          },
+          "limit": 2,
           "sort": {
             "0": "date:asc"
           }
@@ -366,11 +326,11 @@
       }
     },
     {
-      "slug": "events-seo",
+      "name": "eventsSeo",
       "displayName": "Events SEO",
       "templates": ["seo"],
       "defaultTemplate": {
-        "slug": "seo"
+        "name": "seo"
       },
       "category": "head",
       "type": "head",
@@ -378,29 +338,25 @@
         "title": "Events | Events Tailwind Built.JS Theme",
         "description": "Events page for a site built with the Events Tailwind Built.JS Theme.",
         "shareImage": {
-          "data": {
-            "attributes": {
-              "name": "logo-dark",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/logo-dark.png",
-              "width": 150,
-              "height": 150,
-              "alternativeText": "Logo"
-            }
-          }
+          "name": "logo-dark",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/logo-dark.png",
+          "width": 150,
+          "height": 150,
+          "alternativeText": "Logo"
         },
         "twitterCardType": "summary",
         "twitterUsername": ""
       }
     },
     {
-      "slug": "subscribe-landing",
+      "name": "subscribeLanding",
       "displayName": "Subscribe Landing",
       "description": "The Subscribe page landing area.",
-      "templates": ["subscribe-form"],
+      "templates": ["subscribeForm"],
       "defaultTemplate": {
-        "slug": "subscribe-form"
+        "name": "subscribeForm"
       },
       "attributes": {
         "preheading": "Become a Subscriber",
@@ -409,24 +365,24 @@
       }
     },
     {
-      "slug": "subscribe-faq",
+      "name": "subscribeFaq",
       "displayName": "Subscribe FAQ",
       "description": "The FAQ section on the Subscribe page.",
-      "templates": ["faq-block"],
+      "templates": ["faqBlock"],
       "defaultTemplate": {
-        "slug": "faq-block"
+        "name": "faqBlock"
       },
       "attributes": {},
       "collections": {
-        "faq-items": {}
+        "faqItem": {}
       }
     },
     {
-      "slug": "subscribe-seo",
+      "name": "subscribeSeo",
       "displayName": "Subscribe SEO",
       "templates": ["seo"],
       "defaultTemplate": {
-        "slug": "seo"
+        "name": "seo"
       },
       "category": "head",
       "type": "head",
@@ -434,29 +390,25 @@
         "title": "Subscribe | Subscribe Tailwind Built.JS Theme",
         "description": "Subscribe page for a site built with the Events Tailwind Built.JS Theme.",
         "shareImage": {
-          "data": {
-            "attributes": {
-              "name": "logo-dark",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/logo-dark.png",
-              "width": 150,
-              "height": 150,
-              "alternativeText": "Logo"
-            }
-          }
+          "name": "logo-dark",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/logo-dark.png",
+          "width": 150,
+          "height": 150,
+          "alternativeText": "Logo"
         },
         "twitterCardType": "summary",
         "twitterUsername": ""
       }
     },
     {
-      "slug": "donate-teaser",
+      "name": "donateTeaser",
       "displayName": "Donate Teaser",
       "description": "Call-to-action for donation.",
-      "templates": ["cta-card"],
+      "templates": ["ctaCard"],
       "defaultTemplate": {
-        "slug": "cta-card"
+        "name": "ctaCard"
       },
       "attributes": {
         "heading": "Want to make a donation?",
@@ -465,45 +417,45 @@
       }
     },
     {
-      "slug": "subscribe-teaser",
+      "name": "subscribeTeaser",
       "displayName": "Subscribe Teaser",
       "description": "Call-to-action for subscribing.",
-      "templates": ["cta-card"],
+      "templates": ["ctaCard"],
       "defaultTemplate": {
-        "slug": "cta-card"
+        "name": "ctaCard"
       },
       "attributes": {
-        "heading": "Want to become a Subscriber?",
-        "blurb": "When you choose to partner with us by becoming a Events Tailwind supporter, you help enable remarkable musical experiences right here.",
+        "heading": "Want to become a subscriber?",
+        "blurb": "When you choose to partner with us by becoming a supporter, you help enable remarkable musical experiences right here.",
         "url": "/subscribe"
       }
     },
     {
-      "slug": "donate-landing",
+      "name": "donateLanding",
       "displayName": "Donate Landing",
       "description": "The Donate page landing area.",
-      "templates": ["donate-form"],
+      "templates": ["donateForm"],
       "defaultTemplate": {
-        "slug": "donate-form"
+        "name": "donateForm"
       },
       "attributes": {
         "preheading": "Donate",
         "heading": "Your donation will make all the difference.",
-        "blurb": "We depend on the generosity of donors which enables us to present more expensive concerts, while keeping admission prices affordable. The Events Tailwind appreciates your donations. Thank you for being generous.",
+        "blurb": "We depend on the generosity of donors which enables us to present more expensive concerts, while keeping admission prices affordable. We appreciate your donations. Thank you for being generous.",
         "benefitHeading1": "Bringing world-class musicians to our city.",
         "benefitBlurb1": "Enjoying live performances with friends and fellow music-lovers.",
         "benefitHeading2": "Providing performers with the opportunity to share their talents with us.",
         "benefitBlurb2": "Contributing to the culture of our local community.",
-        "benefitHeading3": "Enabling the Events Tailwind to invite top performers to our city.",
+        "benefitHeading3": "Enabling us to invite top performers to our city.",
         "benefitBlurb3": "Helping with the cost of publicity and other costs."
       }
     },
     {
-      "slug": "donate-seo",
+      "name": "donateSeo",
       "displayName": "Donate SEO",
       "templates": ["seo"],
       "defaultTemplate": {
-        "slug": "seo"
+        "name": "seo"
       },
       "category": "head",
       "type": "head",
@@ -528,12 +480,12 @@
       }
     },
     {
-      "slug": "sponsors",
+      "name": "sponsors",
       "displayName": "Sponsors",
       "description": "List of sponsors with description and call to action.",
-      "templates": ["block-4"],
+      "templates": ["block4"],
       "defaultTemplate": {
-        "slug": "block-4"
+        "name": "block4"
       },
       "attributes": {
         "preheading": "Sponsors",
@@ -543,15 +495,15 @@
         "ctaUrl": "/contact"
       },
       "collections": {
-        "sponsor-items": {}
+        "sponsorItem": {}
       }
     },
     {
-      "slug": "volunteer-seo",
+      "name": "volunteerSeo",
       "displayName": "Volunteer SEO",
       "templates": ["seo"],
       "defaultTemplate": {
-        "slug": "seo"
+        "name": "seo"
       },
       "category": "head",
       "type": "head",
@@ -559,94 +511,78 @@
         "title": "Volunteer | Events Tailwind Built.JS Theme",
         "description": "Volunteer page for a site built with the Events Tailwind Built.JS Theme.",
         "shareImage": {
-          "data": {
-            "attributes": {
-              "name": "logo-dark",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/logo-dark.png",
-              "width": 150,
-              "height": 150,
-              "alternativeText": "Logo"
-            }
-          }
+          "name": "logo-dark",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/logo-dark.png",
+          "width": 150,
+          "height": 150,
+          "alternativeText": "Logo"
         },
         "twitterCardType": "summary",
         "twitterUsername": ""
       }
     },
     {
-      "slug": "volunteer-landing",
+      "name": "volunteerLanding",
       "displayName": "Volunteer Landing",
       "description": "Landing section for Volunteer page.",
-      "templates": ["block-1"],
+      "templates": ["block1"],
       "defaultTemplate": {
-        "slug": "block-1"
+        "name": "block1"
       },
       "attributes": {
         "preheading": "Volunteer",
         "heading": "Join the team",
         "body": "Quisque a interdum sem. Integer lobortis interdum rhoncus. Integer sed elit in mauris gravida bibendum. Nullam dictum dapibus massa, nec efficitur elit mattis eget. Aenean sit amet eros aliquet, congue odio vitae, finibus lacus. Nullam suscipit risus tellus, eget vestibulum magna venenatis eu. In ornare lacinia nulla, cursus suscipit justo dignissim id. Suspendisse potenti. In dictum erat eu consequat maximus. Nullam sit amet feugiat nisl. Quisque imperdiet consectetur pellentesque. Aliquam in aliquet mi.\n\nMaecenas porttitor mauris rhoncus, viverra mauris in, mollis nunc. Praesent gravida lectus sed ligula imperdiet laoreet. Aenean sit amet nisi sed dui rutrum volutpat. Cras dapibus fringilla tortor, quis efficitur lorem tincidunt at. Sed sagittis nisl vitae dolor porta efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed purus augue, condimentum nec felis vitae, porttitor pretium sapien. Praesent sed nibh eu ipsum eleifend eleifend. Morbi purus libero, bibendum in diam eget, congue tempus augue. Cras dapibus augue est, mollis pretium mauris cursus eu. Aliquam non pharetra arcu. Mauris ultrices venenatis risus nec sodales. Sed turpis nulla, iaculis ac risus vitae, pretium condimentum est. Pellentesque accumsan diam enim, id mollis ipsum faucibus at. Pellentesque porta mi et justo euismod, a rhoncus sem porttitor. Sed non malesuada nunc.",
         "image": {
-          "data": {
-            "attributes": {
-              "name": "team",
-              "path": "/images/theme",
-              "ext": "jpg",
-              "url": "/images/theme/team.jpg",
-              "width": 800,
-              "height": 533,
-              "alternativeText": "Volunteer Landing"
-            }
-          }
+          "name": "team",
+          "path": "/images/theme",
+          "ext": "jpg",
+          "url": "/images/theme/team.jpg",
+          "width": 800,
+          "height": 533,
+          "alternativeText": "Volunteer Landing"
         },
         "ctaText": "Contact Us",
         "ctaUrl": "/contact"
-      },
-      "images": {
-        "thumb": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-events-tailwind/public/images/theme/templates/blocks/block-1/block-1-about.png",
-        "lrg": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-events-tailwind/public/images/theme/templates/blocks/block-1/block-1-about.png"
       }
     },
     {
-      "slug": "volunteer-teaser",
+      "name": "volunteerTeaser",
       "displayName": "Volunteer Teaser",
       "description": "A volunteer call-to-action to encourage users to become a volunteer.",
-      "templates": ["block-5"],
+      "templates": ["block5"],
       "defaultTemplate": {
-        "slug": "block-5"
+        "name": "block5"
       },
       "attributes": {
         "preheading": "Volunteer",
         "heading": "Get involved",
         "body": "Encourage people to come and enjoy our concerts by telling your friends, neighbours, people you see socially, and new arrivals to our city about our concerts. Don't forget those who live on their own.",
         "image": {
-          "data": {
-            "attributes": {
-              "name": "concert",
-              "path": "/images/theme",
-              "ext": "jpg",
-              "url": "/images/theme/concert.jpg",
-              "width": 1056,
-              "height": 514,
-              "alternativeText": "Volunteer"
-            }
-          }
+          "name": "concert",
+          "path": "/images/theme",
+          "ext": "jpg",
+          "url": "/images/theme/concert.jpg",
+          "width": 1056,
+          "height": 514,
+          "alternativeText": "Volunteer"
         },
         "ctaText": "Contact Us",
         "ctaUrl": "/contact"
       },
       "collections": {
-        "sponsor-items": {}
+        "sponsorItem": {}
       }
     },
     {
-      "slug": "about-teaser",
+      "name": "aboutTeaser",
       "displayName": "About Teaser",
       "description": "An About call-to-action.",
-      "templates": ["block-6"],
+      "templates": ["block6"],
       "defaultTemplate": {
-        "slug": "block-6"
+        "name": "block6"
       },
       "attributes": {
         "preheading": "About Us",
@@ -654,32 +590,28 @@
         "blurb": "Music has a wonderful ability to inspire people. It forms a common connection and brings us together to enjoy performances by wonderful musicians.",
         "body": "Bringing top musicians to our city, Events Tailwind is committed to creating opportunities for locals and visitors to experience the very best of the world's musicians.",
         "image": {
-          "data": {
-            "attributes": {
-              "name": "guitarist",
-              "path": "/images/theme",
-              "ext": "jpg",
-              "url": "/images/theme/guitarist.jpg",
-              "width": 800,
-              "height": 1067,
-              "alternativeText": "About"
-            }
-          }
+          "name": "guitarist",
+          "path": "/images/theme",
+          "ext": "jpg",
+          "url": "/images/theme/guitarist.jpg",
+          "width": 800,
+          "height": 1067,
+          "alternativeText": "About"
         },
         "ctaText": "Contact Us",
         "ctaUrl": "/contact"
       },
       "collections": {
-        "sponsor-items": {}
+        "sponsorItem": {}
       }
     },
     {
-      "slug": "support-teaser",
+      "name": "supportTeaser",
       "displayName": "Support Teaser",
       "description": "A support call-to-action.",
-      "templates": ["block-7"],
+      "templates": ["block7"],
       "defaultTemplate": {
-        "slug": "block-7"
+        "name": "block7"
       },
       "attributes": {
         "preheading": "Support",

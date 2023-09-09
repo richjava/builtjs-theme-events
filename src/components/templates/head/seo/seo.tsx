@@ -1,12 +1,11 @@
 import Head from "next/head";
 import getConfig from "next/config";
+import { urlForImage } from "@/lib/utils";
 
 export default function Seo({ content }:any) {
   let { attributes=null } = { ...content };
   const { publicRuntimeConfig } = getConfig();
-  let shareImage = `${publicRuntimeConfig.BACKEND_URL || ""}${
-    attributes.shareImage.data.attributes.url
-  }`;
+  let shareImage = urlForImage(attributes?.shareImage);
   return (
     <>
       {attributes && (

@@ -1,336 +1,336 @@
 {
   "moduleParts": [
     {
-      "slug": "events-base",
+      "name": "eventsBase",
       "description": "Events page base sections",
       "page": {
-        "slug": "events"
+        "name": "events"
       },
       "sections": [
         {
-          "slug": "events-seo",
+          "name": "eventsSeo",
           "position": 0
         },
         {
-          "slug": "events-landing",
+          "name": "eventsLanding",
           "position": 1
         }
       ]
     },
     {
-      "slug": "subscribe-base",
+      "name": "subscribeBase",
       "description": "Subscribe page base sections",
       "page": {
-        "slug": "subscribe"
+        "name": "subscribe"
       },
       "sections": [
         {
-          "slug": "subscribe-seo",
+          "name": "subscribeSeo",
           "position": 0
         },
         {
-          "slug": "subscribe-landing",
+          "name": "subscribeLanding",
           "position": 1
         }
       ]
     },
     {
-      "slug": "contact-base",
+      "name": "contactBase",
       "description": "Contact page base sections",
       "page": {
-        "slug": "contact"
+        "name": "contact"
       },
       "sections": [
         {
-          "slug": "contact-seo",
+          "name": "contactSeo",
           "position": 0
         },
         {
-          "slug": "contact-landing",
+          "name": "contactLanding",
           "position": 1
         }
       ]
     },
     {
-      "slug": "home-base",
+      "name": "homeBase",
       "description": "Home page base sections",
       "page": {
-        "slug": "home"
+        "name": "home"
       },
       "sections": [
         {
-          "slug": "home-seo",
+          "name": "homeSeo",
           "position": 0
         }
       ]
     },
     {
-      "slug": "donate-base",
+      "name": "donateBase",
       "description": "Donate page base sections",
       "page": {
-        "slug": "donate"
+        "name": "donate"
       },
       "sections": [
         {
-          "slug": "donate-seo",
+          "name": "donateSeo",
           "position": 0
         },
         {
-          "slug": "donate-landing",
+          "name": "donateLanding",
           "position": 1
         }
       ]
     },
     {
-      "slug": "about-base",
+      "name": "aboutBase",
       "description": "About page base sections",
       "page": {
-        "slug": "about"
+        "name": "about"
       },
       "sections": [
         {
-          "slug": "about-seo",
+          "name": "aboutSeo",
           "position": 0
         },
         {
-          "slug": "about-landing",
+          "name": "aboutLanding",
           "position": 1
         },
         {
-          "slug": "about-blockquote",
+          "name": "aboutBlockquote",
           "position": 2
         },
         {
-          "slug": "newsletter",
+          "name": "newsletter",
           "position": 10
         }
       ]
     },
     {
-      "slug": "volunteer-base",
+      "name": "volunteerBase",
       "description": "Volunteer page base sections",
       "page": {
-        "slug": "volunteer"
+        "name": "volunteer"
       },
       "sections": [
         {
-          "slug": "volunteer-seo",
+          "name": "volunteerSeo",
           "position": 0
         },
         {
-          "slug": "volunteer-landing",
+          "name": "volunteerLanding",
           "position": 1
         }
       ]
     },
     {
-      "slug": "about-events",
+      "name": "aboutEvents",
       "description": "Events module content on About page",
       "page": {
-        "slug": "about"
+        "name": "about"
       },
       "sections": [
         {
-          "slug": "about-events-teaser",
+          "name": "aboutEventsTeaser",
           "position": 3
         }
       ]
     },
     {
-      "slug": "home-about",
+      "name": "homeAbout",
       "description": "About module content on Home page",
       "page": {
-        "slug": "home"
+        "name": "home"
       },
       "sections": [
         {
-          "slug": "about-teaser",
+          "name": "aboutTeaser",
           "position": 4
         }
       ]
     },
     {
-      "slug": "home-events",
+      "name": "homeEvents",
       "description": "Events module content on Home page",
       "page": {
-        "slug": "home"
+        "name": "home"
       },
       "sections": [
         {
-          "slug": "events-hero",
+          "name": "eventsHero",
           "position": 1
         },
         {
-          "slug": "events-list",
+          "name": "eventsList",
           "position": 2
         }
       ]
     },
     {
-      "slug": "home-support",
+      "name": "homeSupport",
       "description": "Support module content on Home page",
       "page": {
-        "slug": "home"
+        "name": "home"
       },
       "sections": [
         {
-          "slug": "support-teaser",
+          "name": "supportTeaser",
           "position": 5
         },
         {
-          "slug": "volunteer-teaser",
+          "name": "volunteerTeaser",
           "position": 6
         },
         {
-          "slug": "sponsors",
+          "name": "sponsors",
           "position": 7
         }
       ]
     },
     {
-      "slug": "home-get-informed",
+      "name": "homeGetInformed",
       "description": "Get Informed module content on Home page",
       "page": {
-        "slug": "home"
+        "name": "home"
       },
       "sections": [
         {
-          "slug": "newsletter-lrg",
+          "name": "newsletterLrg",
           "position": 3
         }
       ]
     },
     {
-      "slug": "events-get-informed",
+      "name": "eventsGetInformed",
       "description": "Get Informed module content on Events page",
       "page": {
-        "slug": "events"
+        "name": "events"
       },
       "sections": [
         {
-          "slug": "newsletter",
+          "name": "newsletter",
           "position": 10
         }
       ]
     },
     {
-      "slug": "subscribe-get-informed",
+      "name": "subscribeGetInformed",
       "description": "Get Informed module content on Subscribe page",
       "page": {
-        "slug": "subscribe"
+        "name": "subscribe"
       },
       "sections": [
         {
-          "slug": "newsletter",
+          "name": "newsletter",
           "position": 10
           
         }
       ]
     },
     {
-      "slug": "donate-get-informed",
+      "name": "donateGetInformed",
       "description": "Get Informed module content on Donate page",
       "page": {
-        "slug": "donate"
+        "name": "donate"
       },
       "sections": [
         {
-          "slug": "newsletter",
+          "name": "newsletter",
           "position": 10
         }
       ]
     },
     {
-      "slug": "about-get-informed",
+      "name": "aboutGetInformed",
       "description": "Get Informed module content on About page",
       "page": {
-        "slug": "about"
+        "name": "about"
       },
       "sections": [
         {
-          "slug": "newsletter",
+          "name": "newsletter",
           "position": 10
         }
       ]
     },
     {
-      "slug": "volunteer-get-informed",
+      "name": "volunteerGetInformed",
       "description": "Get Informed module content on Volunteer page",
       "page": {
-        "slug": "volunteer"
+        "name": "volunteer"
       },
       "sections": [
         {
-          "slug": "newsletter",
+          "name": "newsletter",
           "position": 10
         }
       ]
     },
     {
-      "slug": "contact-get-informed",
+      "name": "contactGetInformed",
       "description": "Get Informed module content on Contact page",
       "page": {
-        "slug": "contact"
+        "name": "contact"
       },
       "sections": [
         {
-          "slug": "newsletter",
+          "name": "newsletter",
           "position": 10
         }
       ]
     },
     {
-      "slug": "subscribe-about",
+      "name": "subscribeAbout",
       "description": "About module content on Subscribe page",
       "page": {
-        "slug": "subscribe"
+        "name": "subscribe"
       },
       "sections": [
         {
-          "slug": "subscribe-faq",
+          "name": "subscribeFaq",
           "position": 2
         }
       ]
     },
     {
-      "slug": "donate-subscribe",
+      "name": "donateSubscribe",
       "description": "Subscribe module content on Donate page",
       "page": {
-        "slug": "donate"
+        "name": "donate"
       },
       "sections": [
         {
-          "slug": "subscribe-teaser",
+          "name": "subscribeTeaser",
           "position": 2
         }
       ]
     },
     {
-      "slug": "subscribe-donate",
+      "name": "subscribeDonate",
       "description": "Donate module content on Subscribe page",
       "page": {
-        "slug": "subscribe"
+        "name": "subscribe"
       },
       "sections": [
         {
-          "slug": "donate-teaser",
+          "name": "donateTeaser",
           "position": 3
         }
       ]
     },
     {
-      "slug": "event-article",
+      "name": "eventArticle",
       "description": "Event detail page sections",
       "page": {
-        "slug": "event-article"
+        "name": "eventArticle"
       },
       "sections": [
         {
-          "slug": "event-article",
+          "name": "eventArticle",
           "position": 1
         },
         {
-          "slug": "newsletter",
+          "name": "newsletter",
           "position": 10
         }
       ]

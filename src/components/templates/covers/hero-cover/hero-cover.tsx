@@ -1,23 +1,22 @@
 import Link from "next/link";
 import getConfig from "next/config";
 import { format } from "date-fns";
+import { entrySlug } from "@/lib/utils";
 
-export default function HeroCover({ content }:any) {
+export default function HeroCover({ content }: any) {
   if (!content) return <></>;
   let { collections } = content;
   const { publicRuntimeConfig } = getConfig();
   if (!collections) {
-    throw new Error(
-      `No collections attribute provided in sections.json for template`
-    );
+    return <></>;
   }
   let collectionName = Object.keys(collections)[0];
   let collection = collections[collectionName];
-  let item;
-  if (collection && collection.data.length) {
-    item = collection.data[0];
+  let entry;
+  if (collection && collection.length) {
+    entry = collection[0];
   }
-  if (!item) return <></>;
+  if (!entry) return <></>;
   return (
     <section id="hero-cover" className="relative xl:mt-16 template">
       <div className="media-item-hero-container">
@@ -25,7 +24,7 @@ export default function HeroCover({ content }:any) {
           className="filter-grayscale-1 hover:filter-grayscale-0 backdrop-darken transition-filter duration-500 media-item-hero h-screen bg-cover bg-center xl:bg-fixed flex items-center justify-center relative xl:-mt-16"
           style={{
             backgroundImage: `url(${publicRuntimeConfig.BACKEND_URL || ""}${
-              item.attributes.featuredImage?.data?.attributes?.url
+              entry.featuredImage?.url
             })`,
           }}
         >
@@ -33,9 +32,9 @@ export default function HeroCover({ content }:any) {
             <p className="text-center text-white tracking-widest uppercase text-xs lg:text-sm md:mb-4">
               Featured Event
             </p>
-            <Link href={`event-items/${item.attributes.slug}`}>
+            <Link href={`event-item/${entrySlug(entry)}`}>
               <h1 className="text-center text-white text-shadow-lg max-w-3xl lg:max-w-4xl px-8 lg:px-16">
-              {item.attributes.title}
+                {entry.title}
               </h1>
             </Link>
           </div>
@@ -43,9 +42,7 @@ export default function HeroCover({ content }:any) {
         </div>
 
         <div className="media-item-hero-content md:absolute md:z-30 md:bottom-0 md:w-full lg:backdrop-blur lg:hover:backdrop-blur-lg border-t border-white transition-all ease-in-out duration-500">
-          <div
-            className="flex flex-col md:flex-row"
-          >
+          <div className="flex flex-col md:flex-row">
             <div className="flex flex-grow flex-col xl:flex-row">
               <div className="flex-grow bg-primary-80 lg:bg-transparent border-b xl:border-b-0 xl:border-r border-primary-70 lg:border-white py-6 px-4 xl:py-8 lg:px-12">
                 <h4 className="text-white text-center md:text-left text-shadow-sm mb-2 lg:mb-0">
@@ -55,7 +52,7 @@ export default function HeroCover({ content }:any) {
                   data-date="{{ args.info1 }}"
                   className="text-primary-10 text-center md:text-left tracking-wider text-lg text-shadow-sm mb-2 lg:mb-0"
                 >
-                  {format(new Date(item.attributes.date), "dd LLLL yyyy")}
+                  {format(new Date(entry.date), "dd LLLL yyyy")}
                 </p>
               </div>
 
@@ -65,13 +62,13 @@ export default function HeroCover({ content }:any) {
                 </h4>
                 <div className="flex flex-wrap justify-center md:justify-start">
                   <p className="text-primary-10 tracking-wider text-lg text-shadow-sm mb-2 lg:mb-0">
-                    {item.attributes.venue}
+                    {entry.venue}
                   </p>
                   <span className="text-primary-50 lg:text-primary-30 px-2 lg:px-3 mb-2 lg:mb-0">
                     |
                   </span>
                   <p className="text-primary-10 tracking-wider text-lg text-shadow-sm mb-2 lg:mb-0">
-                    {item.attributes.townCity}
+                    {entry.townCity}
                   </p>
                 </div>
               </div>
@@ -81,7 +78,7 @@ export default function HeroCover({ content }:any) {
               <div className="w-full xl:w-auto xl:mr-2 md:mb-6 xl:mb-0 relative z-10">
                 <Link
                   className="flex flex-grow justify-center py-5 lg:py-3 lg:px-8 text-white text-center uppercase tracking-widest text-sm bg-primary-90 hover:bg-primary border border-primary-90 hover:border-primary  transition-colors duration-200"
-                  href={`event-items/${item.attributes.slug}`}
+                  href={`event-item/${entry.slug}`}
                 >
                   More Info
                 </Link>
@@ -89,7 +86,7 @@ export default function HeroCover({ content }:any) {
               <div className="w-full xl:w-auto xl:ml-2 relative z-10">
                 <Link
                   className="flex flex-grow justify-center py-5 lg:py-3 lg:px-8 text-white lg:text-primary lg:hover:text-white text-center uppercase tracking-widest text-sm bg-secondary lg:bg-white hover:bg-secondary-dark border border-secondary lg:border-white hover:border-secondary-dark transition-colors duration-200"
-                  href={`event-items/${item.attributes.slug}#booking`}
+                  href={`event-item/${entry.slug}#booking`}
                 >
                   Buy Tickets
                 </Link>

@@ -3,24 +3,10 @@
     "contentIndex": 1,
     "sections": [
       {
-        "slug": "header",
-        "template": {
-          "slug": "header-1"
-        },
-        "collections": {
-          "primary-menu-items": {},
-          "secondary-menu-items": {}
-        }
+        "name": "header"
       },
       {
-        "slug": "footer",
-        "template": {
-          "slug": "footer-1"
-        },
-        "collections": {
-          "primary-menu-items": {},
-          "secondary-menu-items": {}
-        }
+        "name": "footer"
       }
     ]
   }

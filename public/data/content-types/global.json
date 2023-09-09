@@ -1,0 +1,22 @@
+{
+  "global": {
+    "fields": {
+      "name": {
+        "default": "Events Tailwind",
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "tel": {
+        "type": "string"
+      },
+      "logo": {
+        "type": "image"
+      }
+    }
+  }
+}

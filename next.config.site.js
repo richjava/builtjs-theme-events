@@ -16,7 +16,7 @@ module.exports = {
   publicRuntimeConfig: {
     API_URL: process.env.API_URL || DEFAULT_API_URL,
     BACKEND_URL: process.env.BACKEND_URL || (process.env.NODE_ENV === 'production' || USE_IMAGE_PROVIDER ? '' : DEFAULT_BACKEND_URL),
-    NAME: 'Events Tailwind',
+    NAME: 'Events',
     BANK_ACCOUNT_NO: 'XX XXXX XXX XXXX XX',
     POSTAL_ADDRESS: 'P O Box 123, Example 1234',
     EMAIL: 'info@example.com',

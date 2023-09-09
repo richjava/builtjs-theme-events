@@ -1,0 +1,133 @@
+{
+  "collections": [
+    {
+      "name": "eventItem",
+      "title": "Event Item",
+      "fields": {
+        "title": {
+          "type": "string",
+          "required": true
+        },
+        "slug": {
+          "type": "uid",
+          "targetField": "title",
+          "required": true
+        },
+        "body": {
+          "type": "richtext"
+        },
+        "description": {
+          "type": "text"
+        },
+        "featuredImage": {
+          "type": "image"
+        },
+        "date": {
+          "type": "date",
+          "required": true
+        },
+        "startTime": {
+          "type": "string"
+        },
+        "venue": {
+          "type": "string"
+        },
+        "townCity": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "string"
+        },
+        "genre": {
+          "type": "string"
+        },
+        "infoWebsite": {
+          "type": "string"
+        },
+        "bookingInfo": {
+          "type": "text"
+        },
+        "ticketUrl": {
+          "type": "string"
+        },
+        "quote": { "type": "text" },
+        "source": { "type": "string" }
+      }
+    },
+    {
+      "name": "sponsorItem",
+      "title": "Sponsor Item",
+      "fields": {
+        "name": {
+          "type": "string",
+          "required": true
+        },
+        "slug": {
+          "type": "uid",
+          "targetField": "title",
+          "required": true
+        },
+        "url": {
+          "type": "text"
+        },
+        "image": {
+          "type": "image"
+        }
+      }
+    },
+    {
+      "name": "primaryMenuItem",
+      "title": "Primary Menu Item",
+      "fields": {
+        "label": {
+          "type": "string",
+          "required": true
+        },
+        "slug": {
+          "type": "uid",
+          "targetField": "label",
+          "required": true
+        },
+        "url": {
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      }
+    },
+    {
+      "name": "secondaryMenuItem",
+      "title": "Secondary Menu Item",
+      "fields": {
+        "label": {
+          "type": "string",
+          "required": true
+        },
+        "slug": {
+          "type": "uid",
+          "targetField": "label",
+          "required": true
+        },
+        "url": {
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      }
+    },
+    {
+      "name": "faqItem",
+      "title": "FAQ Item",
+      "fields": {
+        "question": {
+          "type": "string",
+          "required": true
+        },
+        "answer": {
+          "type": "richtext",
+          "required": true
+        }
+      }
+    }
+  ]
+}

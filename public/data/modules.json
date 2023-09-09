@@ -1,22 +1,22 @@
 {
   "modules": [
     {
-      "slug": "events",
+      "name": "events",
       "displayName": "Events",
       "description": "Provides information about events",
       "required": true,
       "moduleParts": [
         {
-          "slug": "home-base"
+          "name": "homeBase"
         },
         {
-          "slug": "events-base"
+          "name": "eventsBase"
         },
         {
-          "slug": "home-events"
+          "name": "homeEvents"
         },
         {
-          "slug": "about-events"
+          "name": "aboutEvents"
         }
       ],
       "deps": {
@@ -30,15 +30,15 @@
       }
     },
     {
-      "slug": "contact",
+      "name": "contact",
       "displayName": "Contact",
       "description": "Encourages and facilitates making contact",
       "moduleParts": [
         {
-          "slug": "contact-base"
+          "name": "contactBase"
         },
         {
-          "slug": "services-contact"
+          "name": "servicesContact"
         }
       ],
       "deps": {
@@ -50,81 +50,81 @@
       }
     },
     {
-      "slug": "get-informed",
+      "name": "get-informed",
       "displayName": "Get Informed",
       "description": "Encourages sign up to a newsletter",
       "moduleParts": [
         {
-          "slug": "home-get-informed"
+          "name": "homeGetInformed"
         },
         {
-          "slug": "events-get-informed"
+          "name": "eventsGetInformed"
         },
         {
-          "slug": "subscribe-get-informed"
+          "name": "subscribeGetInformed"
         },
         {
-          "slug": "donate-get-informed"
+          "name": "donateGetInformed"
         },
         {
-          "slug": "about-get-informed"
+          "name": "aboutGetInformed"
         },
         {
-          "slug": "volunteer-get-informed"
+          "name": "volunteerGetInformed"
         },
         {
-          "slug": "contact-get-informed"
+          "name": "contactGetInformed"
         }
       ]
     },
     {
-      "slug": "about",
+      "name": "about",
       "displayName": "About",
       "description": "Provides information related to the organisation",
       "moduleParts": [
         {
-          "slug": "about-base"
+          "name": "aboutBase"
         },
         {
-          "slug": "home-about"
+          "name": "homeAbout"
         },
         {
-          "slug": "subscribe-about"
+          "name": "subscribeAbout"
         }
       ]
     },
     {
-      "slug": "support",
+      "name": "support",
       "displayName": "Support",
       "description": "Encourages to donate, subscribe and sponsor",
       "moduleParts": [
         {
-          "slug": "donate-base"
+          "name": "donateBase"
         },
         {
-          "slug": "subscribe-base"
+          "name": "subscribeBase"
         },
         {
-          "slug": "subscribe-donate"
+          "name": "subscribeDonate"
         },
         {
-          "slug": "donate-subscribe"
+          "name": "donateSubscribe"
         },
         {
-          "slug": "home-support"
+          "name": "homeSupport"
         }
       ]
     },
     {
-      "slug": "volunteer",
+      "name": "volunteer",
       "displayName": "Volunteer",
       "description": "Encourages becoming a volunteer",
       "moduleParts": [
         {
-          "slug": "volunteer-base"
+          "name": "volunteerBase"
         },
         {
-          "slug": "home-volunteer"
+          "name": "homeVolunteer"
         }
       ]
     }

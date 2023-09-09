@@ -4,17 +4,14 @@ import ReactMarkdown from "react-markdown";
 export default function FaqBlock({ content }:any) {
   if (!content) return <></>;
   let { collections } = content;
-
   if (!collections) {
-    throw new Error(
-      `No collections attribute provided in sections.json for template`
-    );
+    return <></>;
   }
   let collectionName = Object.keys(collections)[0];
   let collection = collections[collectionName];
-  let items;
+  let entries;
   if (collection) {
-    items = collection.data;
+    entries = collection;
   }
   return (
     <section id="faq-block" className="cta-multi relative pb-16 template">
@@ -22,15 +19,15 @@ export default function FaqBlock({ content }:any) {
         <h2 className="text-center mb-20">Frequently Asked Questions</h2>
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col md:flex-row flex-wrap">
-            {items &&
-              items.map((item:any, i:number) => (
+            {entries &&
+              entries.map((entry:any, i:number) => (
                 <div className="w-1/2 px-4 mb-10" key={i}>
                   <h5 className="font-sans text-lg font-semibold mb-2">
-                    {item.attributes.question}
+                    {entry.question}
                   </h5>
                   <ReactMarkdown
                     className="line-break"
-                    children={item.attributes.answer.replace(/\n/gi, "&nbsp; \n")}
+                    children={entry.answer.replace(/\n/gi, "&nbsp; \n")}
                   />
                 </div>
               ))}
