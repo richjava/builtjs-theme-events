@@ -42,23 +42,23 @@ export default function TemplateMenuBtn({ router }: any) {
       >
         {pageData &&
           pageData.pages &&
-          pageData.pages.map((template: any, i: number) => {
-            return template.type === "template" ? (
+          pageData.pages.map((page: any, i: number) => {
+            return page.type === "template" ? (
               <React.Fragment key={i}>
                 <input
                   className="hidden"
                   type="radio"
-                  id={`radio-${template.slug}`}
+                  id={`radio-${page.name}`}
                   name="tabs"
-                  checked={slug === template.slug}
+                  checked={slug === camelCaseToDash(page.name)}
                   readOnly
                 />
                 <label
                   className="px-4 py-2 cursor-pointer tab hover:text-gray-500"
-                  htmlFor={`radio-${template.slug}`}
-                  onClick={() => router.push(`/template/${camelCaseToDash(template.name)}`)}
+                  htmlFor={`radio-${page.name}`}
+                  onClick={() => router.push(`/template/${camelCaseToDash(page.name)}`)}
                 >
-                  {template.title}
+                  {page.title}
                 </label>
               </React.Fragment>
             ) : null;
@@ -114,7 +114,7 @@ export default function TemplateMenuBtn({ router }: any) {
             display: block;
           }
 
-          input[id="radio-blocks"]:checked ~ #glider {
+          input[id="radio-forms"]:checked ~ #glider {
             transform: translateY(calc(100% + 0.5rem));
           }
 
@@ -126,20 +126,8 @@ export default function TemplateMenuBtn({ router }: any) {
             transform: translateY(calc(300% + 1.5rem));
           }
 
-          input[id="radio-footers"]:checked ~ #glider {
+          input[id="radio-banners"]:checked ~ #glider {
             transform: translateY(calc(400% + 2rem));
-          }
-
-          input[id="radio-forms"]:checked ~ #glider {
-            transform: translateY(calc(500% + 2.5rem));
-          }
-
-          input[id="radio-headers"]:checked ~ #glider {
-            transform: translateY(calc(600% + 3rem));
-          }
-
-          input[id="radio-lists"]:checked ~ #glider {
-            transform: translateY(calc(700% + 3.5rem));
           }
         `}
       </style>

@@ -58,7 +58,7 @@ export default function Footer1({ content }: any) {
                       <li className="mb-2" key={i}>
                         <Link
                           className="text-primary tracking-wider leading-none text-sm hover:text-primary-50 hover:underline"
-                          href={`/${menuItem.slug}`}
+                          href={`/${entrySlug(menuItem)}`}
                         >
                           {menuItem.label}
                         </Link>
@@ -78,7 +78,7 @@ export default function Footer1({ content }: any) {
                       <li className="mb-2" key={i}>
                         <Link
                           className="text-primary tracking-wider leading-none text-sm hover:text-primary-50 hover:underline"
-                          href={`/${menuItem.slug}/`}
+                          href={`/${entrySlug(menuItem)}/`}
                         >
                           {menuItem.label}
                         </Link>

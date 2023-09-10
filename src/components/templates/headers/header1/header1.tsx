@@ -115,15 +115,15 @@ export default function Header1({ content }: any) {
                   return (
                     <Link
                       className={`primary-nav-link flex items-start border-r border-l ${
-                        router.pathname === `/${menuItem.slug}`
+                        router.pathname === `/${entrySlug(menuItem)}`
                           ? "active"
                           : ""
                       }`}
-                      href={`/${menuItem.slug}`}
+                      href={`/${entrySlug(menuItem)}`}
                       key={i}
                     >
                       <Image
-                        src={`/images/${menuItem.slug}-icon.svg`}
+                        src={`/images/${entrySlug(menuItem)}-icon.svg`}
                         width={17}
                         height={16}
                         alt={menuItem.label}
@@ -141,11 +141,11 @@ export default function Header1({ content }: any) {
                 return (
                   <Link
                     className={`secondary-nav-link hidden lg:block  ${
-                      router.pathname === `/${menuItem.slug}`
+                      router.pathname === `/${entrySlug(menuItem)}`
                         ? "active"
                         : ""
                     }`}
-                    href={`/${menuItem.slug}/`}
+                    href={`/${entrySlug(menuItem)}/`}
                     key={i}
                   >
                     {menuItem.label}
@@ -180,11 +180,11 @@ export default function Header1({ content }: any) {
                   return (
                     <Link
                       className={`mobile-nav-link ${
-                        router.pathname === `/${menuItem.slug}`
+                        router.pathname === `/${entrySlug(menuItem)}`
                           ? "active"
                           : ""
                       }`}
-                      href={`/${menuItem.slug}`}
+                      href={`/${entrySlug(menuItem)}`}
                       key={i}
                     >
                       {menuItem.label}
@@ -196,11 +196,11 @@ export default function Header1({ content }: any) {
                   return (
                     <Link
                       className={`mobile-nav-link ${
-                        router.pathname === `/${menuItem.slug}`
+                        router.pathname === `/${entrySlug(menuItem)}`
                           ? "active"
                           : ""
                       }`}
-                      href={`/${menuItem.slug}`}
+                      href={`/${entrySlug(menuItem)}`}
                       key={i}
                     >
                       {menuItem.label}

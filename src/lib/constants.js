@@ -17,7 +17,7 @@ export const pages = {
 
 export const pageTypes = {
   SITE: "site",
-  TEMPLATES: "templates",
+  TEMPLATE: "template",
 };
 
 export const contentTypes = {

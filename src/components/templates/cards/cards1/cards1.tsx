@@ -44,7 +44,7 @@ export default function Cards1({ content }: any) {
                   </div>
 
                   <div className="px-5 lg:px-10 mb-6">
-                    <Link href={`event-item/${item.slug}`}>
+                    <Link href={`event-item/${entrySlug(item)}`}>
                       <div className="relative w-full blurry-load filter-grayscale-1 hover:filter-grayscale-0 transition-filter duration-500 w-full h-48 md:h-56 lg:h-64 xl:h-72 object-cover mb-8 shadow-2xl">
                         <Image
                           // height={heightForImage(attributes.featuredImage)}
@@ -59,7 +59,7 @@ export default function Cards1({ content }: any) {
 
                     <Link
                       className="text-white mb-5"
-                      href={`event-item/${item.slug}`}
+                      href={`event-item/${entrySlug(item)}`}
                     >
                       <h3 className="text-white mb-5">
                         {item.title}
@@ -71,13 +71,13 @@ export default function Cards1({ content }: any) {
                     <div className="flex items-center flex-col lg:flex-row">
                       <Link
                         className="flex flex-grow justify-center w-full mb-4 lg:mb-0 mr-0 lg:mr-2 py-3 lg:py-3 text-white text-center uppercase tracking-widest text-sm border border-white hover:bg-white hover:text-primary transition-colors duration-200"
-                        href={`event-item/${item.slug}`}
+                        href={`event-item/${entrySlug(item)}`}
                       >
                         More Info
                       </Link>
                       <Link
                         className="flex flex-grow justify-center w-full ml-0 lg:ml-2 py-3 lg:py-3 text-secondary text-center uppercase tracking-widest text-sm border border-secondary hover:bg-secondary hover:text-white hover:border-secondary transition-colors duration-200"
-                        href={`event-item/${item.slug}#booking`}
+                        href={`event-item/${entrySlug(item)}#booking`}
                       >
                         Buy Tickets
                       </Link>

@@ -78,7 +78,7 @@ export default function HeroCover({ content }: any) {
               <div className="w-full xl:w-auto xl:mr-2 md:mb-6 xl:mb-0 relative z-10">
                 <Link
                   className="flex flex-grow justify-center py-5 lg:py-3 lg:px-8 text-white text-center uppercase tracking-widest text-sm bg-primary-90 hover:bg-primary border border-primary-90 hover:border-primary  transition-colors duration-200"
-                  href={`event-item/${entry.slug}`}
+                  href={`event-item/${entrySlug(entry)}`}
                 >
                   More Info
                 </Link>
@@ -86,7 +86,7 @@ export default function HeroCover({ content }: any) {
               <div className="w-full xl:w-auto xl:ml-2 relative z-10">
                 <Link
                   className="flex flex-grow justify-center py-5 lg:py-3 lg:px-8 text-white lg:text-primary lg:hover:text-white text-center uppercase tracking-widest text-sm bg-secondary lg:bg-white hover:bg-secondary-dark border border-secondary lg:border-white hover:border-secondary-dark transition-colors duration-200"
-                  href={`event-item/${entry.slug}#booking`}
+                  href={`event-item/${entrySlug(entry)}#booking`}
                 >
                   Buy Tickets
                 </Link>
