@@ -46,6 +46,9 @@
           }
         },
         "node": {
+          "dependencies": [
+            "react-markdown"
+          ],
           "devDependencies": [
             "autoprefixer",
               "eslint",
