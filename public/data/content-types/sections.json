@@ -238,159 +238,159 @@
         },
         "ctaText": { "type": "string" },
         "ctaUrl": { "type": "string" }
-      },
-      "eventsHero": {
-        "name": "eventsHero",
-        "category": "sections",
-        "fields": {
-          "preheading": { "type": "string" },
-          "heading": { "type": "string" },
-          "blurb": { "type": "text" },
-          "image": {
-            "type": "image"
-          }
+      }
+    },
+    "eventsHero": {
+      "name": "eventsHero",
+      "category": "sections",
+      "fields": {
+        "preheading": { "type": "string" },
+        "heading": { "type": "string" },
+        "blurb": { "type": "text" },
+        "image": {
+          "type": "image"
         }
-      },
-      "eventsList": {
-        "name": "eventsList",
-        "category": "sections",
-        "fields": {
-          "preheading": { "type": "string" },
-          "heading": { "type": "string" },
-          "headlineAlignment": { "type": "string" }
+      }
+    },
+    "eventsList": {
+      "name": "eventsList",
+      "category": "sections",
+      "fields": {
+        "preheading": { "type": "string" },
+        "heading": { "type": "string" },
+        "headlineAlignment": { "type": "string" }
+      }
+    },
+    "eventsLanding": {
+      "name": "eventsLanding",
+      "category": "sections",
+      "fields": {
+        "preheading": { "type": "string" },
+        "heading": { "type": "string" },
+        "headlineAlignment": { "type": "string" }
+      }
+    },
+    "eventArticle": {
+      "name": "eventArticle",
+      "category": "sections",
+      "fields": {}
+    },
+    "contactLanding": {
+      "name": "contactLanding",
+      "category": "forms",
+      "fields": {
+        "preheading": { "type": "string" },
+        "heading": { "type": "string" },
+        "blurb": { "type": "text" }
+      }
+    },
+    "newsletter": {
+      "name": "newsletter",
+      "category": "forms",
+      "fields": {
+        "preheading": { "type": "string" },
+        "heading": { "type": "string" },
+        "blurb": { "type": "text" }
+      }
+    },
+    "newsletterLrg": {
+      "name": "newsletterLrg",
+      "category": "forms",
+      "fields": {
+        "preheading": { "type": "string" },
+        "heading": { "type": "string" },
+        "blurb": { "type": "text" },
+        "image": {
+          "type": "image"
         }
-      },
-      "eventsLanding": {
-        "name": "eventsLanding",
-        "category": "sections",
-        "fields": {
-          "preheading": { "type": "string" },
-          "heading": { "type": "string" },
-          "headlineAlignment": { "type": "string" }
+      }
+    },
+    "aboutTeaser": {
+      "name": "aboutTeaser",
+      "category": "sections",
+      "fields": {
+        "preheading": { "type": "string" },
+        "heading": { "type": "string" },
+        "blurb": { "type": "text" },
+        "body": { "type": "richtext" },
+        "image": {
+          "type": "image"
+        },
+        "ctaText": { "type": "string" },
+        "ctaUrl": { "type": "string" }
+      }
+    },
+    "supportTeaser": {
+      "name": "supportTeaser",
+      "category": "sections",
+      "fields": {
+        "preheading": { "type": "string" },
+        "heading": { "type": "string" },
+        "blurb": { "type": "text" },
+        "body": { "type": "richtext" },
+        "subheading1": { "type": "string" },
+        "blurb1": { "type": "text" },
+        "cta1": { "type": "string" },
+        "url1": { "type": "string" },
+        "subheading2": { "type": "string" },
+        "blurb2": { "type": "text" },
+        "cta2": { "type": "string" },
+        "url2": { "type": "string" }
+      }
+    },
+    "aboutBlockquote": {
+      "name": "aboutBlockquote",
+      "category": "sections",
+      "fields": {
+        "quote": { "type": "text" },
+        "source": { "type": "string" }
+      }
+    },
+    "aboutLanding": {
+      "name": "aboutLanding",
+      "category": "sections",
+      "fields": {
+        "preheading": { "type": "string" },
+        "heading": { "type": "string" },
+        "leadingSentence": {
+          "type": "text"
+        },
+        "body": {
+          "type": "richtext"
+        },
+        "image": {
+          "type": "image"
         }
-      },
-      "eventArticle": {
-        "name": "eventArticle",
-        "category": "sections",
-        "fields": {}
-      },
-      "contactLanding": {
-        "name": "contactLanding",
-        "category": "forms",
-        "fields": {
-          "preheading": { "type": "string" },
-          "heading": { "type": "string" },
-          "blurb": { "type": "text" }
-        }
-      },
-      "newsletter": {
-        "name": "newsletter",
-        "category": "forms",
-        "fields": {
-          "preheading": { "type": "string" },
-          "heading": { "type": "string" },
-          "blurb": { "type": "text" }
-        }
-      },
-      "newsletterLrg": {
-        "name": "newsletterLrg",
-        "category": "forms",
-        "fields": {
-          "preheading": { "type": "string" },
-          "heading": { "type": "string" },
-          "blurb": { "type": "text" },
-          "image": {
-            "type": "image"
-          }
-        }
-      },
-      "aboutTeaser": {
-        "name": "aboutTeaser",
-        "category": "sections",
-        "fields": {
-          "preheading": { "type": "string" },
-          "heading": { "type": "string" },
-          "blurb": { "type": "text" },
-          "body": { "type": "richtext" },
-          "image": {
-            "type": "image"
-          },
-          "ctaText": { "type": "string" },
-          "ctaUrl": { "type": "string" }
-        }
-      },
-      "supportTeaser": {
-        "name": "supportTeaser",
-        "category": "sections",
-        "fields": {
-          "preheading": { "type": "string" },
-          "heading": { "type": "string" },
-          "blurb": { "type": "text" },
-          "body": { "type": "richtext" },
-          "subheading1": { "type": "string" },
-          "blurb1": { "type": "text" },
-          "cta1": { "type": "string" },
-          "url1": { "type": "string" },
-          "subheading2": { "type": "string" },
-          "blurb2": { "type": "text" },
-          "cta2": { "type": "string" },
-          "url2": { "type": "string" }
-        }
-      },
-      "aboutBlockquote": {
-        "name": "aboutBlockquote",
-        "category": "sections",
-        "fields": {
-          "quote": { "type": "text" },
-          "source": { "type": "string" }
-        }
-      },
-      "aboutLanding": {
-        "name": "aboutLanding",
-        "category": "sections",
-        "fields": {
-          "preheading": { "type": "string" },
-          "heading": { "type": "string" },
-          "leadingSentence": {
-            "type": "text"
-          },
-          "body": {
-            "type": "richtext"
-          },
-          "image": {
-            "type": "image"
-          }
-        }
-      },
-      "volunteerLanding": {
-        "name": "volunteerLanding",
-        "category": "sections",
-        "fields": {
-          "preheading": { "type": "string" },
-          "heading": { "type": "string" },
-          "body": {
-            "type": "richtext"
-          },
-          "image": {
-            "type": "image"
-          },
-          "ctaText": { "type": "string" },
-          "ctaUrl": { "type": "string" }
-        }
-      },
-      "aboutEventsTeaser": {
-        "name": "aboutEventsTeaser",
-        "category": "sections",
-        "fields": {
-          "body": {
-            "type": "richtext"
-          },
-          "image": {
-            "type": "image"
-          },
-          "ctaText": { "type": "string" },
-          "ctaUrl": { "type": "string" }
-        }
+      }
+    },
+    "volunteerLanding": {
+      "name": "volunteerLanding",
+      "category": "sections",
+      "fields": {
+        "preheading": { "type": "string" },
+        "heading": { "type": "string" },
+        "body": {
+          "type": "richtext"
+        },
+        "image": {
+          "type": "image"
+        },
+        "ctaText": { "type": "string" },
+        "ctaUrl": { "type": "string" }
+      }
+    },
+    "aboutEventsTeaser": {
+      "name": "aboutEventsTeaser",
+      "category": "sections",
+      "fields": {
+        "body": {
+          "type": "richtext"
+        },
+        "image": {
+          "type": "image"
+        },
+        "ctaText": { "type": "string" },
+        "ctaUrl": { "type": "string" }
       }
     }
   }
