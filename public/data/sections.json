@@ -463,17 +463,13 @@
         "title": "Donate | Donate Tailwind Built.JS Theme",
         "description": "Donate page for a site built with the Events Tailwind Built.JS Theme.",
         "shareImage": {
-          "data": {
-            "attributes": {
-              "name": "logo-dark",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/logo-dark.png",
-              "width": 150,
-              "height": 150,
-              "alternativeText": "Logo"
-            }
-          }
+          "name": "logo-dark",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/logo-dark.png",
+          "width": 150,
+          "height": 150,
+          "alternativeText": "Logo"
         },
         "twitterCardType": "summary",
         "twitterUsername": ""
