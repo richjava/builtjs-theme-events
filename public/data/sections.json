@@ -4,7 +4,7 @@
       "name": "header",
       "category": "layout",
       "type": "layout",
-      "displayName": "Header",
+      "title": "Header",
       "description": "The header contains the company logo, main site navigation and often a call-to-action button.",
       "templates": ["header1"],
       "defaultTemplate": {
@@ -40,7 +40,7 @@
       "name": "footer",
       "category": "layout",
       "type": "layout",
-      "displayName": "Footer",
+      "title": "Footer",
       "description": "The footer contains secondary site navigation.",
       "templates": ["footer1"],
       "defaultTemplate": {
@@ -65,7 +65,7 @@
     },
     {
       "name": "homeSeo",
-      "displayName": "Home SEO",
+      "title": "Home SEO",
       "templates": ["seo"],
       "defaultTemplate": {
         "name": "seo"
@@ -90,7 +90,7 @@
     },
     {
       "name": "eventArticle",
-      "displayName": "Event Article",
+      "title": "Event Article",
       "description": "The event post detail page.",
       "templates": ["article1"],
       "defaultTemplate": {
@@ -102,7 +102,7 @@
     },
     {
       "name": "eventsHero",
-      "displayName": "Events Hero",
+      "title": "Events Hero",
       "description": "The featured event, displayed with a hero image.",
       "templates": ["heroCover"],
       "defaultTemplate": {
@@ -122,7 +122,7 @@
     },
     {
       "name": "aboutSeo",
-      "displayName": "About SEO",
+      "title": "About SEO",
       "templates": ["seo"],
       "defaultTemplate": {
         "name": "seo"
@@ -147,7 +147,7 @@
     },
     {
       "name": "aboutLanding",
-      "displayName": "About Landing",
+      "title": "About Landing",
       "description": "The about page landing area, conveying convey trust and relatability.",
       "templates": ["block1"],
       "defaultTemplate": {
@@ -171,7 +171,7 @@
     },
     {
       "name": "contactSeo",
-      "displayName": "Contact SEO",
+      "title": "Contact SEO",
       "templates": ["seo"],
       "defaultTemplate": {
         "name": "seo"
@@ -196,7 +196,7 @@
     },
     {
       "name": "contactLanding",
-      "displayName": "Contact Landing",
+      "title": "Contact Landing",
       "description": "The contact page landing area, providing relevant contact details.",
       "templates": ["contactForm"],
       "defaultTemplate": {
@@ -210,7 +210,7 @@
     },
     {
       "name": "newsletter",
-      "displayName": "Newsletter",
+      "title": "Newsletter",
       "description": "A section including a form for signing up to a newsletter.",
       "templates": ["newsletterBanner1"],
       "defaultTemplate": {
@@ -223,7 +223,7 @@
     },
     {
       "name": "newsletterLrg",
-      "displayName": "Newsletter Large",
+      "title": "Newsletter Large",
       "description": "A section including a form for signing up to a newsletter and description for why to sign up.",
       "templates": ["newsletterForm1"],
       "defaultTemplate": {
@@ -246,7 +246,7 @@
     },
     {
       "name": "aboutBlockquote",
-      "displayName": "About Blockquote",
+      "title": "About Blockquote",
       "description": "A section including a blockquote.",
       "templates": ["blockquote1"],
       "defaultTemplate": {
@@ -258,7 +258,7 @@
     },
     {
       "name": "aboutEventsTeaser",
-      "displayName": "About Events Teaser",
+      "title": "About Events Teaser",
       "description": "A call-to-action to encourage users to view events.",
       "templates": ["block2"],
       "defaultTemplate": {
@@ -281,7 +281,7 @@
     },
     {
       "name": "eventsLanding",
-      "displayName": "Events Landing",
+      "title": "Events Landing",
       "description": "The Events page landing area.",
       "templates": ["cards1"],
       "defaultTemplate": {
@@ -302,7 +302,7 @@
     },
     {
       "name": "eventsList",
-      "displayName": "Events List",
+      "title": "Events List",
       "description": "The Events List section.",
       "templates": ["cards1"],
       "defaultTemplate": {
@@ -327,7 +327,7 @@
     },
     {
       "name": "eventsSeo",
-      "displayName": "Events SEO",
+      "title": "Events SEO",
       "templates": ["seo"],
       "defaultTemplate": {
         "name": "seo"
@@ -352,7 +352,7 @@
     },
     {
       "name": "subscribeLanding",
-      "displayName": "Subscribe Landing",
+      "title": "Subscribe Landing",
       "description": "The Subscribe page landing area.",
       "templates": ["subscribeForm"],
       "defaultTemplate": {
@@ -366,7 +366,7 @@
     },
     {
       "name": "subscribeFaq",
-      "displayName": "Subscribe FAQ",
+      "title": "Subscribe FAQ",
       "description": "The FAQ section on the Subscribe page.",
       "templates": ["faqBlock"],
       "defaultTemplate": {
@@ -379,7 +379,7 @@
     },
     {
       "name": "subscribeSeo",
-      "displayName": "Subscribe SEO",
+      "title": "Subscribe SEO",
       "templates": ["seo"],
       "defaultTemplate": {
         "name": "seo"
@@ -404,7 +404,7 @@
     },
     {
       "name": "donateTeaser",
-      "displayName": "Donate Teaser",
+      "title": "Donate Teaser",
       "description": "Call-to-action for donation.",
       "templates": ["ctaCard"],
       "defaultTemplate": {
@@ -418,7 +418,7 @@
     },
     {
       "name": "subscribeTeaser",
-      "displayName": "Subscribe Teaser",
+      "title": "Subscribe Teaser",
       "description": "Call-to-action for subscribing.",
       "templates": ["ctaCard"],
       "defaultTemplate": {
@@ -432,7 +432,7 @@
     },
     {
       "name": "donateLanding",
-      "displayName": "Donate Landing",
+      "title": "Donate Landing",
       "description": "The Donate page landing area.",
       "templates": ["donateForm"],
       "defaultTemplate": {
@@ -452,7 +452,7 @@
     },
     {
       "name": "donateSeo",
-      "displayName": "Donate SEO",
+      "title": "Donate SEO",
       "templates": ["seo"],
       "defaultTemplate": {
         "name": "seo"
@@ -477,7 +477,7 @@
     },
     {
       "name": "sponsors",
-      "displayName": "Sponsors",
+      "title": "Sponsors",
       "description": "List of sponsors with description and call to action.",
       "templates": ["block4"],
       "defaultTemplate": {
@@ -496,7 +496,7 @@
     },
     {
       "name": "volunteerSeo",
-      "displayName": "Volunteer SEO",
+      "title": "Volunteer SEO",
       "templates": ["seo"],
       "defaultTemplate": {
         "name": "seo"
@@ -521,7 +521,7 @@
     },
     {
       "name": "volunteerLanding",
-      "displayName": "Volunteer Landing",
+      "title": "Volunteer Landing",
       "description": "Landing section for Volunteer page.",
       "templates": ["block1"],
       "defaultTemplate": {
@@ -546,7 +546,7 @@
     },
     {
       "name": "volunteerTeaser",
-      "displayName": "Volunteer Teaser",
+      "title": "Volunteer Teaser",
       "description": "A volunteer call-to-action to encourage users to become a volunteer.",
       "templates": ["block5"],
       "defaultTemplate": {
@@ -574,7 +574,7 @@
     },
     {
       "name": "aboutTeaser",
-      "displayName": "About Teaser",
+      "title": "About Teaser",
       "description": "An About call-to-action.",
       "templates": ["block6"],
       "defaultTemplate": {
@@ -603,7 +603,7 @@
     },
     {
       "name": "supportTeaser",
-      "displayName": "Support Teaser",
+      "title": "Support Teaser",
       "description": "A support call-to-action.",
       "templates": ["block7"],
       "defaultTemplate": {
