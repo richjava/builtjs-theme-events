@@ -2,7 +2,7 @@
   "theme": {
     "version": "1.0.0",
     "apiVersion": "1.2",
-    "displayName": "Events",
+    "title": "Events",
     "description": "Theme for events websites with Tailwind styling",
     "imageUrl": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/theme.png",
     "repoName": "richjava/builtjs-theme-events",
