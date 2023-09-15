@@ -2,7 +2,7 @@
   "modules": [
     {
       "name": "events",
-      "displayName": "Events",
+      "title": "Events",
       "description": "Provides information about events",
       "required": true,
       "moduleParts": [
@@ -31,7 +31,7 @@
     },
     {
       "name": "contact",
-      "displayName": "Contact",
+      "title": "Contact",
       "description": "Encourages and facilitates making contact",
       "moduleParts": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "name": "get-informed",
-      "displayName": "Get Informed",
+      "title": "Get Informed",
       "description": "Encourages sign up to a newsletter",
       "moduleParts": [
         {
@@ -79,7 +79,7 @@
     },
     {
       "name": "about",
-      "displayName": "About",
+      "title": "About",
       "description": "Provides information related to the organisation",
       "moduleParts": [
         {
@@ -95,7 +95,7 @@
     },
     {
       "name": "support",
-      "displayName": "Support",
+      "title": "Support",
       "description": "Encourages to donate, subscribe and sponsor",
       "moduleParts": [
         {
@@ -117,7 +117,7 @@
     },
     {
       "name": "volunteer",
-      "displayName": "Volunteer",
+      "title": "Volunteer",
       "description": "Encourages becoming a volunteer",
       "moduleParts": [
         {
