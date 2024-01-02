@@ -116,7 +116,7 @@
       }
     },
     {
-      "name": "faqItem",
+      "name": "FAQItem",
       "title": "FAQ Item",
       "fields": {
         "question": {

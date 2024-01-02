@@ -1,27 +1,27 @@
 {
   "data": [
     {
-      "_type": "faqItem",
+      "_type": "FAQItem",
       "question": "How many concerts are held each year?",
       "answer": "Donec efficitur ullamcorper diam a feugiat. Aliquam id erat egestas, ultricies nunc a, porttitor dui. Vivamus ornare imperdiet ipsum, id tempus nisi condimentum id. Donec ac commodo lorem, eu pharetra ex. Nullam iaculis finibus mi et lobortis. Ut et arcu eu mi sagittis ultrices eu sit amet felis."
     },
     {
-      "_type": "faqItem",
+      "_type": "FAQItem",
       "question": "Who receives the on-line newsletter and how often is it sent out?",
       "answer": "Donec efficitur ullamcorper diam a feugiat. Aliquam id erat egestas, ultricies nunc a, porttitor dui. Vivamus ornare imperdiet ipsum, id tempus nisi condimentum id. Donec ac commodo lorem, eu pharetra ex. Nullam iaculis finibus mi et lobortis. Ut et arcu eu mi sagittis ultrices eu sit amet felis."
     },
     {
-      "_type": "faqItem",
+      "_type": "FAQItem",
       "question": "What is the difference between a subscription and a donation?",
       "answer": "Donec efficitur ullamcorper diam a feugiat. Aliquam id erat egestas, ultricies nunc a, porttitor dui. Vivamus ornare imperdiet ipsum, id tempus nisi condimentum id. Donec ac commodo lorem, eu pharetra ex. Nullam iaculis finibus mi et lobortis. Ut et arcu eu mi sagittis ultrices eu sit amet felis."
     },
     {
-      "_type": "faqItem",
+      "_type": "FAQItem",
       "question": "How are musicians chosen to perform?",
       "answer": "Donec efficitur ullamcorper diam a feugiat. Aliquam id erat egestas, ultricies nunc a, porttitor dui. Vivamus ornare imperdiet ipsum, id tempus nisi condimentum id. Donec ac commodo lorem, eu pharetra ex. Nullam iaculis finibus mi et lobortis. Ut et arcu eu mi sagittis ultrices eu sit amet felis."
     },
     {
-      "_type": "faqItem",
+      "_type": "FAQItem",
       "question": "What sponsor support does the ET receive?",
       "answer": "Donec efficitur ullamcorper diam a feugiat. Aliquam id erat egestas, ultricies nunc a, porttitor dui. Vivamus ornare imperdiet ipsum, id tempus nisi condimentum id. Donec ac commodo lorem, eu pharetra ex. Nullam iaculis finibus mi et lobortis. Ut et arcu eu mi sagittis ultrices eu sit amet felis."
     }
