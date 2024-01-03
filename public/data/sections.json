@@ -11,7 +11,7 @@
         "name": "header1"
       },
       "position": "start",
-      "attributes": {
+      "data": {
         "logoLight": {
           "name": "logo-light",
           "path": "/images/theme",
@@ -47,7 +47,7 @@
         "name": "footer1"
       },
       "position": "end",
-      "attributes": {
+      "data": {
         "logoLight": {
           "name": "logo-light",
           "path": "/images/theme",
@@ -72,7 +72,7 @@
       },
       "category": "head",
       "type": "head",
-      "attributes": {
+      "data": {
         "title": "Home | Events Tailwind Built.JS Theme",
         "description": "Home page for a site built with the Events Tailwind Built.JS Theme.",
         "shareImage": {
@@ -108,7 +108,7 @@
       "defaultTemplate": {
         "name": "heroCover"
       },
-      "attributes": {},
+      "data": {},
       "collections": {
         "eventItem": {
           "article": {
@@ -129,7 +129,7 @@
       },
       "category": "head",
       "type": "head",
-      "attributes": {
+      "data": {
         "title": "About | Events Tailwind Built.JS Theme",
         "description": "About page for a site built with the Events Tailwind Built.JS Theme.",
         "shareImage": {
@@ -153,7 +153,7 @@
       "defaultTemplate": {
         "name": "block1"
       },
-      "attributes": {
+      "data": {
         "preheading": "About",
         "heading": "Events Tailwind",
         "leadingSentence": "Events Tailwind proudly plays an important role in the culture of our region.",
@@ -178,7 +178,7 @@
       },
       "category": "head",
       "type": "head",
-      "attributes": {
+      "data": {
         "title": "Contact | Events Tailwind Built.JS Theme",
         "description": "Contact page for a site built with the Events Tailwind Built.JS Theme.",
         "shareImage": {
@@ -202,7 +202,7 @@
       "defaultTemplate": {
         "name": "contactForm"
       },
-      "attributes": {
+      "data": {
         "preheading": "Contact",
         "heading": "Get in touch",
         "blurb": "Maecenas porttitor mauris rhoncus, viverra mauris in, mollis nunc. Praesent gravida lectus sed ligula imperdiet laoreet. Aenean sit amet nisi sed dui rutrum volutpat. Cras dapibus fringilla tortor, quis efficitur lorem tincidunt at. Sed sagittis nisl vitae dolor porta efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed purus augue, condimentum nec felis vitae, porttitor pretium sapien."
@@ -216,7 +216,7 @@
       "defaultTemplate": {
         "name": "newsletterBanner1"
       },
-      "attributes": {
+      "data": {
         "heading": "Sign up for our newsletter",
         "blurb": "Stay in touch with all the latest Events Tailwind events happening in our area and other related news. You can cancel your newsletter at any time."
       }
@@ -229,7 +229,7 @@
       "defaultTemplate": {
         "name": "newsletterForm1"
       },
-      "attributes": {
+      "data": {
         "preheading": "Newsletter",
         "heading": "Sign up for our newsletter",
         "blurb": "Stay in touch with all the latest Events Tailwind events happening in our area and other related news. You can cancel your newsletter at any time.",
@@ -252,7 +252,7 @@
       "defaultTemplate": {
         "name": "blockquote1"
       },
-      "attributes": {
+      "data": {
         "quote": "The Events Tailwind was formed to present concerts and other entertainment for our local community. Our aim is to support our arts culture by promoting the enjoyment and encouragement of the performing arts."
       }
     },
@@ -264,7 +264,7 @@
       "defaultTemplate": {
         "name": "block2"
       },
-      "attributes": {
+      "data": {
         "body": "Donec efficitur ullamcorper diam a feugiat. Aliquam id erat egestas, ultricies nunc a, porttitor dui. Vivamus ornare imperdiet ipsum, id tempus nisi condimentum id. Donec ac commodo lorem, eu pharetra ex. Nullam iaculis finibus mi et lobortis. Ut et arcu eu mi sagittis ultrices eu sit amet felis. Mauris condimentum vel ipsum vitae fringilla. Donec porta eros cursus nisi ullamcorper ultricies. Nam purus lorem, dapibus nec volutpat nec, gravida sit amet neque. Integer auctor sit amet leo non fermentum.\n\nInteger fringilla iaculis justo, et tincidunt elit auctor quis. Mauris eget tellus pharetra, scelerisque est vitae, convallis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id eros a ante auctor vehicula in sit amet elit. Sed volutpat at tortor quis cursus. Curabitur auctor quis odio vitae porttitor. Nullam sit amet sapien neque.",
         "image": {
           "name": "street-jazz",
@@ -287,7 +287,7 @@
       "defaultTemplate": {
         "name": "cards1"
       },
-      "attributes": {
+      "data": {
         "preheading": "Events",
         "heading": "The latest events in our area",
         "headlineAlignment": "center"
@@ -308,7 +308,7 @@
       "defaultTemplate": {
         "name": "cards1"
       },
-      "attributes": {
+      "data": {
         "preheading": "Events",
         "heading": "Upcoming Events",
         "headlineAlignment": "left"
@@ -334,7 +334,7 @@
       },
       "category": "head",
       "type": "head",
-      "attributes": {
+      "data": {
         "title": "Events | Events Tailwind Built.JS Theme",
         "description": "Events page for a site built with the Events Tailwind Built.JS Theme.",
         "shareImage": {
@@ -358,7 +358,7 @@
       "defaultTemplate": {
         "name": "subscribeForm"
       },
-      "attributes": {
+      "data": {
         "preheading": "Become a Subscriber",
         "heading": "Continuous support allows us to do what we do.",
         "body": "By becoming a subscriber, you help us present memorable concerts. We are a not-for-profit charity which needs the support of passionate music lovers to ensure we continue to offer top quality concerts to our community. Each year a concert or other event is held exclusively for Subscribers and Donors as a thank you for their support."
@@ -372,7 +372,7 @@
       "defaultTemplate": {
         "name": "faqBlock"
       },
-      "attributes": {},
+      "data": {},
       "collections": {
         "FAQItem": {}
       }
@@ -386,7 +386,7 @@
       },
       "category": "head",
       "type": "head",
-      "attributes": {
+      "data": {
         "title": "Subscribe | Subscribe Tailwind Built.JS Theme",
         "description": "Subscribe page for a site built with the Events Tailwind Built.JS Theme.",
         "shareImage": {
@@ -410,7 +410,7 @@
       "defaultTemplate": {
         "name": "ctaCard"
       },
-      "attributes": {
+      "data": {
         "heading": "Want to make a donation?",
         "blurb": "We depend on the generosity of individual donors who make it possible for us to present world-class concerts in our area.",
         "url": "/donate"
@@ -424,7 +424,7 @@
       "defaultTemplate": {
         "name": "ctaCard"
       },
-      "attributes": {
+      "data": {
         "heading": "Want to become a subscriber?",
         "blurb": "When you choose to partner with us by becoming a supporter, you help enable remarkable musical experiences right here.",
         "url": "/subscribe"
@@ -438,7 +438,7 @@
       "defaultTemplate": {
         "name": "donateForm"
       },
-      "attributes": {
+      "data": {
         "preheading": "Donate",
         "heading": "Your donation will make all the difference.",
         "blurb": "We depend on the generosity of donors which enables us to present more expensive concerts, while keeping admission prices affordable. We appreciate your donations. Thank you for being generous.",
@@ -459,7 +459,7 @@
       },
       "category": "head",
       "type": "head",
-      "attributes": {
+      "data": {
         "title": "Donate | Donate Tailwind Built.JS Theme",
         "description": "Donate page for a site built with the Events Tailwind Built.JS Theme.",
         "shareImage": {
@@ -483,7 +483,7 @@
       "defaultTemplate": {
         "name": "block4"
       },
-      "attributes": {
+      "data": {
         "preheading": "Sponsors",
         "heading": "Our Sponsors",
         "body": "We are delighted to acknowledge the assistance of our sponsors who assist in making a significant difference to the work of Events Tailwind. Our sponsors help ensure that our activities are able to flourish, and that the highest quality music is available to us here. If you would like to join our list of official sponsors and support live music, please get in touch.",
@@ -503,7 +503,7 @@
       },
       "category": "head",
       "type": "head",
-      "attributes": {
+      "data": {
         "title": "Volunteer | Events Tailwind Built.JS Theme",
         "description": "Volunteer page for a site built with the Events Tailwind Built.JS Theme.",
         "shareImage": {
@@ -527,7 +527,7 @@
       "defaultTemplate": {
         "name": "block1"
       },
-      "attributes": {
+      "data": {
         "preheading": "Volunteer",
         "heading": "Join the team",
         "body": "Quisque a interdum sem. Integer lobortis interdum rhoncus. Integer sed elit in mauris gravida bibendum. Nullam dictum dapibus massa, nec efficitur elit mattis eget. Aenean sit amet eros aliquet, congue odio vitae, finibus lacus. Nullam suscipit risus tellus, eget vestibulum magna venenatis eu. In ornare lacinia nulla, cursus suscipit justo dignissim id. Suspendisse potenti. In dictum erat eu consequat maximus. Nullam sit amet feugiat nisl. Quisque imperdiet consectetur pellentesque. Aliquam in aliquet mi.\n\nMaecenas porttitor mauris rhoncus, viverra mauris in, mollis nunc. Praesent gravida lectus sed ligula imperdiet laoreet. Aenean sit amet nisi sed dui rutrum volutpat. Cras dapibus fringilla tortor, quis efficitur lorem tincidunt at. Sed sagittis nisl vitae dolor porta efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed purus augue, condimentum nec felis vitae, porttitor pretium sapien. Praesent sed nibh eu ipsum eleifend eleifend. Morbi purus libero, bibendum in diam eget, congue tempus augue. Cras dapibus augue est, mollis pretium mauris cursus eu. Aliquam non pharetra arcu. Mauris ultrices venenatis risus nec sodales. Sed turpis nulla, iaculis ac risus vitae, pretium condimentum est. Pellentesque accumsan diam enim, id mollis ipsum faucibus at. Pellentesque porta mi et justo euismod, a rhoncus sem porttitor. Sed non malesuada nunc.",
@@ -552,7 +552,7 @@
       "defaultTemplate": {
         "name": "block5"
       },
-      "attributes": {
+      "data": {
         "preheading": "Volunteer",
         "heading": "Get involved",
         "body": "Encourage people to come and enjoy our concerts by telling your friends, neighbours, people you see socially, and new arrivals to our city about our concerts. Don't forget those who live on their own.",
@@ -580,7 +580,7 @@
       "defaultTemplate": {
         "name": "block6"
       },
-      "attributes": {
+      "data": {
         "preheading": "About Us",
         "heading": "Events Tailwind",
         "blurb": "Music has a wonderful ability to inspire people. It forms a common connection and brings us together to enjoy performances by wonderful musicians.",
@@ -609,7 +609,7 @@
       "defaultTemplate": {
         "name": "block7"
       },
-      "attributes": {
+      "data": {
         "preheading": "Support",
         "heading": "How to Support Us",
         "blurb": "Music has a wonderful ability to inspire people. It forms a common connection and brings us together to enjoy performances by wonderful musicians.",
