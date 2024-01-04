@@ -4,7 +4,7 @@ import getConfig from "next/config";
 import { LeftAlignedHeadline } from "@/components/elements";
 
 export default function DonateForm({ content }: any) {
-  let { attributes } = content;
+  let { data } = content;
   const { publicRuntimeConfig } = getConfig();
   const [showInstructions, setShowInstructions] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -53,10 +53,10 @@ export default function DonateForm({ content }: any) {
       <div className="max-w-screen-xl px-4 mx-auto">
         <div className="flex flex-col lg:flex-row">
           <div className="w-full lg:w-1/2 lg:mr-10">
-            <LeftAlignedHeadline attributes={attributes} />
+            <LeftAlignedHeadline data={data} />
             <div className="sm:mx-6 lg:mx-12">
               <p className="text-primary-50 leading-7 mb-20">
-                {attributes.blurb}
+                {data.blurb}
               </p>
               <div className="flex items-start mb-20">
                 <div className="bg-secondary p-3 rounded-lg mr-8">
@@ -75,10 +75,10 @@ export default function DonateForm({ content }: any) {
                 </div>
                 <div>
                   <h3 className="font-sans text-lg font-semibold mb-2">
-                    {attributes.benefitHeading1}
+                    {data.benefitHeading1}
                   </h3>
                   <p className="text-primary-50 leading-7">
-                    {attributes.benefitBlurb1}
+                    {data.benefitBlurb1}
                   </p>
                 </div>
               </div>
@@ -98,10 +98,10 @@ export default function DonateForm({ content }: any) {
                 </div>
                 <div>
                   <h3 className="font-sans text-lg font-semibold mb-2">
-                    {attributes.benefitHeading2}
+                    {data.benefitHeading2}
                   </h3>
                   <p className="text-primary-50 leading-7">
-                    {attributes.benefitBlurb2}
+                    {data.benefitBlurb2}
                   </p>
                 </div>
               </div>
@@ -121,10 +121,10 @@ export default function DonateForm({ content }: any) {
                 </div>
                 <div>
                   <h3 className="font-sans text-lg font-semibold mb-2">
-                    {attributes.benefitHeading3}
+                    {data.benefitHeading3}
                   </h3>
                   <p className="text-primary-50 leading-7">
-                    {attributes.benefitBlurb3}
+                    {data.benefitBlurb3}
                   </p>
                 </div>
               </div>

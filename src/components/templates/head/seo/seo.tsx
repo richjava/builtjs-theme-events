@@ -3,41 +3,41 @@ import getConfig from "next/config";
 import { urlForImage } from "@/lib/utils";
 
 export default function Seo({ content }:any) {
-  let { attributes=null } = { ...content };
+  let { data=null } = { ...content };
   const { publicRuntimeConfig } = getConfig();
-  let shareImage = urlForImage(attributes?.shareImage);
+  let shareImage = urlForImage(data?.shareImage);
   return (
     <>
-      {attributes && (
+      {data && (
         <Head>
-          {attributes.title && (
+          {data.title && (
             <>
-              <title>{attributes.title}</title>
-              <meta property="og:title" content={attributes.title} />
-              <meta name="twitter:title" content={attributes.title} />
+              <title>{data.title}</title>
+              <meta property="og:title" content={data.title} />
+              <meta name="twitter:title" content={data.title} />
             </>
           )}
-          {attributes.description && (
+          {data.description && (
             <>
-              <meta name="description" content={attributes.description} />
+              <meta name="description" content={data.description} />
               <meta
                 property="og:description"
-                content={attributes.description}
+                content={data.description}
               />
               <meta
                 name="twitter:description"
-                content={attributes.description}
+                content={data.description}
               />
             </>
           )}
-          {attributes.shareImage && (
+          {data.shareImage && (
             <>
               <meta property="og:image" content={shareImage} />
               <meta name="twitter:image" content={shareImage} />
               <meta name="image" content={shareImage} />
             </>
           )}
-          {attributes.article && <meta property="og:type" content="article" />}
+          {data.article && <meta property="og:type" content="article" />}
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
       )}

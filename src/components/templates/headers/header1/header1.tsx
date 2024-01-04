@@ -13,7 +13,7 @@ export default function Header1({ content }: any) {
   const router = useRouter();
   const [mobileNavIsOpen, setMobileNavIsOpen] = React.useState(false);
   if (!content) return <></>;
-  let { attributes = null, collections = null, global = null } = { ...content };
+  let { data = null, collections = null, global = null } = { ...content };
   const collectionNames = {
     PRIMARY_MENU_ITEM: "primaryMenuItem",
     SECONDARY_MENU_ITEM: "secondaryMenuItem",
@@ -84,27 +84,27 @@ export default function Header1({ content }: any) {
             <div className="flex items-center">
               <Link className="block lg:hidden w-10 sm:mr-3" href="/">
                 <Image
-                  height={heightForImage(attributes.logoLight)}
-                  width={widthForImage(attributes.logoLight)}
-                  src={urlForImage(attributes.logoLight)}
-                  alt={entrySlug(attributes)}
+                  height={heightForImage(data.logoLight)}
+                  width={widthForImage(data.logoLight)}
+                  src={urlForImage(data.logoLight)}
+                  alt={entrySlug(data)}
                 />
               </Link>
               <Link className="mt-1 -mb-2 block lg:hidden" href="/">
                 <Image
-                  src={urlForImage(attributes.logoType)}
+                  src={urlForImage(data.logoType)}
                   width={200}
                   height={50}
-                  alt={entrySlug(attributes)}
+                  alt={entrySlug(data)}
                 />
               </Link>
               <Link href="/">
                 <div className="hidden lg:block absolut left-0 z-30 w-12 mr-8 xl:mr-5 lg:ml-12 xl:ml-20">
                 <Image
-                  height={heightForImage(attributes.logoLight)}
-                  width={widthForImage(attributes.logoLight)}
-                  src={urlForImage(attributes.logoLight)}
-                  alt={entrySlug(attributes)}
+                  height={heightForImage(data.logoLight)}
+                  width={widthForImage(data.logoLight)}
+                  src={urlForImage(data.logoLight)}
+                  alt={entrySlug(data)}
                 />
                 </div>
               </Link>

@@ -2,7 +2,7 @@ import { useState } from "react";
 import getConfig from "next/config";
 
 export default function NewsletterBanner1({ content }:any) {
-  let { attributes } = content;
+  let { data } = content;
   const { publicRuntimeConfig } = getConfig();
   const [showSuccessMsg, setShowSuccessMsg] = useState(false);
   if (!content) return <></>;
@@ -23,9 +23,9 @@ export default function NewsletterBanner1({ content }:any) {
           {!showSuccessMsg && (
             <div className="w-full lg:w-1/2 mb-10 md:mb-0 mr-5">
               <h3 className="text-white mb-2 leading-tight">
-                {attributes.heading}
+                {data.heading}
               </h3>
-              <p className="text-primary-20 leading-7">{attributes.blurb}</p>
+              <p className="text-primary-20 leading-7">{data.blurb}</p>
             </div>
           )}
           <div className="w-full lg:ml-12">

@@ -12,7 +12,7 @@ import {
 
 export default function Cards1({ content }: any) {
   if (!content) return <></>;
-  let { attributes, collections } = content;
+  let { data, collections } = content;
   if (!collections) {
     return <></>;
   }
@@ -25,11 +25,11 @@ export default function Cards1({ content }: any) {
 
   return (
     <section id="cards1" className="py-24 md:py-32 template">
-      {attributes.headlineAlignment === "left" && (
-        <LeftAlignedHeadline attributes={attributes} topSpacing={50} />
+      {data.headlineAlignment === "left" && (
+        <LeftAlignedHeadline data={data} topSpacing={50} />
       )}
-      {attributes.headlineAlignment === "center" && (
-        <CenterAlignedHeadline attributes={attributes} topSpacing={150} />
+      {data.headlineAlignment === "center" && (
+        <CenterAlignedHeadline data={data} topSpacing={150} />
       )}
       <div className="flex flex-col md:flex-row flex-wrap container">
         {items &&
@@ -47,8 +47,6 @@ export default function Cards1({ content }: any) {
                     <Link href={`event-item/${entrySlug(item)}`}>
                       <div className="relative w-full blurry-load filter-grayscale-1 hover:filter-grayscale-0 transition-filter duration-500 w-full h-48 md:h-56 lg:h-64 xl:h-72 object-cover mb-8 shadow-2xl">
                         <Image
-                          // height={heightForImage(attributes.featuredImage)}
-                          // width={widthForImage(attributes.featuredImage)}
                           src={urlForImage(item.featuredImage)}
                           alt={entrySlug(item)}
                           objectFit="cover"

@@ -4,7 +4,7 @@ import getConfig from "next/config";
 import { LeftAlignedHeadline } from "@/components/elements";
 
 export default function ContactForm({ content }:any) {
-  let { attributes } = content;
+  let { data } = content;
   const { publicRuntimeConfig } = getConfig();
   const [showSuccess, setSuccess] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -52,7 +52,7 @@ export default function ContactForm({ content }:any) {
       <div className="max-w-screen-xl px-4 mx-auto mb-10">
         <div className="flex flex-col lg:flex-row">
           <div className="w-full lg:w-2/5">
-            <LeftAlignedHeadline attributes={attributes} />
+            <LeftAlignedHeadline data={data} />
             <div className="sm:ml-6 lg:ml-12">
               <div>
                 <div className="flex items-start mb-10 lg:w-1/2 mr-12 lg:mr-0">
@@ -124,7 +124,7 @@ export default function ContactForm({ content }:any) {
               </div>
 
               <p className="text-primary-50 leading-7 mb-20">
-                {attributes.blurb}
+                {data.blurb}
               </p>
             </div>
           </div>

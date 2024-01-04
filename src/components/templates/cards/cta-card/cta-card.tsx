@@ -2,21 +2,21 @@ import Link from "next/link";
 
 export default function CTACard({ content }:any) {
   if (!content) return <></>;
-  let { attributes } = content;
+  let { data } = content;
   return (
     <section id="cta-card" className="p-10 bg-primary-custom-light template">
       <div className="bg-white p-10 max-w-2xl mx-auto ">
         <div className="container">
           <div className="box">
             <h3 className="mb-6">
-              <span>{attributes.heading}</span>
+              <span>{data.heading}</span>
             </h3>
-            <p className="text-primary-50 leading-7 mb-8">{attributes.blurb}</p>
+            <p className="text-primary-50 leading-7 mb-8">{data.blurb}</p>
             <div className="inline-flex items-center group flex">
-              <Link className="text-secondary tracking-widest uppercase leading-none text-sm pr-4" href={attributes.url}>
+              <Link className="text-secondary tracking-widest uppercase leading-none text-sm pr-4" href={data.url}>
                   Learn more
               </Link>
-              <Link href={attributes.url}>
+              <Link href={data.url}>
                   <svg
                     className="group-hover:ml-5 transition-all duration-200"
                     viewBox="0 0 9.414 17.414"

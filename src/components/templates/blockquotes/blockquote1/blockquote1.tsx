@@ -1,15 +1,15 @@
 export default function Blockquote1({ content }:any) {
   if (!content) return <></>;
-  let { attributes } = content;
+  let { data } = content;
   return (
     <section id="blockquote1" className="py-10 template">
       <div className="max-w-5xl mx-auto">
         <blockquote className="border-t border-b border-secondary py-8 sm:px-10 relative">
           <p className="text-2xl text-primary-80 font-display">
-            {attributes.quote}
+            {data.quote}
           </p>
-          {attributes?.source && (
-            <p className="text-primary-50 text-sm mt-6">—{attributes.source}</p>
+          {data?.source && (
+            <p className="text-primary-50 text-sm mt-6">—{data.source}</p>
           )}
           <div className="blockquote-apostrophy rotate-sm">
             <svg

@@ -9,7 +9,7 @@ import {
 } from "@/lib/utils";
 
 export default function NewsletterForm1({ content }: any) {
-  let { attributes } = content;
+  let { data } = content;
   const { publicRuntimeConfig } = getConfig();
   const [showSuccessMsg, setShowSuccessMsg] = useState(false);
   if (!content) return <></>;
@@ -29,16 +29,16 @@ export default function NewsletterForm1({ content }: any) {
       <div className="max-w-screen-xl px-4 mx-auto relative z-10">
         <div className="flex flex-col md:flex-row md:items-center">
           <div>
-            <p className="pre-headline-secondary">{attributes.preheading}</p>
+            <p className="pre-headline-secondary">{data.preheading}</p>
             <h2 className="mb-8 md:mb-16 leading-tight">
-              {attributes.heading}
+              {data.heading}
             </h2>
 
             <div className="sm:mx-6 lg:mx-12">
               {!showSuccessMsg && (
                 <div className="newsletter-form">
                   <p className="text-primary-50 mb-10 leading-7 max-w-xl">
-                    {attributes.blurb}
+                    {data.blurb}
                   </p>
                   <form
                     id="mc-embedded-subscribe-form"
@@ -141,10 +141,10 @@ export default function NewsletterForm1({ content }: any) {
           <div className="order-first md:order-1 md:mx-auto mb-10 md:mb-0 md:w-1/2">
             <Image
               className="w-48 md:w-3/4 md:mx-auto"
-              height={heightForImage(attributes.image)}
-              width={widthForImage(attributes.image)}
-              src={urlForImage(attributes.image)}
-              alt={entrySlug(attributes)}
+              height={heightForImage(data.image)}
+              width={widthForImage(data.image)}
+              src={urlForImage(data.image)}
+              alt={entrySlug(data)}
             />
           </div>
         </div>

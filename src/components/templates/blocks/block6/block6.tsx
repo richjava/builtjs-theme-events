@@ -10,35 +10,35 @@ import { CTAButton } from "@/components/elements";
 
 export default function Block6({ content }: any) {
   if (!content) return <></>;
-  let { attributes } = content;
+  let { data } = content;
   return (
     <section id="block6" className="cta-bg-image pt-32 mb-24 template">
       <div className="flex items-start flex-col lg:flex-row relative">
         <div className="w-full lg:w-2/5 lg:mt-17">
           <div className="hidden lg:block cta-generic-img filter-grayscale-1 hover:filter-grayscale-0 w-full home-about-image object-cover">
             <Image
-              height={heightForImage(attributes.image)}
-              width={widthForImage(attributes.image)}
-              src={urlForImage(attributes.image)}
-              alt={entrySlug(attributes)}
+              height={heightForImage(data.image)}
+              width={widthForImage(data.image)}
+              src={urlForImage(data.image)}
+              alt={entrySlug(data)}
               layout="responsive"
               objectFit="cover"
             />
           </div>
         </div>
         <div className="px-4 py-12 lg:pt-10 lg:pb-32 xl:pt-32 xl:pb-24 lg:px-10 xl:ml-8 w-full lg:w-3/5">
-          <p className="pre-headline-white">{attributes.preheading}</p>
-          <h2 className="text-white mb-10">{attributes.heading}</h2>
+          <p className="pre-headline-white">{data.preheading}</p>
+          <h2 className="text-white mb-10">{data.heading}</h2>
           <div className="sm:ml-6 lg:ml-12">
             <p className="text-white text-lg mb-6 lg:max-w-2xl sm:pr-4 leading-8">
-              {attributes.blurb}
+              {data.blurb}
             </p>
             <ReactMarkdown
               className="text-primary-10 mb-20 lg:max-w-2xl sm:pr-4 leading-7 line-break"
-              children={attributes.body.replace(/\n/gi, "&nbsp; \n")}
+              children={data.body.replace(/\n/gi, "&nbsp; \n")}
             />
             <div className="inline-flex items-center group">
-              <CTAButton attributes={attributes} type="primaryBg" />
+              <CTAButton data={data} type="primaryBg" />
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ import {
 
 export default function Footer1({ content }: any) {
   if (!content) return <></>;
-  let { attributes = null, collections = null, global = null } = { ...content };
+  let { data = null, collections = null, global = null } = { ...content };
   const collectionNames = {
     PRIMARY_MENU_ITEM: "primaryMenuItem",
     SECONDARY_MENU_ITEM: "secondaryMenuItem",
@@ -33,10 +33,10 @@ export default function Footer1({ content }: any) {
           <div className="w-full lg:w-1/5 mb-10 lg:mb-0">
             <Link href="/">
               <Image
-                height={heightForImage(attributes.logoLight)}
-                width={widthForImage(attributes.logoLight)}
-                src={urlForImage(attributes.logoLight)}
-                alt={entrySlug(attributes)}
+                height={heightForImage(data.logoLight)}
+                width={widthForImage(data.logoLight)}
+                src={urlForImage(data.logoLight)}
+                alt={entrySlug(data)}
               />
             </Link>
             <p className="text-primary-70 font-bold tracking-wide text-xs my-5 lg:mr-5">

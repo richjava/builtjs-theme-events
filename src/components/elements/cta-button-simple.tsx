@@ -1,15 +1,15 @@
 import Link from "next/link";
 
-export default function CTAButtonSimple({ attributes }:any) {
-  if (!attributes) return <></>;
+export default function CTAButtonSimple({ data }:any) {
+  if (!data) return <></>;
   return (
     <div>
-      {attributes.ctaUrl && attributes.ctaText && (
+      {data.ctaUrl && data.ctaText && (
         <div className="h-5 inline-flex align-items mb-16 flex group">
-          <Link className="mt-1 tracking-widest uppercase leading-none text-sm pr-4" href={attributes.ctaUrl}>
-              {attributes.ctaText}
+          <Link className="mt-1 tracking-widest uppercase leading-none text-sm pr-4" href={data.ctaUrl}>
+              {data.ctaText}
           </Link>
-          <Link href={attributes.ctaUrl}>
+          <Link href={data.ctaUrl}>
               <svg
                 className="h-5 group-hover:ml-5 w-10 transition-all duration-200"
                 viewBox="0 0 9.414 17.414"

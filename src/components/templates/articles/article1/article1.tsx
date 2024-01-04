@@ -21,9 +21,7 @@ export default function Article1({ content }: any) {
           <div className="flex flex-col lg:flex-row">
             <div className="w-full lg:w-1/2 lg:mr-10">
               <p className="pre-headline-secondary">Event Details</p>
-              <h1 className="mb-8 md:mb-16 leading-tight">
-                {entry.title}
-              </h1>
+              <h1 className="mb-8 md:mb-16 leading-tight">{entry.title}</h1>
               <div className="lg:hidden">
                 <Image
                   className="w-full"
@@ -38,9 +36,7 @@ export default function Article1({ content }: any) {
                   <p className="text-primary-70 mb-5">
                     <strong className="text-primary">When:&nbsp;</strong>
                     {entry.startTime},&nbsp;
-                    <span>
-                      {format(new Date(entry.date), "dd LLLL yyyy")}
-                    </span>
+                    <span>{format(new Date(entry.date), "dd LLLL yyyy")}</span>
                   </p>
                   {entry.venue && (
                     <p className="text-primary-70 mb-5">
@@ -80,7 +76,7 @@ export default function Article1({ content }: any) {
                     </p>
                   )}
                   <CTAButtonSimple
-                    attributes={{
+                    data={{
                       ctaText: "Ticket information",
                       ctaUrl: "#booking",
                     }}
@@ -111,14 +107,11 @@ export default function Article1({ content }: any) {
                   <div className="sm:ml-6 lg:ml-12">
                     <ReactMarkdown
                       className="block mb-12 text-primary-70 leading-7 line-break"
-                      children={entry.bookingInfo.replace(
-                        /\n/gi,
-                        "&nbsp; \n"
-                      )}
+                      children={entry.bookingInfo.replace(/\n/gi, "&nbsp; \n")}
                     />
                     {entry.ticketUrl && (
                       <CTAButton
-                        attributes={{
+                        data={{
                           ctaUrl: entry.ticketUrl,
                           ctaText: "Buy tickets online",
                         }}

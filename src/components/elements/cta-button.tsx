@@ -1,17 +1,17 @@
 import Link from "next/link";
 
-export default function CTAButton({ attributes, type = "lightBg" }:any) {
-  if (!attributes) return <></>;
+export default function CTAButton({ data, type = "lightBg" }:any) {
+  if (!data) return <></>;
   return (
     <div className="inline-flex items-center group">
       <Link className={`${
             type === "lightBg"
               ? `text-secondary border-secondary hover:text-white hover:bg-secondary`
               : `text-white border-white hover:text-primary hover:bg-white`
-          } inline-block text-sm py-4 px-4 md:px-8 text-center uppercase tracking-widest border bg-transparent transition-colors duration-200`} href={attributes.ctaUrl}>    
-          {attributes.ctaText}
+          } inline-block text-sm py-4 px-4 md:px-8 text-center uppercase tracking-widest border bg-transparent transition-colors duration-200`} href={data.ctaUrl}>    
+          {data.ctaText}
       </Link>
-      <Link href={attributes.ctaUrl}>
+      <Link href={data.ctaUrl}>
           <svg
             viewBox="0 0 161.21 17.414"
             className="w-20 md:w-32 -ml-3 md:-ml-5 group-hover:ml-10 transition-all duration-200"
