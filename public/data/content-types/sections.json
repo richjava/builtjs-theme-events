@@ -197,7 +197,7 @@
       "fields": {
         "preheading": { "type": "string" },
         "heading": { "type": "string" },
-        "body": { "type": "richtext" }
+        "body": { "type": "portabletext" }
       }
     },
     "donateLanding": {
@@ -221,7 +221,7 @@
       "fields": {
         "preheading": { "type": "string" },
         "heading": { "type": "string" },
-        "body": { "type": "richtext" },
+        "body": { "type": "portabletext" },
         "ctaText": { "type": "string" },
         "ctaUrl": { "type": "string" }
       }
@@ -232,7 +232,7 @@
       "fields": {
         "preheading": { "type": "string" },
         "heading": { "type": "string" },
-        "body": { "type": "richtext" },
+        "body": { "type": "portabletext" },
         "image": {
           "type": "image"
         },
@@ -312,7 +312,7 @@
         "preheading": { "type": "string" },
         "heading": { "type": "string" },
         "blurb": { "type": "text" },
-        "body": { "type": "richtext" },
+        "body": { "type": "portabletextt" },
         "image": {
           "type": "image"
         },
@@ -327,7 +327,7 @@
         "preheading": { "type": "string" },
         "heading": { "type": "string" },
         "blurb": { "type": "text" },
-        "body": { "type": "richtext" },
+        "body": { "type": "portabletext" },
         "subheading1": { "type": "string" },
         "blurb1": { "type": "text" },
         "cta1": { "type": "string" },
@@ -356,7 +356,7 @@
           "type": "text"
         },
         "body": {
-          "type": "richtext"
+          "type": "portabletextt"
         },
         "image": {
           "type": "image"
@@ -370,7 +370,7 @@
         "preheading": { "type": "string" },
         "heading": { "type": "string" },
         "body": {
-          "type": "richtext"
+          "type": "portabletext"
         },
         "image": {
           "type": "image"
@@ -384,7 +384,7 @@
       "category": "sections",
       "fields": {
         "body": {
-          "type": "richtext"
+          "type": "portabletext"
         },
         "image": {
           "type": "image"
