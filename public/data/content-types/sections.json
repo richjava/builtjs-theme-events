@@ -270,8 +270,8 @@
         "headlineAlignment": { "type": "string" }
       }
     },
-    "eventArticle": {
-      "name": "eventArticle",
+    "eventArticleLanding": {
+      "name": "eventArticleLanding",
       "category": "sections",
       "fields": {}
     },
@@ -312,7 +312,7 @@
         "preheading": { "type": "string" },
         "heading": { "type": "string" },
         "blurb": { "type": "text" },
-        "body": { "type": "portabletextt" },
+        "body": { "type": "portabletext" },
         "image": {
           "type": "image"
         },
@@ -356,7 +356,7 @@
           "type": "text"
         },
         "body": {
-          "type": "portabletextt"
+          "type": "portabletext"
         },
         "image": {
           "type": "image"
