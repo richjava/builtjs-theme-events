@@ -14,7 +14,7 @@
           "required": true
         },
         "body": {
-          "type": "richtext"
+          "type": "portabletext"
         },
         "description": {
           "type": "text"
@@ -124,7 +124,7 @@
           "required": true
         },
         "answer": {
-          "type": "richtext",
+          "type": "portabletext",
           "required": true
         }
       }

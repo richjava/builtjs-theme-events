@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { ReactNode } from "react";
 import Image from "next/image";
-import ReactMarkdown from "react-markdown";
+import BlockContent from "@sanity/block-content-to-react";
 import {
   urlForImage,
   widthForImage,
@@ -18,6 +19,15 @@ export default function Block4({ content }: any) {
   if (collection) {
     entries = collection;
   }
+  const serializers = {
+    types: {
+      block: (props: { children: ReactNode }) => (
+        <p className="text-primary-50 mb-12 lg:max-w-2xl sm:pr-4 lg:pr-8 leading-7 line-break">
+          {props.children}
+        </p>
+      ),
+    },
+  };
   return (
     <section id="block4" className="py-32 template">
       <div className="max-w-screen-xl px-4 mx-auto">
@@ -26,10 +36,7 @@ export default function Block4({ content }: any) {
         <div className="flex flex-col lg:flex-row">
           <div className="w-full lg:w-2/5">
             <div className="sm:ml-6 lg:ml-12">
-              <ReactMarkdown
-                className="text-primary-50 mb-12 lg:max-w-2xl sm:pr-4 lg:pr-8 leading-7 line-break"
-                children={data.body.replace(/\n/gi, "&nbsp; \n")}
-              />
+              <BlockContent blocks={data.body} serializers={serializers} />
               <CTAButtonSimple data={data} />
             </div>
           </div>

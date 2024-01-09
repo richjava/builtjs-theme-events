@@ -1,6 +1,6 @@
 import Image from "next/image";
-import getConfig from "next/config";
-import ReactMarkdown from "react-markdown";
+import { ReactNode } from "react";
+import BlockContent from "@sanity/block-content-to-react";
 import {
   urlForImage,
   widthForImage,
@@ -13,7 +13,15 @@ import { LeftAlignedHeadline } from "@/components/elements";
 export default function Block1({ content }: any) {
   if (!content) return <></>;
   let { data } = content;
-
+  const serializers = {
+    types: {
+      block: (props: { children: ReactNode }) => (
+        <p className="text-primary-70 leading-7 pb-12 line-break">
+          {props.children}
+        </p>
+      ),
+    },
+  };
   return (
     <section id="block1" className="template">
       <LeftAlignedHeadline data={data} />
@@ -25,9 +33,9 @@ export default function Block1({ content }: any) {
                 <strong>{data.leadingSentence}</strong>
               </p>
             )}
-            <ReactMarkdown
-              className="text-primary-70 leading-7 pb-12 line-break"
-              children={data.body.replace(/\n/gi, "&nbsp; \n")}
+            <BlockContent
+              blocks={data.body}
+              serializers={serializers}
             />
             {data.ctaText && <CTAButton data={data} />}
           </div>

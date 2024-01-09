@@ -47,7 +47,7 @@
         },
         "node": {
           "dependencies": [
-            "react-markdown"
+            "@sanity/block-content-to-react"
           ],
           "devDependencies": [
             "autoprefixer",

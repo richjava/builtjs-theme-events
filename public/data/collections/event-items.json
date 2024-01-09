@@ -5,7 +5,20 @@
       "_type": "eventItem",
       "title": "Jazz Jams",
       "description": "Experience the best jazz our city has to offer with local jazz duos and bands, some up-and-coming and some renowned.",
-      "body": "Jazz Jams are for all our die-hard jazz fans wanting to experience the best jazz our city has to offer! We have local jazz duos and bands, some up-and-coming and some renowned, playing once a month. Check out our event page on Facebook to see our drinks and deals available that day.",
+      "body": [
+        {
+          "_type": "block",
+          "children": [
+            {
+              "_key": "11a60e06f0df224064bcc49031e291a1",
+              "_type": "span",
+              "text": "Jazz Jams are for all our die-hard jazz fans wanting to experience the best jazz our city has to offer! We have local jazz duos and bands, some up-and-coming and some renowned, playing once a month. Check out our event page on Facebook to see our drinks and deals available that day."
+            }
+          ],
+          "_key": "19a60e06f0df224064bcc49031e291a1",
+          "markDefs": []
+        }
+      ],
       "featuredImage": {
         "name": "jazz-concert",
         "path": "/images/theme/event-items",
@@ -32,7 +45,20 @@
       "_type": "eventItem",
       "title": "Rockerfella",
       "description": "Rockerfella are back touring the country, kicking it all off in the Garden City.",
-      "body": "After 16 years since their last recording, Rockerfella have returned to the recording studio with a bang! Releasing their first single which entered the chart at #60 the first time ever an unheard of song has ever been voted into the chart let alone enter so high! Followed up with the much anticipated Volume 1 release in the four part series in March Rockerfella are hitting the road in support of the release of Volume 1 in the 4 part volumes series this September and October.",
+      "body": [
+        {
+          "_type": "block",
+          "children": [
+            {
+              "_key": "11a60e06f0df224064bcc49031e291a1",
+              "_type": "span",
+              "text": "After 16 years since their last recording, Rockerfella have returned to the recording studio with a bang! Releasing their first single which entered the chart at #60 the first time ever an unheard of song has ever been voted into the chart let alone enter so high! Followed up with the much anticipated Volume 1 release in the four part series in March Rockerfella are hitting the road in support of the release of Volume 1 in the 4 part volumes series this September and October."
+            }
+          ],
+          "_key": "19a60e06f0df224064bcc49031e291a1",
+          "markDefs": []
+        }
+      ],
       "featuredImage": {
         "name": "rock-event",
         "path": "/images/theme/event-items",

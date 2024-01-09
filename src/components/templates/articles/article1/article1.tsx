@@ -1,5 +1,5 @@
 import { format } from "date-fns";
-import ReactMarkdown from "react-markdown";
+import BlockContent from "@sanity/block-content-to-react";
 import Image from "next/image";
 import {
   urlForImage,
@@ -82,10 +82,9 @@ export default function Article1({ content }: any) {
                     }}
                   />
                 </div>
-
-                <ReactMarkdown
+                <BlockContent
                   className="dropcap text-primary-70 leading-7 line-break"
-                  children={entry.body.replace(/\n/gi, "&nbsp; \n")}
+                  blocks={entry.body}
                 />
                 {entry.description && (
                   <div className="mt-10">
@@ -105,10 +104,11 @@ export default function Article1({ content }: any) {
                     Booking information
                   </h2>
                   <div className="sm:ml-6 lg:ml-12">
-                    <ReactMarkdown
+                    <BlockContent
                       className="block mb-12 text-primary-70 leading-7 line-break"
-                      children={entry.bookingInfo.replace(/\n/gi, "&nbsp; \n")}
+                      blocks={entry.bookingInfo}
                     />
+
                     {entry.ticketUrl && (
                       <CTAButton
                         data={{

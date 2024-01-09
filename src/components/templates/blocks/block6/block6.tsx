@@ -1,5 +1,6 @@
 import Image from "next/image";
-import ReactMarkdown from "react-markdown";
+import { ReactNode } from "react";
+import BlockContent from "@sanity/block-content-to-react";
 import {
   urlForImage,
   widthForImage,
@@ -11,6 +12,15 @@ import { CTAButton } from "@/components/elements";
 export default function Block6({ content }: any) {
   if (!content) return <></>;
   let { data } = content;
+  const serializers = {
+    types: {
+      block: (props: { children: ReactNode }) => (
+        <p className="text-primary-10 mb-20 lg:max-w-2xl sm:pr-4 leading-7 line-break">
+          {props.children}
+        </p>
+      ),
+    },
+  };
   return (
     <section id="block6" className="cta-bg-image pt-32 mb-24 template">
       <div className="flex items-start flex-col lg:flex-row relative">
@@ -33,10 +43,7 @@ export default function Block6({ content }: any) {
             <p className="text-white text-lg mb-6 lg:max-w-2xl sm:pr-4 leading-8">
               {data.blurb}
             </p>
-            <ReactMarkdown
-              className="text-primary-10 mb-20 lg:max-w-2xl sm:pr-4 leading-7 line-break"
-              children={data.body.replace(/\n/gi, "&nbsp; \n")}
-            />
+            <BlockContent blocks={data.body} serializers={serializers} />
             <div className="inline-flex items-center group">
               <CTAButton data={data} type="primaryBg" />
             </div>

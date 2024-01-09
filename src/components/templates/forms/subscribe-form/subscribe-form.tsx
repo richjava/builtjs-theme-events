@@ -1,7 +1,8 @@
 import Link from "next/link";
+import { ReactNode } from "react";
 import { useState } from "react";
 import getConfig from "next/config";
-import ReactMarkdown from "react-markdown";
+import BlockContent from "@sanity/block-content-to-react";
 import { CenterAlignedHeadline } from "@/components/elements";
 
 export default function SubscribeForm({ content }: any) {
@@ -23,7 +24,15 @@ export default function SubscribeForm({ content }: any) {
   const [showError, setShowError] = useState(false);
   const [currentSub, setCurrentSub] = useState(subscriptionTypes["single"]);
   if (!content) return <></>;
-  
+  const serializers = {
+    types: {
+      block: (props: { children: ReactNode }) => (
+        <p className="max-w-xl mx-auto text-primary-50 text-center leading-7 mb-20 line-break">
+          {props.children}
+        </p>
+      ),
+    },
+  };
 
   async function processSubmission(event: any) {
     event.preventDefault();
@@ -73,10 +82,7 @@ export default function SubscribeForm({ content }: any) {
     <section id="subscribe-form" className="relative template">
       <section className="max-w-screen-xl px-4 mx-auto py-24">
         <CenterAlignedHeadline data={data} topSpacing={150} />
-        <ReactMarkdown
-          className="max-w-xl mx-auto text-primary-50 text-center leading-7 mb-20 line-break"
-          children={data.body.replace(/\n/gi, "&nbsp; \n")}
-        />
+        <BlockContent blocks={data.body} serializers={serializers} />
         {!isLoading && (
           <div
             className="type-buttons flex items-center justify-center mb-20"
@@ -109,9 +115,7 @@ export default function SubscribeForm({ content }: any) {
             </button>
           </div>
         )}
-        <div
-          className="max-w-2xl mx-auto border shadow-lg rounded-lg bg-white"
-        >
+        <div className="max-w-2xl mx-auto border shadow-lg rounded-lg bg-white">
           <div className="p-5 md:p-10">
             <div className="flex items-center flex-col-reverse sm:flex-row justify-start sm:justify-between mb-10">
               <h3 id="subTypeText">{`${currentSub.displayName} Subscription`}</h3>
@@ -412,10 +416,7 @@ export default function SubscribeForm({ content }: any) {
                 </p>
                 <p className="text-primary-60">
                   Please try again or
-                  <Link href="/contact">
-                    contact the administrator
-                  </Link>
-                  .
+                  <Link href="/contact">contact the administrator</Link>.
                 </p>
               </div>
             )}

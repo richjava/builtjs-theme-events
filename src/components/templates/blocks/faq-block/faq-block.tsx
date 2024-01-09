@@ -1,7 +1,7 @@
 import Link from "next/link";
-import ReactMarkdown from "react-markdown";
+import BlockContent from "@sanity/block-content-to-react";
 
-export default function FaqBlock({ content }:any) {
+export default function FaqBlock({ content }: any) {
   if (!content) return <></>;
   let { collections } = content;
   if (!collections) {
@@ -20,15 +20,12 @@ export default function FaqBlock({ content }:any) {
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col md:flex-row flex-wrap">
             {entries &&
-              entries.map((entry:any, i:number) => (
+              entries.map((entry: any, i: number) => (
                 <div className="w-1/2 px-4 mb-10" key={i}>
                   <h5 className="font-sans text-lg font-semibold mb-2">
                     {entry.question}
                   </h5>
-                  <ReactMarkdown
-                    className="line-break"
-                    children={entry.answer.replace(/\n/gi, "&nbsp; \n")}
-                  />
+                  <BlockContent className="line-break" blocks={entry.answer} />
                 </div>
               ))}
           </div>
