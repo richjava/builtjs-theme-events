@@ -17,7 +17,7 @@
         },
         {
           "name": "aboutEvents",
-          "module": {
+          "forModule": {
             "name": "about"
           }
         }
@@ -30,12 +30,6 @@
       "modulePages": [
         {
           "name": "contactBase"
-        },
-        {
-          "name": "servicesContact",
-          "module": {
-            "name": "services"
-          }
         }
       ],
       "deps": {
@@ -56,37 +50,37 @@
         },
         {
           "name": "eventsGetInformed",
-          "module": {
+          "forModule": {
             "name": "events"
           }
         },
         {
           "name": "subscribeGetInformed",
-          "module": {
+          "forModule": {
             "name": "support"
           }
         },
         {
           "name": "donateGetInformed",
-          "module": {
+          "forModule": {
             "name": "support"
           }
         },
         {
           "name": "aboutGetInformed",
-          "module": {
+          "forModule": {
             "name": "about"
           }
         },
         {
           "name": "volunteerGetInformed",
-          "module": {
+          "forModule": {
             "name": "volunteer"
           }
         },
         {
           "name": "contactGetInformed",
-          "module": {
+          "forModule": {
             "name": "contact"
           }
         }
@@ -105,7 +99,7 @@
         },
         {
           "name": "subscribeAbout",
-          "module": {
+          "forModule": {
             "name": "support"
           }
         }
