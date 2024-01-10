@@ -16,7 +16,10 @@
           "name": "homeEvents"
         },
         {
-          "name": "aboutEvents"
+          "name": "aboutEvents",
+          "module": {
+            "name": "about"
+          }
         }
       ]
     },
@@ -29,7 +32,10 @@
           "name": "contactBase"
         },
         {
-          "name": "servicesContact"
+          "name": "servicesContact",
+          "module": {
+            "name": "services"
+          }
         }
       ],
       "deps": {
@@ -49,22 +55,40 @@
           "name": "homeGetInformed"
         },
         {
-          "name": "eventsGetInformed"
+          "name": "eventsGetInformed",
+          "module": {
+            "name": "events"
+          }
         },
         {
-          "name": "subscribeGetInformed"
+          "name": "subscribeGetInformed",
+          "module": {
+            "name": "support"
+          }
         },
         {
-          "name": "donateGetInformed"
+          "name": "donateGetInformed",
+          "module": {
+            "name": "support"
+          }
         },
         {
-          "name": "aboutGetInformed"
+          "name": "aboutGetInformed",
+          "module": {
+            "name": "about"
+          }
         },
         {
-          "name": "volunteerGetInformed"
+          "name": "volunteerGetInformed",
+          "module": {
+            "name": "volunteer"
+          }
         },
         {
-          "name": "contactGetInformed"
+          "name": "contactGetInformed",
+          "module": {
+            "name": "contact"
+          }
         }
       ]
     },
@@ -80,7 +104,10 @@
           "name": "homeAbout"
         },
         {
-          "name": "subscribeAbout"
+          "name": "subscribeAbout",
+          "module": {
+            "name": "support"
+          }
         }
       ]
     },
