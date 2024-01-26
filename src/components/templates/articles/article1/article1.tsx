@@ -13,6 +13,7 @@ import Link from "next/link";
 
 export default function Article1({ content }: any) {
   if (!content) return <></>;
+  console.log({content})
   let { entry = null } = { ...content };
   return (
     <article id="article1" className="template">
@@ -129,8 +130,6 @@ export default function Article1({ content }: any) {
                   width={widthForImage(entry?.featuredImage)}
                   src={urlForImage(entry?.featuredImage)}
                   alt={entrySlug(entry)}
-                  layout="responsive"
-                  objectFit="cover"
                 />
               </div>
               <div className="bg-squares hidden lg:block -mt-40 lg:mt-32 xl:mt-0"></div>

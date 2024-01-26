@@ -52,8 +52,6 @@ export default function Block4({ content }: any) {
                         width={widthForImage(entry.image)}
                         src={urlForImage(entry.image)}
                         alt={entrySlug(entry)}
-                        layout="responsive"
-                        objectFit="cover"
                       />
                     </Link>
                   </div>

@@ -49,8 +49,8 @@ export default function Cards1({ content }: any) {
                         <Image
                           src={urlForImage(item.featuredImage)}
                           alt={entrySlug(item)}
-                          objectFit="cover"
-                          layout="fill"
+                          style={{ objectFit: "cover" }}
+                          fill
                         />
                       </div>
                     </Link>

@@ -33,8 +33,6 @@ export default function Block2({ content }: any) {
             width={widthForImage(data.image)}
             src={urlForImage(data.image)}
             alt={entrySlug(data)}
-            layout="responsive"
-            objectFit="cover"
           />
         </div>
         <div className="lg:w-1/2 sm:mx-6 lg:ml-12 lg:mb-0 mt-12 lg:mt-0">

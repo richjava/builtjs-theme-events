@@ -23,7 +23,8 @@ export default function Block5({ content }: any) {
           className="w-full"
           src={urlForImage(data.image)}
           alt={entrySlug(data)}
-          layout="fill"
+          style={{ objectFit: "cover" }}
+          fill
           priority
         />
       </div>
