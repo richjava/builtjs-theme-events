@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@builtjs/theme": "^1.1.90",
+    "@builtjs/theme": "^1.1.95",
     "@next/font": "13.1.1",
     "@sanity/block-content-to-react": "^3.0.0",
     "@sendgrid/mail": "^7.7.0",
