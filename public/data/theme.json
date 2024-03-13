@@ -8,7 +8,7 @@
     "repoName": "richjava/builtjs-theme-events",
     "gitProvider": "github",
     "repoUrl": "https://github.com/richjava/builtjs-theme-events",
-    "demoUrl": "",
+    "demoUrl": "https://builtjs-theme-events.vercel.app",
     "modules": [
       {
         "name": "events"
