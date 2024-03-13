@@ -31,9 +31,8 @@ export async function getComponentMap(sections:any) {
         continue;
       }
       const template = sections[i].template.doc;
-      const name = camelCaseToDash(template.name);
       map["section" + i] = import(
-        `../components/templates/${template.category}/${name}/${name}.${language === 'typescript' ? 'tsx' : 'jsx'}`
+        `../components/templates/${template.category}/${template.name}.${language === 'typescript' ? 'tsx' : 'jsx'}`
       );
     }
     resolve(map);
