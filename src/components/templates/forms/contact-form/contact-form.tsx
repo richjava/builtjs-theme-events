@@ -29,7 +29,6 @@ export default function ContactForm({ content }:any) {
     })
       .then((response) => response.json())
       .then((res) => {
-        debugger
         if (res.statusCode === 200) {
           setIsLoading(false);
           setShowError(false);

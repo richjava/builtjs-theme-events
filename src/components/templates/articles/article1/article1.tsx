@@ -13,7 +13,6 @@ import Link from "next/link";
 
 export default function Article1({ content }: any) {
   if (!content) return <></>;
-  console.log({content})
   let { entry = null } = { ...content };
   return (
     <article id="article1" className="template">

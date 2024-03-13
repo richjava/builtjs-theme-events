@@ -1,5 +1,5 @@
 {
-  "collections": [
+  "contentTypes": [
     {
       "name": "eventItem",
       "title": "Event Item",
