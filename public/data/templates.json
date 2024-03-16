@@ -6,7 +6,7 @@
       "category": "headers",
       "description": "Simple header with justified logo and nav links.",
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/headers/header1.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/headers#header1"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/headers#header1"
     },
     {
       "name": "footer1",
@@ -14,7 +14,7 @@
       "category": "footers",
       "description": "Simple footer with centered content and social links.",
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/footers/footer1.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/footers#footer1"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/footers#footer1"
     },
     {
       "name": "seo",
@@ -34,7 +34,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/blocks/block1-about.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/blocks/block1.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/blocks#block1"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/blocks#block1"
     },
     {
       "name": "block2",
@@ -46,7 +46,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/blocks/block2.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/blocks/block2.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/blocks#block2"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/blocks#block2"
     },
     {
       "name": "block4",
@@ -58,7 +58,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/blocks/block4.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/blocks/block4.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/blocks#block4"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/blocks#block4"
     },
     {
       "name": "block5",
@@ -70,7 +70,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/blocks/block5.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/blocks/block5.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/blocks#block5"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/blocks#block5"
     },
     {
       "name": "block6",
@@ -82,7 +82,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/blocks/block6.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/blocks/block6.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/blocks#block6"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/blocks#block6"
     },
     {
       "name": "block7",
@@ -94,7 +94,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/blocks/block7.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/blocks/block7.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/blocks#block7"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/blocks#block7"
     },
     {
       "name": "cards1",
@@ -106,7 +106,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/cards/cards1.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/cards/cards1.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/cards#cards1"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/cards#cards1"
     },
     {
       "name": "heroCover",
@@ -118,7 +118,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/covers/hero-cover.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/covers/hero-cover.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/covers#hero-cover"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/covers#hero-cover"
     },
     {
       "name": "donateForm",
@@ -130,7 +130,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/forms/donate-form.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/forms/donate-form.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/forms#donate-form"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/forms#donate-form"
     },
     {
       "name": "contactForm",
@@ -142,7 +142,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/forms/contact-form.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/forms/contact-form.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/forms#contact-form"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/forms#contact-form"
     },
     {
       "name": "article1",
@@ -154,7 +154,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/articles/article1.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/articles/article1.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/blog-items/lorem-ipsum-dolor-sit-ameta#article1"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/blog-items/lorem-ipsum-dolor-sit-ameta#article1"
     },
     {
       "name": "newsletterBanner1",
@@ -166,7 +166,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/banners/newsletter-banner1.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/banners/newsletter-banner1.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/banners#newsletter-banner1"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/banners#newsletter-banner1"
     },
     {
       "name": "newsletterForm1",
@@ -178,7 +178,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/forms/newsletter-form1.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/forms/newsletter-form1.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/forms#newsletter-form1"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/forms#newsletter-form1"
     },
     {
       "name": "blockquote1",
@@ -190,7 +190,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/blockquotes/blockquote1.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/blockquotes/blockquote1.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/blockquotes#blockquote1"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/blockquotes#blockquote1"
     },
     {
       "name": "ctaCard",
@@ -202,7 +202,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/cards/cta-card-subscribe.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/cards/cta-card.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/cards#cta-card"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/cards#cta-card"
     },
     {
       "name": "subscribeForm",
@@ -214,7 +214,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/forms/subscribe-form.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/forms/subscribe-form.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/forms#subscribe-form"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/forms#subscribe-form"
     },
     {
       "name": "faqBlock",
@@ -226,7 +226,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/blocks/faq-block.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/blocks/faq-block.tsx",
-      "demoUrl": "https://builtjs-theme-events-tailwind.vercel.app/template/blocks#faq-block"
+      "demoUrl": "https://builtjs-theme-events.vercel.app/template/blocks#faq-block"
     }
   ]
 }
