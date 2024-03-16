@@ -18,6 +18,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const config = await getConfig(pages.EVENT_ARTICLE);
+  console.log({context})
   config.params = context.params;
   return {
     props: { config }

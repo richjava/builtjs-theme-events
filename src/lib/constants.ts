@@ -3,7 +3,7 @@ export const pages = {
   DONATE: "donate",
   AUTHOR_ARTICLE: "authorArticle",
   EVENTS: "events",
-  EVENT_ARTICLE: "authorArticle",
+  EVENT_ARTICLE: "eventArticle",
   SUBSCRIBE: "subscribe",
   VOLUNTEER: "volunteer",
   CONTACT: "contact",
