@@ -1,11 +1,10 @@
-# Built.JS Theme: Events Tailwind
+# Built.js Theme: Events
 
-A [Built.JS](https://builtjs.com) theme for event websites, with basic Tailwind styling.
-
-NOTE: Still in development! :)
+A [Built.js](https://builtjs.com) theme for event websites, with basic Tailwind styling.
 
 ## Demo
-The demo for the site can be found here: ---Still to come---
+The demo for the site can be found here: [builtjs-theme-events.vercel.app
+](builtjs-theme-events.vercel.app).
 
 ## Installation
 ```
