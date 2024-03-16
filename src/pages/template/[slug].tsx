@@ -1,8 +1,8 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { withRouter } from "next/router";
 import { getConfig, getData } from "@builtjs/theme";
-import Page from "@/lib/page";
-import { pageTypes } from "@/lib/constants";
+import Page from "../../lib/page";
+import { pageTypes } from "../../lib/constants";
 
 export default withRouter(Page);
 
@@ -11,7 +11,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   let pageData = await getData("/data/pages.json");
   let pages = pageData.pages.reduce(
     (acc:any, page:any) =>
-      page.type === pageType ? [...acc, `/${pageType}/${page.slug}`] : acc,
+      page.type === pageType ? [...acc, `/${pageType}/${page.name}`] : acc,
     []
   );
   return {
@@ -23,8 +23,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async (context:any) => {
   const { slug } = context.params;
   const config = await getConfig(slug, pageTypes.TEMPLATE);
+  config.params = context.params;
   return {
     props: { config }
   };
 };
-
