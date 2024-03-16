@@ -3,6 +3,7 @@ export const pages = {
   SERVICES: "services",
   DONATE: "donate",
   AUTHOR_ARTICLE: "authorArticle",
+  EVENT_ARTICLE: "authorArticle",
   CONTACT: "contact",
   ABOUT: "about",
   COVERS: "covers",
