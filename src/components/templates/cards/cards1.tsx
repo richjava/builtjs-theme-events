@@ -4,7 +4,7 @@ import { format } from "date-fns";
 import {
   urlForImage,
   entrySlug,
-} from "@/lib-old/utils";
+} from "@/lib/utils";
 import {
   LeftAlignedHeadline,
   CenterAlignedHeadline,

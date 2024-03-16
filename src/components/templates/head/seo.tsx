@@ -1,6 +1,6 @@
 import Head from "next/head";
 import getConfig from "next/config";
-import { urlForImage } from "@/lib-old/utils";
+import { urlForImage } from "@/lib/utils";
 
 export default function Seo({ content }:any) {
   let { data=null } = { ...content };

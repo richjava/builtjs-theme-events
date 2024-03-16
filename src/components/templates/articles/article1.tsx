@@ -6,7 +6,7 @@ import {
   widthForImage,
   heightForImage,
   entrySlug,
-} from "@/lib-old/utils";
+} from "@/lib/utils";
 import { CTAButtonSimple } from "@/components/elements";
 import { CTAButton } from "@/components/elements";
 import Link from "next/link";
