@@ -1,9 +1,11 @@
 export const pages = {
   HOME: "home",
-  SERVICES: "services",
   DONATE: "donate",
   AUTHOR_ARTICLE: "authorArticle",
+  EVENTS: "events",
   EVENT_ARTICLE: "authorArticle",
+  SUBSCRIBE: "subscribe",
+  VOLUNTEER: "volunteer",
   CONTACT: "contact",
   ABOUT: "about",
   COVERS: "covers",
