@@ -7,7 +7,7 @@ import {
   widthForImage,
   heightForImage,
   entrySlug,
-} from "@/lib/utils";
+} from "@/lib-old/utils";
 
 export default function Header1({ content }: any) {
   const router = useRouter();

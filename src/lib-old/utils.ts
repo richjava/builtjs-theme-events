@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+
 import { language } from "./constants";
 import getConfig from "next/config";
 const { publicRuntimeConfig } = getConfig();
@@ -20,6 +21,8 @@ entry._type ? entry._type.replace(/[A-Z]/g, (letter:any) => `-${letter.toLowerCa
 
 export const entrySlug = (entry: any) => entry && entry.slug && entry.slug.current ? entry.slug.current : entry.slug;
 
+
+
 export async function getComponentMap(sections:any) {
   return new Promise(async (resolve) => {
     const map:any = {};
@@ -34,6 +37,10 @@ export async function getComponentMap(sections:any) {
     }
     resolve(map);
   });
+}
+
+function camelCaseToDash(str:string) {
+  return str.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase();
 }
 
 export function getComponents(sections:any) {

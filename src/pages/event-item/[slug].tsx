@@ -1,9 +1,9 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { withRouter } from "next/router";
 import { getConfig, getEntries } from "@builtjs/theme";
-import { entrySlug } from "@/lib/utils";
-import Page from "@/lib/page";
-import { pages } from "@/lib/constants";
+import { entrySlug } from "@/lib-old/utils";
+import Page from "@/lib-old/page";
+import { pages } from "@/lib-old/constants";
 
 export default withRouter(Page);
 

@@ -5,7 +5,7 @@ import {
   widthForImage,
   heightForImage,
   entrySlug,
-} from "@/lib/utils";
+} from "@/lib-old/utils";
 
 export default function Footer1({ content }: any) {
   if (!content) return <></>;

@@ -6,7 +6,7 @@ import {
   widthForImage,
   heightForImage,
   entrySlug,
-} from "@/lib/utils";
+} from "@/lib-old/utils";
 
 export default function NewsletterForm1({ content }: any) {
   let { data } = content;

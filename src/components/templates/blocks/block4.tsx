@@ -7,7 +7,7 @@ import {
   widthForImage,
   heightForImage,
   entrySlug,
-} from "@/lib/utils";
+} from "@/lib-old/utils";
 import CTAButtonSimple from "../../elements/cta-button-simple";
 
 export default function Block4({ content }: any) {

@@ -6,7 +6,7 @@ import {
   widthForImage,
   heightForImage,
   entrySlug,
-} from "@/lib/utils";
+} from "@/lib-old/utils";
 import { CTAButton } from "@/components/elements";
 
 export default function Block6({ content }: any) {

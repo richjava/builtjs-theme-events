@@ -1,7 +1,7 @@
 import Link from "next/link";
 import getConfig from "next/config";
 import { format } from "date-fns";
-import { entrySlug } from "@/lib/utils";
+import { entrySlug } from "@/lib-old/utils";
 
 export default function HeroCover({ content }: any) {
   if (!content) return <></>;

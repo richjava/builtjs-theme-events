@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { ReactNode } from "react";
 import BlockContent from "@sanity/block-content-to-react";
-import { urlForImage, entrySlug } from "@/lib/utils";
+import { urlForImage, entrySlug } from "@/lib-old/utils";
 import { CTAButton } from "@/components/elements";
 
 export default function Block5({ content }: any) {
