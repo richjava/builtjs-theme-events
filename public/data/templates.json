@@ -154,7 +154,7 @@
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-events/public/images/theme/templates/articles/article1.png"
       },
       "repoUrl": "https://github.com/richjava/builtjs-theme-events/blob/main/src/components/templates/articles/article1.tsx",
-      "demoUrl": "https://builtjs-theme-events.vercel.app/blog-items/lorem-ipsum-dolor-sit-ameta#article1"
+      "demoUrl": ""
     },
     {
       "name": "newsletterBanner1",
