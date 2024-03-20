@@ -10,7 +10,6 @@
       "defaultTemplate": {
         "name": "header1"
       },
-      "position": "start",
       "data": {
         "logoLight": {
           "name": "logo-light",
@@ -46,7 +45,6 @@
       "defaultTemplate": {
         "name": "footer1"
       },
-      "position": "end",
       "data": {
         "logoLight": {
           "name": "logo-light",
