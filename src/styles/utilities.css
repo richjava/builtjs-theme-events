@@ -28,7 +28,7 @@
 }
 
 .secondary-nav-link {
-  @apply px-3 py-5 text-sm tracking-wide text-primary-50 transition duration-200 ease-in-out;
+  @apply px-3 py-5 text-sm tracking-wide text-gray-500 transition duration-200 ease-in-out;
 }
 
 @screen xl {
@@ -50,7 +50,7 @@
 }
 
 .mobile-nav-link:hover {
-  @apply text-primary bg-primary-10;
+  @apply text-primary bg-gray-50;
 }
 
 .mobile-nav-link.active::after {
@@ -124,10 +124,6 @@
 .media-item-hero-container:hover .media-item-hero {
   filter: grayscale(0);
 }
-
-/* .media-item-hero-content {
-  transition-duration: 1000ms;
-} */
 
 .media-item-hero-container:hover .media-item-hero-content {
   backdrop-filter: blur(10px);

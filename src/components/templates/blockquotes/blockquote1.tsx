@@ -9,7 +9,7 @@ export default function Blockquote1({ content }:any) {
             {data.quote}
           </p>
           {data?.source && (
-            <p className="text-primary-50 text-sm mt-6">—{data.source}</p>
+            <p className="text-gray-500 text-sm mt-6">—{data.source}</p>
           )}
           <div className="blockquote-apostrophy rotate-sm">
             <svg

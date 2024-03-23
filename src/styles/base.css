@@ -91,11 +91,11 @@ a {
 }
 
 ::placeholder {
-  @apply text-primary-30 tracking-wider opacity-100 transition-colors duration-200 !important;
+  @apply text-gray-300 tracking-wider opacity-100 transition-colors duration-200 !important;
 }
 
 :focus::placeholder {
-  @apply text-primary-10 !important;
+  @apply text-gray-50 !important;
 }
 
 /* Chrome, Safari, Edge, Opera */

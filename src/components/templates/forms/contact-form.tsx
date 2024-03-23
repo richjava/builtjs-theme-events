@@ -75,7 +75,7 @@ export default function ContactForm({ content }:any) {
                     </h3>
                     <p>
                       <Link
-                        className="text-primary-50 hover:text-primary leading-7"
+                        className="text-gray-500 hover:text-primary leading-7"
                         href={`mailto:${publicRuntimeConfig.EMAIL}`}
                       >
                         {publicRuntimeConfig.EMAIL}
@@ -104,7 +104,7 @@ export default function ContactForm({ content }:any) {
                     </h3>
                     <p>
                       <Link
-                        className="text-primary-50 hover:text-primary leading-7"
+                        className="text-gray-500 hover:text-primary leading-7"
                         href="tel:123456789"
                       >
                         Mary Smith (President): 123 456 789
@@ -112,7 +112,7 @@ export default function ContactForm({ content }:any) {
                     </p>
                     <p>
                       <Link
-                        className="text-primary-50 hover:text-primary leading-7"
+                        className="text-gray-500 hover:text-primary leading-7"
                         href="tel:012345678"
                       >
                         Joe Bloggs (Treasurer): 012 345 678
@@ -122,7 +122,7 @@ export default function ContactForm({ content }:any) {
                 </div>
               </div>
 
-              <p className="text-primary-50 leading-7 mb-20">
+              <p className="text-gray-500 leading-7 mb-20">
                 {data.blurb}
               </p>
             </div>
@@ -174,7 +174,7 @@ export default function ContactForm({ content }:any) {
                     />
                     <small
                       id="emailHelp"
-                      className="form-text text-xs text-primary-50"
+                      className="form-text text-xs text-gray-500"
                     >
                       We&apos;ll never share your email with anyone else.
                     </small>

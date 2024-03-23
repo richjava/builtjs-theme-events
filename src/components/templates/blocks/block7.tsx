@@ -13,7 +13,7 @@ export default function Block7({ content }: any) {
           </div>
           <div className="w-full lg:w-3/5 md:mt-8 sm:mx-4 lg:ml-10">
             <h4 className="mb-6">{data.subheading1}</h4>
-            <p className="text-primary-50 mb-12 lg:max-w-2xl md:pr-4 leading-7">
+            <p className="text-gray-500 mb-12 lg:max-w-2xl md:pr-4 leading-7">
               {data.blurb1}
             </p>
             <CTAButtonSimple
@@ -23,7 +23,7 @@ export default function Block7({ content }: any) {
               }}
             />
             <h4 className="mb-6">{data.subheading2}</h4>
-            <p className="text-primary-50 mb-12 lg:max-w-2xl md:pr-4 leading-7">
+            <p className="text-gray-500 mb-12 lg:max-w-2xl md:pr-4 leading-7">
               {data.blurb2}
             </p>
             <CTAButtonSimple

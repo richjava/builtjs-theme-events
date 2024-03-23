@@ -57,7 +57,7 @@ export default function Footer1({ content }: any) {
                     return (
                       <li className="mb-2" key={i}>
                         <Link
-                          className="text-primary tracking-wider leading-none text-sm hover:text-primary-50 hover:underline"
+                          className="text-primary tracking-wider leading-none text-sm hover:text-gray-500 hover:underline"
                           href={`/${entrySlug(menuItem)}`}
                         >
                           {menuItem.label}
@@ -77,7 +77,7 @@ export default function Footer1({ content }: any) {
                     return (
                       <li className="mb-2" key={i}>
                         <Link
-                          className="text-primary tracking-wider leading-none text-sm hover:text-primary-50 hover:underline"
+                          className="text-primary tracking-wider leading-none text-sm hover:text-gray-500 hover:underline"
                           href={`/${entrySlug(menuItem)}/`}
                         >
                           {menuItem.label}
@@ -94,7 +94,7 @@ export default function Footer1({ content }: any) {
                 </li>
                 <li className="mb-2">
                   <Link
-                    className="text-primary tracking-wider leading-none text-sm hover:text-primary-50 hover:underline"
+                    className="text-primary tracking-wider leading-none text-sm hover:text-gray-500 hover:underline"
                     href="http://example.com"
                   >
                     Privacy Policy
@@ -102,7 +102,7 @@ export default function Footer1({ content }: any) {
                 </li>
                 <li className="mb-2">
                   <Link
-                    className="text-primary tracking-wider leading-none text-sm hover:text-primary-50 hover:underline"
+                    className="text-primary tracking-wider leading-none text-sm hover:text-gray-500 hover:underline"
                     href="http://example.com"
                   >
                     Terms
@@ -110,7 +110,7 @@ export default function Footer1({ content }: any) {
                 </li>
                 <li className="mb-2">
                   <Link
-                    className="text-primary tracking-wider leading-none text-sm hover:text-primary-50 hover:underline"
+                    className="text-primary tracking-wider leading-none text-sm hover:text-gray-500 hover:underline"
                     href="http://example.com"
                   >
                     Admin
@@ -125,7 +125,7 @@ export default function Footer1({ content }: any) {
                 </li>
                 <li className="mb-2">
                   <Link
-                    className="text-primary tracking-wider leading-none text-sm hover:text-primary-50 hover:underline"
+                    className="text-primary tracking-wider leading-none text-sm hover:text-gray-500 hover:underline"
                     href="http://example.com"
                     target="_blank"
                     rel="noreferrer noopener"
@@ -135,7 +135,7 @@ export default function Footer1({ content }: any) {
                 </li>
                 <li className="mb-5">
                   <Link
-                    className="text-primary tracking-wider leading-none text-sm hover:text-primary-50 hover:underline"
+                    className="text-primary tracking-wider leading-none text-sm hover:text-gray-500 hover:underline"
                     href="http://example.com"
                     target="_blank"
                     rel="noreferrer noopener"
@@ -147,21 +147,21 @@ export default function Footer1({ content }: any) {
             </div>
           </div>
         </div>
-        <hr className="border-t border-primary-30 mt-20 mb-10" />
+        <hr className="border-t border-gray-300 mt-20 mb-10" />
         <div className="flex flex-col md:flex-row items-center justify-between text-center">
-          <p className="text-xs text-primary-50 tracking-wider mb-2 sm:mb-0">
+          <p className="text-xs text-gray-500 tracking-wider mb-2 sm:mb-0">
             © <span id="year">2020</span> {global.name}. All Rights Reserved.
           </p>
-          <p className="text-xs text-primary-50">
+          <p className="text-xs text-gray-500">
             <Link
-              className="text-xs tracking-wider text-primary-50 hover:text-primary"
+              className="text-xs tracking-wider text-gray-500 hover:text-primary"
               href={`tel:${global.tel}`}
             >
               {global.tel}
             </Link>
             <span className="mx-2">|</span>
             <Link
-              className="text-xs tracking-wider text-primary-50 hover:text-primary"
+              className="text-xs tracking-wider text-gray-500 hover:text-primary"
               href={`mailto:${global.email}`}
             >
               {global.email}
@@ -173,11 +173,11 @@ export default function Footer1({ content }: any) {
       <div className="flex justify-center relative">
         <div className="max-w-screen-xl w-full fixed top-0 z-index--2 px-4 mx-auto mix-blend-colo">
           <div className="flex justify-between">
-            <div className="border-l border-primary-20 opacity-25 h-screen flex-grow"></div>
-            <div className="border-l border-primary-20 opacity-25 h-screen flex-grow"></div>
-            <div className="border-l border-primary-20 opacity-25 h-screen flex-grow"></div>
-            <div className="border-l border-primary-20 opacity-25 h-screen flex-grow"></div>
-            <div className="border-l border-r border-primary-20 opacity-25 h-screen flex-grow"></div>
+            <div className="border-l border-gray-50 opacity-25 h-screen flex-grow"></div>
+            <div className="border-l border-gray-50 opacity-25 h-screen flex-grow"></div>
+            <div className="border-l border-gray-50 opacity-25 h-screen flex-grow"></div>
+            <div className="border-l border-gray-50 opacity-25 h-screen flex-grow"></div>
+            <div className="border-l border-r border-gray-50 opacity-25 h-screen flex-grow"></div>
           </div>
         </div>
       </div>

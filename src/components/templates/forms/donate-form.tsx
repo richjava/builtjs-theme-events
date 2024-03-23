@@ -55,7 +55,7 @@ export default function DonateForm({ content }: any) {
           <div className="w-full lg:w-1/2 lg:mr-10">
             <LeftAlignedHeadline data={data} />
             <div className="sm:mx-6 lg:mx-12">
-              <p className="text-primary-50 leading-7 mb-20">
+              <p className="text-gray-500 leading-7 mb-20">
                 {data.blurb}
               </p>
               <div className="flex items-start mb-20">
@@ -77,7 +77,7 @@ export default function DonateForm({ content }: any) {
                   <h3 className="font-sans text-lg font-semibold mb-2">
                     {data.benefitHeading1}
                   </h3>
-                  <p className="text-primary-50 leading-7">
+                  <p className="text-gray-500 leading-7">
                     {data.benefitBlurb1}
                   </p>
                 </div>
@@ -100,7 +100,7 @@ export default function DonateForm({ content }: any) {
                   <h3 className="font-sans text-lg font-semibold mb-2">
                     {data.benefitHeading2}
                   </h3>
-                  <p className="text-primary-50 leading-7">
+                  <p className="text-gray-500 leading-7">
                     {data.benefitBlurb2}
                   </p>
                 </div>
@@ -123,7 +123,7 @@ export default function DonateForm({ content }: any) {
                   <h3 className="font-sans text-lg font-semibold mb-2">
                     {data.benefitHeading3}
                   </h3>
-                  <p className="text-primary-50 leading-7">
+                  <p className="text-gray-500 leading-7">
                     {data.benefitBlurb3}
                   </p>
                 </div>
@@ -206,7 +206,7 @@ export default function DonateForm({ content }: any) {
                     />
                     <small
                       id="emailHelp"
-                      className="form-text text-xs text-primary-50"
+                      className="form-text text-xs text-gray-500"
                     >
                       We&apos;ll never share your email with anyone else.
                     </small>

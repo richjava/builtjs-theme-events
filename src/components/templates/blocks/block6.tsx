@@ -15,7 +15,7 @@ export default function Block6({ content }: any) {
   const serializers = {
     types: {
       block: (props: { children: ReactNode }) => (
-        <p className="text-primary-10 mb-20 lg:max-w-2xl sm:pr-4 leading-7 line-break">
+        <p className="text-gray-50 mb-20 lg:max-w-2xl sm:pr-4 leading-7 line-break">
           {props.children}
         </p>
       ),

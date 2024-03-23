@@ -11,7 +11,7 @@ export default function CTACard({ content }:any) {
             <h3 className="mb-6">
               <span>{data.heading}</span>
             </h3>
-            <p className="text-primary-50 leading-7 mb-8">{data.blurb}</p>
+            <p className="text-gray-500 leading-7 mb-8">{data.blurb}</p>
             <div className="inline-flex items-center group flex">
               <Link className="text-secondary tracking-widest uppercase leading-none text-sm pr-4" href={data.url}>
                   Learn more

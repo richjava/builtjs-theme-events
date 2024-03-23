@@ -25,7 +25,7 @@ export default function NewsletterBanner1({ content }:any) {
               <h3 className="text-white mb-2 leading-tight">
                 {data.heading}
               </h3>
-              <p className="text-primary-20 leading-7">{data.blurb}</p>
+              <p className="text-gray-50 leading-7">{data.blurb}</p>
             </div>
           )}
           <div className="w-full lg:ml-12">
@@ -45,7 +45,7 @@ export default function NewsletterBanner1({ content }:any) {
                     type="email"
                     defaultValue=""
                     name="EMAIL"
-                    className="required email form-control text-primary-50 rounded-none shadow-none px-2 py-4 sm:px-4 w-full"
+                    className="required email form-control text-gray-500 rounded-none shadow-none px-2 py-4 sm:px-4 w-full"
                     aria-describedby="email"
                     placeholder="Enter your email"
                     id="mce-EMAIL"

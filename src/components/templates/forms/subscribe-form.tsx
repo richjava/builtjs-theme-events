@@ -27,7 +27,7 @@ export default function SubscribeForm({ content }: any) {
   const serializers = {
     types: {
       block: (props: { children: ReactNode }) => (
-        <p className="max-w-xl mx-auto text-primary-50 text-center leading-7 mb-20 line-break">
+        <p className="max-w-xl mx-auto text-gray-500 text-center leading-7 mb-20 line-break">
           {props.children}
         </p>
       ),
@@ -95,8 +95,8 @@ export default function SubscribeForm({ content }: any) {
               type="button"
               className={`${
                 currentSub.displayName === "Single"
-                  ? "bg-secondary text-secondary-opposite"
-                  : "bg-secondary-opposite text-secondary"
+                  ? "bg-secondary text-white"
+                  : "bg-white text-secondary"
               } rounded-l-full px-6 py-2 border border-secondary`}
             >
               Single
@@ -107,9 +107,9 @@ export default function SubscribeForm({ content }: any) {
               type="button"
               className={`${
                 currentSub.displayName === "Double"
-                  ? "bg-secondary text-secondary-opposite"
-                  : "bg-secondary-opposite text-secondary"
-              } rounded-r-full px-6 py-2 border text-secondary border-secondary`}
+                  ? "bg-secondary text-white"
+                  : "bg-white text-secondary"
+              } rounded-r-full px-6 py-2 border border-secondary`}
             >
               Double
             </button>
@@ -171,7 +171,7 @@ export default function SubscribeForm({ content }: any) {
                   />
                   <small
                     id="emailHelp"
-                    className="form-text text-xs text-primary-50"
+                    className="form-text text-xs text-gray-500"
                   >
                     We&apos;ll never share your email with anyone else.
                   </small>

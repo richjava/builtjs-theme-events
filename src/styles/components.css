@@ -168,7 +168,7 @@
 }
 
 .terms p {
-  @apply text-primary-50 leading-7;
+  @apply text-gray-500 leading-7;
 }
 
 .cta-generic-img {

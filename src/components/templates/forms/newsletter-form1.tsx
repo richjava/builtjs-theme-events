@@ -37,7 +37,7 @@ export default function NewsletterForm1({ content }: any) {
             <div className="sm:mx-6 lg:mx-12">
               {!showSuccessMsg && (
                 <div className="newsletter-form">
-                  <p className="text-primary-50 mb-10 leading-7 max-w-xl">
+                  <p className="text-gray-500 mb-10 leading-7 max-w-xl">
                     {data.blurb}
                   </p>
                   <form
@@ -55,7 +55,7 @@ export default function NewsletterForm1({ content }: any) {
                       <input
                         type="email"
                         name="EMAIL"
-                        className="required email form-control border-t border-b border-l border-primary-20 text-primary-50 rounded-none shadow-none px-2 py-4 sm:px-4 w-full"
+                        className="required email form-control border-t border-b border-l border-gray-200 text-gray-500 rounded-none shadow-none px-2 py-4 sm:px-4 w-full"
                         aria-describedby="email"
                         placeholder="Enter your email"
                         id="mce-EMAIL"

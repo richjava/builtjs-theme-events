@@ -50,7 +50,7 @@ export default function HeroCover({ content }: any) {
                 </h4>
                 <p
                   data-date="{{ args.info1 }}"
-                  className="text-primary-10 text-center md:text-left tracking-wider text-lg text-shadow-sm mb-2 lg:mb-0"
+                  className="text-gray-50 text-center md:text-left tracking-wider text-lg text-shadow-sm mb-2 lg:mb-0"
                 >
                   {format(new Date(entry.date), "dd LLLL yyyy")}
                 </p>
@@ -61,13 +61,13 @@ export default function HeroCover({ content }: any) {
                   Where<span>:</span>
                 </h4>
                 <div className="flex flex-wrap justify-center md:justify-start">
-                  <p className="text-primary-10 tracking-wider text-lg text-shadow-sm mb-2 lg:mb-0">
+                  <p className="text-gray-50 tracking-wider text-lg text-shadow-sm mb-2 lg:mb-0">
                     {entry.venue}
                   </p>
-                  <span className="text-primary-50 lg:text-primary-30 px-2 lg:px-3 mb-2 lg:mb-0">
+                  <span className="text-gray-50 lg:text-gray-300 px-2 lg:px-3 mb-2 lg:mb-0">
                     |
                   </span>
-                  <p className="text-primary-10 tracking-wider text-lg text-shadow-sm mb-2 lg:mb-0">
+                  <p className="text-gray-50 tracking-wider text-lg text-shadow-sm mb-2 lg:mb-0">
                     {entry.townCity}
                   </p>
                 </div>
